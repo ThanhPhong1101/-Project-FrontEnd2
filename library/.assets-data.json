@@ -1,0 +1,1361 @@
+{
+  "c314f32d-5081-4f59-9e51-9d3d165bd72f": {
+    "url": "db://assets/audio",
+    "value": {},
+    "versionCode": 1
+  },
+  "b7d4cefd-c21c-45a2-a45c-5937850c4a96": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "e0c398a8-e125-4624-8011-552384553da2": {
+    "url": "db://assets/Scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "8a5f1a32-99c4-47c1-86ed-8780d763fdc1": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "77224282-51b5-4ce7-8244-4c2383752bf9": {
+    "url": "db://assets/sprites",
+    "value": {},
+    "versionCode": 1
+  },
+  "1ab32832-4363-4b54-9bfb-a75ea83cd0ee": {
+    "url": "db://assets/Scripts/Android",
+    "value": {},
+    "versionCode": 1
+  },
+  "66781c8c-ff3d-466d-a19e-a11715d27119": {
+    "url": "db://assets/Scripts/UI",
+    "value": {},
+    "versionCode": 1
+  },
+  "7c717f2f-d60a-48bd-a796-66293ef420c3": {
+    "url": "db://assets/Scripts/Bird.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d6dba75e-2e3b-4681-a475-8b471b81b481": {
+    "url": "db://assets/Scripts/BirdMenu.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "10c0cd69-8b62-43ba-9f92-5335a7943bee": {
+    "url": "db://assets/Scripts/ClariceCamera.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "65166533-eea3-49e1-9eff-a2ef5e73d3ef": {
+    "url": "db://assets/Scripts/Game.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0784561c-c91c-48e2-b667-f3612e12f18a": {
+    "url": "db://assets/Scripts/MainMenu.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a892e0f7-7522-4b88-99b9-c681655363c0": {
+    "url": "db://assets/Scripts/PipePool.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4c671e1e-558f-40d3-a5be-95e8f31de787": {
+    "url": "db://assets/Scripts/Pipes.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a19f1f59-3905-4337-b127-ecb91afe7845": {
+    "url": "db://assets/Scripts/Scroll.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c67ee871-5e65-456c-9cc2-27a9a39c95bd": {
+    "url": "db://assets/Scripts/SpriteAnimator.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2bbc9b1c-7956-4707-a07f-bbd759ff96eb": {
+    "url": "db://assets/Scripts/TransitionScene.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6f0f44e3-2c4e-4ddc-8105-cfaf7ae65050": {
+    "url": "db://assets/Scripts/Android/AndroidNative.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7285dbb4-70f0-4627-867d-e8a34c07e6c2": {
+    "url": "db://assets/Scripts/UI/EventSystem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "720b22c1-3c12-467a-95f1-776e8b7c6221": {
+    "url": "db://assets/Scripts/UI/FlashUI.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7aeee16d-6d76-49dc-8b2d-394931784072": {
+    "url": "db://assets/Scripts/UI/UIIndicator.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8fd17b3f-e57e-4b43-a70a-5abd49c82d62": {
+    "url": "db://assets/Scripts/UI/UISelectable.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e2aebfae-129f-4912-b1bc-0a56ee7c72a3": {
+    "url": "db://assets/audio/die.ogg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "05b946df-6fd6-41aa-91ed-05a7c76d47e5": {
+    "url": "db://assets/audio/hit.ogg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a2fc8160-d446-4d84-8011-31679275ae3c": {
+    "url": "db://assets/audio/point.ogg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dc98b65a-185f-460e-9a98-90ceeabe9ed6": {
+    "url": "db://assets/audio/swoosh.ogg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "58724012-853a-4b5d-b803-b2bafb6468b5": {
+    "url": "db://assets/audio/wing.ogg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "852cb0c6-88e3-43a5-8751-5140571c04de": {
+    "url": "db://assets/Prefabs/Pipe.prefab",
+    "value": {
+      "depends": [
+        "b87cdaf9-afd1-45fa-a703-2578d3b58057@f9941"
+      ],
+      "dependScripts": [
+        "4c671e1e-558f-40d3-a5be-95e8f31de787"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0fbc11a6-b4d2-4ed0-a3e4-e4e86526589d": {
+    "url": "db://assets/Scenes/game.scene",
+    "value": {
+      "depends": [
+        "0fbc11a6-b4d2-4ed0-a3e4-e4e86526589d",
+        "05b946df-6fd6-41aa-91ed-05a7c76d47e5",
+        "a2fc8160-d446-4d84-8011-31679275ae3c",
+        "58724012-853a-4b5d-b803-b2bafb6468b5",
+        "09343551-69db-4e52-b7a1-c361086c4dd2@f9941",
+        "c565724c-496f-4bea-bfcd-425208171162@f9941",
+        "f9f1ec59-18c4-441c-904a-ef26cf802731@f9941",
+        "ffb04c35-3f23-4093-aaa6-d959cc32c344@f9941",
+        "4b35b391-09ca-40f1-907a-0f06fe921267@f9941",
+        "14406adf-ba01-4cff-87d4-fc4f734eec28",
+        "6de28355-966d-412d-a850-ec960349ccb5@f9941",
+        "8be81e8e-8191-4260-9953-5fb3f024ee40@f9941",
+        "c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8@f9941",
+        "5ba8311c-4405-4daa-aa54-20a5d5f4fdf8@f9941",
+        "71863968-46d9-454d-a8f7-56c512c3b6cd@f9941",
+        "852cb0c6-88e3-43a5-8751-5140571c04de"
+      ],
+      "dependScripts": [
+        "65166533-eea3-49e1-9eff-a2ef5e73d3ef",
+        "7c717f2f-d60a-48bd-a796-66293ef420c3",
+        "10c0cd69-8b62-43ba-9f92-5335a7943bee",
+        "a19f1f59-3905-4337-b127-ecb91afe7845",
+        "c67ee871-5e65-456c-9cc2-27a9a39c95bd",
+        "7285dbb4-70f0-4627-867d-e8a34c07e6c2",
+        "8fd17b3f-e57e-4b43-a70a-5abd49c82d62",
+        "7aeee16d-6d76-49dc-8b2d-394931784072",
+        "720b22c1-3c12-467a-95f1-776e8b7c6221",
+        "a892e0f7-7522-4b88-99b9-c681655363c0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2a4a8578-642a-4e0a-998f-9f0376dd4263": {
+    "url": "db://assets/Scenes/main.scene",
+    "value": {
+      "depends": [
+        "2a4a8578-642a-4e0a-998f-9f0376dd4263",
+        "6de28355-966d-412d-a850-ec960349ccb5@f9941",
+        "8be81e8e-8191-4260-9953-5fb3f024ee40@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "b96b06e0-a903-4977-86df-04145db18552@f9941",
+        "09343551-69db-4e52-b7a1-c361086c4dd2@f9941",
+        "8ab253ab-cda8-462a-b819-c124d7176ae5@f9941",
+        "c565724c-496f-4bea-bfcd-425208171162@f9941",
+        "f9f1ec59-18c4-441c-904a-ef26cf802731@f9941",
+        "ffb04c35-3f23-4093-aaa6-d959cc32c344@f9941",
+        "4b35b391-09ca-40f1-907a-0f06fe921267@f9941",
+        "71863968-46d9-454d-a8f7-56c512c3b6cd@f9941",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "7285dbb4-70f0-4627-867d-e8a34c07e6c2",
+        "8fd17b3f-e57e-4b43-a70a-5abd49c82d62",
+        "7aeee16d-6d76-49dc-8b2d-394931784072",
+        "a19f1f59-3905-4337-b127-ecb91afe7845",
+        "c67ee871-5e65-456c-9cc2-27a9a39c95bd",
+        "d6dba75e-2e3b-4681-a475-8b471b81b481",
+        "0784561c-c91c-48e2-b667-f3612e12f18a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "96b187d4-1fee-4eb8-a21a-262a98c851d8": {
+    "url": "db://assets/sprites/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1587dc16-8991-42a8-a27f-02a3742d6b2b": {
+    "url": "db://assets/sprites/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "11cf4de7-a4e2-4603-ae55-f86600cdd5a4": {
+    "url": "db://assets/sprites/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a092f36d-6130-4c7f-bb7a-1517517dcfdf": {
+    "url": "db://assets/sprites/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "74b08c44-0e0b-4804-ba32-fcb32c5323d6": {
+    "url": "db://assets/sprites/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "96b187d4-1fee-4eb8-a21a-262a98c851d8@6c48a": {
+    "url": "db://assets/sprites/0.png@6c48a",
+    "value": {
+      "depends": [
+        "96b187d4-1fee-4eb8-a21a-262a98c851d8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "489541ee-f504-4801-8e22-d50849f54fad": {
+    "url": "db://assets/sprites/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1587dc16-8991-42a8-a27f-02a3742d6b2b@6c48a": {
+    "url": "db://assets/sprites/1.png@6c48a",
+    "value": {
+      "depends": [
+        "1587dc16-8991-42a8-a27f-02a3742d6b2b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fbfc22b1-d5a1-4a7d-a3b2-65d1312a363a": {
+    "url": "db://assets/sprites/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "11cf4de7-a4e2-4603-ae55-f86600cdd5a4@6c48a": {
+    "url": "db://assets/sprites/2.png@6c48a",
+    "value": {
+      "depends": [
+        "11cf4de7-a4e2-4603-ae55-f86600cdd5a4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5bc434c7-b354-4086-852e-096dd1251440": {
+    "url": "db://assets/sprites/7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a092f36d-6130-4c7f-bb7a-1517517dcfdf@6c48a": {
+    "url": "db://assets/sprites/3.png@6c48a",
+    "value": {
+      "depends": [
+        "a092f36d-6130-4c7f-bb7a-1517517dcfdf"
+      ]
+    },
+    "versionCode": 1
+  },
+  "813baef2-4c81-46b8-8813-498c33e35384": {
+    "url": "db://assets/sprites/8.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "74b08c44-0e0b-4804-ba32-fcb32c5323d6@6c48a": {
+    "url": "db://assets/sprites/4.png@6c48a",
+    "value": {
+      "depends": [
+        "74b08c44-0e0b-4804-ba32-fcb32c5323d6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "01b0d547-2f34-44bf-ad66-6ebeb50f5c46": {
+    "url": "db://assets/sprites/9.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "489541ee-f504-4801-8e22-d50849f54fad@6c48a": {
+    "url": "db://assets/sprites/5.png@6c48a",
+    "value": {
+      "depends": [
+        "489541ee-f504-4801-8e22-d50849f54fad"
+      ]
+    },
+    "versionCode": 1
+  },
+  "09343551-69db-4e52-b7a1-c361086c4dd2": {
+    "url": "db://assets/sprites/background-day.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fbfc22b1-d5a1-4a7d-a3b2-65d1312a363a@6c48a": {
+    "url": "db://assets/sprites/6.png@6c48a",
+    "value": {
+      "depends": [
+        "fbfc22b1-d5a1-4a7d-a3b2-65d1312a363a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "14371d7f-fd20-4e2f-a6a8-bc4639b19699": {
+    "url": "db://assets/sprites/background-night.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5bc434c7-b354-4086-852e-096dd1251440@6c48a": {
+    "url": "db://assets/sprites/7.png@6c48a",
+    "value": {
+      "depends": [
+        "5bc434c7-b354-4086-852e-096dd1251440"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c565724c-496f-4bea-bfcd-425208171162": {
+    "url": "db://assets/sprites/base.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "813baef2-4c81-46b8-8813-498c33e35384@6c48a": {
+    "url": "db://assets/sprites/8.png@6c48a",
+    "value": {
+      "depends": [
+        "813baef2-4c81-46b8-8813-498c33e35384"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f9f1ec59-18c4-441c-904a-ef26cf802731": {
+    "url": "db://assets/sprites/bluebird-downflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "01b0d547-2f34-44bf-ad66-6ebeb50f5c46@6c48a": {
+    "url": "db://assets/sprites/9.png@6c48a",
+    "value": {
+      "depends": [
+        "01b0d547-2f34-44bf-ad66-6ebeb50f5c46"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ffb04c35-3f23-4093-aaa6-d959cc32c344": {
+    "url": "db://assets/sprites/bluebird-midflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "14371d7f-fd20-4e2f-a6a8-bc4639b19699@6c48a": {
+    "url": "db://assets/sprites/background-night.png@6c48a",
+    "value": {
+      "depends": [
+        "14371d7f-fd20-4e2f-a6a8-bc4639b19699"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4b35b391-09ca-40f1-907a-0f06fe921267": {
+    "url": "db://assets/sprites/bluebird-upflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "09343551-69db-4e52-b7a1-c361086c4dd2@6c48a": {
+    "url": "db://assets/sprites/background-day.png@6c48a",
+    "value": {
+      "depends": [
+        "09343551-69db-4e52-b7a1-c361086c4dd2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c565724c-496f-4bea-bfcd-425208171162@6c48a": {
+    "url": "db://assets/sprites/base.png@6c48a",
+    "value": {
+      "depends": [
+        "c565724c-496f-4bea-bfcd-425208171162"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f9f1ec59-18c4-441c-904a-ef26cf802731@6c48a": {
+    "url": "db://assets/sprites/bluebird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "f9f1ec59-18c4-441c-904a-ef26cf802731"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c565724c-496f-4bea-bfcd-425208171162@f9941": {
+    "url": "db://assets/sprites/base.png@f9941",
+    "value": {
+      "depends": [
+        "c565724c-496f-4bea-bfcd-425208171162@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "09343551-69db-4e52-b7a1-c361086c4dd2@f9941": {
+    "url": "db://assets/sprites/background-day.png@f9941",
+    "value": {
+      "depends": [
+        "09343551-69db-4e52-b7a1-c361086c4dd2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8": {
+    "url": "db://assets/sprites/gameover.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5ba8311c-4405-4daa-aa54-20a5d5f4fdf8": {
+    "url": "db://assets/sprites/highscore.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f9f1ec59-18c4-441c-904a-ef26cf802731@f9941": {
+    "url": "db://assets/sprites/bluebird-downflap.png@f9941",
+    "value": {
+      "depends": [
+        "f9f1ec59-18c4-441c-904a-ef26cf802731@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6de28355-966d-412d-a850-ec960349ccb5": {
+    "url": "db://assets/sprites/indicator.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ffb04c35-3f23-4093-aaa6-d959cc32c344@6c48a": {
+    "url": "db://assets/sprites/bluebird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "ffb04c35-3f23-4093-aaa6-d959cc32c344"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ffb04c35-3f23-4093-aaa6-d959cc32c344@f9941": {
+    "url": "db://assets/sprites/bluebird-midflap.png@f9941",
+    "value": {
+      "depends": [
+        "ffb04c35-3f23-4093-aaa6-d959cc32c344@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b96b06e0-a903-4977-86df-04145db18552": {
+    "url": "db://assets/sprites/leaderboard_btn.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4b35b391-09ca-40f1-907a-0f06fe921267@6c48a": {
+    "url": "db://assets/sprites/bluebird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "4b35b391-09ca-40f1-907a-0f06fe921267"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8@6c48a": {
+    "url": "db://assets/sprites/gameover.png@6c48a",
+    "value": {
+      "depends": [
+        "c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4b35b391-09ca-40f1-907a-0f06fe921267@f9941": {
+    "url": "db://assets/sprites/bluebird-upflap.png@f9941",
+    "value": {
+      "depends": [
+        "4b35b391-09ca-40f1-907a-0f06fe921267@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b5da8c0c-d431-4518-ad60-6ddf87fee88c": {
+    "url": "db://assets/sprites/message.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5ba8311c-4405-4daa-aa54-20a5d5f4fdf8@6c48a": {
+    "url": "db://assets/sprites/highscore.png@6c48a",
+    "value": {
+      "depends": [
+        "5ba8311c-4405-4daa-aa54-20a5d5f4fdf8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8@f9941": {
+    "url": "db://assets/sprites/gameover.png@f9941",
+    "value": {
+      "depends": [
+        "c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b87cdaf9-afd1-45fa-a703-2578d3b58057": {
+    "url": "db://assets/sprites/pipe-green.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6de28355-966d-412d-a850-ec960349ccb5@6c48a": {
+    "url": "db://assets/sprites/indicator.png@6c48a",
+    "value": {
+      "depends": [
+        "6de28355-966d-412d-a850-ec960349ccb5"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5ba8311c-4405-4daa-aa54-20a5d5f4fdf8@f9941": {
+    "url": "db://assets/sprites/highscore.png@f9941",
+    "value": {
+      "depends": [
+        "5ba8311c-4405-4daa-aa54-20a5d5f4fdf8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "93f9a416-2c92-463f-a301-70f250792522": {
+    "url": "db://assets/sprites/pipe-red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b5da8c0c-d431-4518-ad60-6ddf87fee88c@6c48a": {
+    "url": "db://assets/sprites/message.png@6c48a",
+    "value": {
+      "depends": [
+        "b5da8c0c-d431-4518-ad60-6ddf87fee88c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6831e031-41a4-4002-8d0f-f7de34c41232": {
+    "url": "db://assets/sprites/redbird-downflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b96b06e0-a903-4977-86df-04145db18552@6c48a": {
+    "url": "db://assets/sprites/leaderboard_btn.png@6c48a",
+    "value": {
+      "depends": [
+        "b96b06e0-a903-4977-86df-04145db18552"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b87cdaf9-afd1-45fa-a703-2578d3b58057@6c48a": {
+    "url": "db://assets/sprites/pipe-green.png@6c48a",
+    "value": {
+      "depends": [
+        "b87cdaf9-afd1-45fa-a703-2578d3b58057"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6de28355-966d-412d-a850-ec960349ccb5@f9941": {
+    "url": "db://assets/sprites/indicator.png@f9941",
+    "value": {
+      "depends": [
+        "6de28355-966d-412d-a850-ec960349ccb5@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "745eccee-67e9-49cb-a30b-3bcdd960ee05": {
+    "url": "db://assets/sprites/redbird-midflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b87cdaf9-afd1-45fa-a703-2578d3b58057@f9941": {
+    "url": "db://assets/sprites/pipe-green.png@f9941",
+    "value": {
+      "depends": [
+        "b87cdaf9-afd1-45fa-a703-2578d3b58057@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "37ad8e6a-ca19-412b-990b-df79d3cffbbe": {
+    "url": "db://assets/sprites/redbird-upflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b96b06e0-a903-4977-86df-04145db18552@f9941": {
+    "url": "db://assets/sprites/leaderboard_btn.png@f9941",
+    "value": {
+      "depends": [
+        "b96b06e0-a903-4977-86df-04145db18552@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8be81e8e-8191-4260-9953-5fb3f024ee40": {
+    "url": "db://assets/sprites/start_btn.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "93f9a416-2c92-463f-a301-70f250792522@6c48a": {
+    "url": "db://assets/sprites/pipe-red.png@6c48a",
+    "value": {
+      "depends": [
+        "93f9a416-2c92-463f-a301-70f250792522"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6831e031-41a4-4002-8d0f-f7de34c41232@6c48a": {
+    "url": "db://assets/sprites/redbird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "6831e031-41a4-4002-8d0f-f7de34c41232"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8ab253ab-cda8-462a-b819-c124d7176ae5": {
+    "url": "db://assets/sprites/Title.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "93f9a416-2c92-463f-a301-70f250792522@f9941": {
+    "url": "db://assets/sprites/pipe-red.png@f9941",
+    "value": {
+      "depends": [
+        "93f9a416-2c92-463f-a301-70f250792522@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "71863968-46d9-454d-a8f7-56c512c3b6cd": {
+    "url": "db://assets/sprites/WhiteSquare.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "745eccee-67e9-49cb-a30b-3bcdd960ee05@6c48a": {
+    "url": "db://assets/sprites/redbird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "745eccee-67e9-49cb-a30b-3bcdd960ee05"
+      ]
+    },
+    "versionCode": 1
+  },
+  "82d999b8-ee16-4ad6-9a36-5fc225512919": {
+    "url": "db://assets/sprites/yellowbird-downflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "37ad8e6a-ca19-412b-990b-df79d3cffbbe@6c48a": {
+    "url": "db://assets/sprites/redbird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "37ad8e6a-ca19-412b-990b-df79d3cffbbe"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a00dd1b4-8ca0-43ca-8412-232cb51197c7": {
+    "url": "db://assets/sprites/yellowbird-midflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "71863968-46d9-454d-a8f7-56c512c3b6cd@6c48a": {
+    "url": "db://assets/sprites/WhiteSquare.png@6c48a",
+    "value": {
+      "depends": [
+        "71863968-46d9-454d-a8f7-56c512c3b6cd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "82d999b8-ee16-4ad6-9a36-5fc225512919@6c48a": {
+    "url": "db://assets/sprites/yellowbird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "82d999b8-ee16-4ad6-9a36-5fc225512919"
+      ]
+    },
+    "versionCode": 1
+  },
+  "068cca7b-78d2-44d8-9677-ef14ab71b103": {
+    "url": "db://assets/sprites/yellowbird-upflap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8be81e8e-8191-4260-9953-5fb3f024ee40@6c48a": {
+    "url": "db://assets/sprites/start_btn.png@6c48a",
+    "value": {
+      "depends": [
+        "8be81e8e-8191-4260-9953-5fb3f024ee40"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a00dd1b4-8ca0-43ca-8412-232cb51197c7@6c48a": {
+    "url": "db://assets/sprites/yellowbird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "a00dd1b4-8ca0-43ca-8412-232cb51197c7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8ab253ab-cda8-462a-b819-c124d7176ae5@6c48a": {
+    "url": "db://assets/sprites/Title.png@6c48a",
+    "value": {
+      "depends": [
+        "8ab253ab-cda8-462a-b819-c124d7176ae5"
+      ]
+    },
+    "versionCode": 1
+  },
+  "71863968-46d9-454d-a8f7-56c512c3b6cd@f9941": {
+    "url": "db://assets/sprites/WhiteSquare.png@f9941",
+    "value": {
+      "depends": [
+        "71863968-46d9-454d-a8f7-56c512c3b6cd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "068cca7b-78d2-44d8-9677-ef14ab71b103@6c48a": {
+    "url": "db://assets/sprites/yellowbird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "068cca7b-78d2-44d8-9677-ef14ab71b103"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8be81e8e-8191-4260-9953-5fb3f024ee40@f9941": {
+    "url": "db://assets/sprites/start_btn.png@f9941",
+    "value": {
+      "depends": [
+        "8be81e8e-8191-4260-9953-5fb3f024ee40@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8ab253ab-cda8-462a-b819-c124d7176ae5@f9941": {
+    "url": "db://assets/sprites/Title.png@f9941",
+    "value": {
+      "depends": [
+        "8ab253ab-cda8-462a-b819-c124d7176ae5@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4f4577de-a577-446e-9bb7-c122de36aaf3": {
+    "url": "db://assets/Scripts/Android",
+    "value": {},
+    "versionCode": 1
+  },
+  "8c19ee54-0429-4194-8529-499c32b94b72": {
+    "url": "db://assets/sprites/folder",
+    "value": {},
+    "versionCode": 1
+  },
+  "a8e60d66-a909-4854-821e-7b8e14b8f0b2": {
+    "url": "db://assets/FontText",
+    "value": {},
+    "versionCode": 1
+  },
+  "b0e5a9d7-8cce-48f0-92ec-d4823e6a5647": {
+    "url": "db://assets/FontText/audio",
+    "value": {},
+    "versionCode": 1
+  },
+  "91cbb181-d9c2-44f1-ba41-93cb173a7741": {
+    "url": "db://assets/FontText/misc",
+    "value": {},
+    "versionCode": 1
+  },
+  "0a8f78c9-1614-40cd-beb9-335c0f32aee9": {
+    "url": "db://assets/FontText/sprites",
+    "value": {},
+    "versionCode": 1
+  },
+  "a9627287-6d36-4822-9330-7688c233e872": {
+    "url": "db://assets/FontText/LICENSE",
+    "value": {},
+    "versionCode": 1
+  },
+  "14406adf-ba01-4cff-87d4-fc4f734eec28": {
+    "url": "db://assets/FontText/FlappyBirdRegular-9Pq0.ttf",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4caa1d7a-37be-47f4-9a7c-acece387154d": {
+    "url": "db://assets/FontText/info.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "72afd68a-9da2-4376-9ccf-e36c84d8a406": {
+    "url": "db://assets/FontText/README.md",
+    "value": {},
+    "versionCode": 1
+  },
+  "dc4775a9-d838-4914-b4f5-fcab72566955": {
+    "url": "db://assets/FontText/screenshot.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "ba2bd6b1-c19b-4935-981e-224d1520f318": {
+    "url": "db://assets/FontText/favicon.ico",
+    "value": {},
+    "versionCode": 1
+  },
+  "b5dce6f1-197e-4ad7-a343-4cf72c929d8d": {
+    "url": "db://assets/FontText/audio/die.ogg",
+    "value": {},
+    "versionCode": 1
+  },
+  "b00a9c5e-6b63-4b18-8f1c-c7643ff2ec05": {
+    "url": "db://assets/FontText/audio/die.wav",
+    "value": {},
+    "versionCode": 1
+  },
+  "bdc99f39-7d06-42b2-bb53-16c21f7b838f": {
+    "url": "db://assets/FontText/audio/hit.ogg",
+    "value": {},
+    "versionCode": 1
+  },
+  "5db33f25-d658-4f01-8657-ff9bab857fb0": {
+    "url": "db://assets/FontText/audio/hit.wav",
+    "value": {},
+    "versionCode": 1
+  },
+  "df19f8b5-c534-45de-965a-131f58177ece": {
+    "url": "db://assets/FontText/audio/point.ogg",
+    "value": {},
+    "versionCode": 1
+  },
+  "dc4775a9-d838-4914-b4f5-fcab72566955@6c48a": {
+    "url": "db://assets/FontText/screenshot.png@6c48a",
+    "value": {
+      "depends": [
+        "dc4775a9-d838-4914-b4f5-fcab72566955"
+      ]
+    },
+    "versionCode": 1
+  },
+  "818e8d61-0478-4335-96e4-0fdb94badc5b": {
+    "url": "db://assets/FontText/audio/point.wav",
+    "value": {},
+    "versionCode": 1
+  },
+  "58b2935c-6d32-41e4-9b09-44ea52a1dc79": {
+    "url": "db://assets/FontText/audio/swoosh.ogg",
+    "value": {},
+    "versionCode": 1
+  },
+  "f8ffdbb0-34ee-41bb-83d0-2ca40d1fbaf1": {
+    "url": "db://assets/FontText/audio/swoosh.wav",
+    "value": {},
+    "versionCode": 1
+  },
+  "e8018bb9-d9f4-4f35-8ab6-6d2b8cf98195": {
+    "url": "db://assets/FontText/audio/wing.ogg",
+    "value": {},
+    "versionCode": 1
+  },
+  "2bbe49ae-2e66-417c-a6d1-c098a7089282": {
+    "url": "db://assets/FontText/audio/wing.wav",
+    "value": {},
+    "versionCode": 1
+  },
+  "5a2a1000-e537-4fa9-93b4-2b9e3607e932": {
+    "url": "db://assets/FontText/misc/license-80dd.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "ed1400b2-dbd9-4194-abc1-f82e0fdadd2b": {
+    "url": "db://assets/FontText/misc/readme-ff76.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "40c41928-6b99-4c7f-b91a-0df57d9f6258": {
+    "url": "db://assets/FontText/sprites/0.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "a1a8c70f-585c-4775-9b25-75772bf19958": {
+    "url": "db://assets/FontText/sprites/1.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "84c8c1f7-c59e-4871-9470-4efc956ba587": {
+    "url": "db://assets/FontText/sprites/2.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "8a96adf7-80b5-4794-ba29-727bfb4227b2": {
+    "url": "db://assets/FontText/sprites/3.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "9b79f927-8038-48e9-9856-1f27885d9407": {
+    "url": "db://assets/FontText/sprites/4.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "40c41928-6b99-4c7f-b91a-0df57d9f6258@6c48a": {
+    "url": "db://assets/FontText/sprites/0.png@6c48a",
+    "value": {
+      "depends": [
+        "40c41928-6b99-4c7f-b91a-0df57d9f6258"
+      ]
+    },
+    "versionCode": 1
+  },
+  "25d86adc-49a4-46ad-9609-f3d5fff0a90a": {
+    "url": "db://assets/FontText/sprites/5.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "84c8c1f7-c59e-4871-9470-4efc956ba587@6c48a": {
+    "url": "db://assets/FontText/sprites/2.png@6c48a",
+    "value": {
+      "depends": [
+        "84c8c1f7-c59e-4871-9470-4efc956ba587"
+      ]
+    },
+    "versionCode": 1
+  },
+  "12653725-8d05-425c-ab7b-9c43faf27d36": {
+    "url": "db://assets/FontText/sprites/6.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "8a96adf7-80b5-4794-ba29-727bfb4227b2@6c48a": {
+    "url": "db://assets/FontText/sprites/3.png@6c48a",
+    "value": {
+      "depends": [
+        "8a96adf7-80b5-4794-ba29-727bfb4227b2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3a6ddc3e-9e86-45b0-8e6c-d97cb28bdf19": {
+    "url": "db://assets/FontText/sprites/7.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "9b79f927-8038-48e9-9856-1f27885d9407@6c48a": {
+    "url": "db://assets/FontText/sprites/4.png@6c48a",
+    "value": {
+      "depends": [
+        "9b79f927-8038-48e9-9856-1f27885d9407"
+      ]
+    },
+    "versionCode": 1
+  },
+  "aa21fc46-4a19-4ab0-8cc4-dbc2c90db2f4": {
+    "url": "db://assets/FontText/sprites/8.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "a1a8c70f-585c-4775-9b25-75772bf19958@6c48a": {
+    "url": "db://assets/FontText/sprites/1.png@6c48a",
+    "value": {
+      "depends": [
+        "a1a8c70f-585c-4775-9b25-75772bf19958"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a903ae1c-dd2f-49fb-822e-575e4d557082": {
+    "url": "db://assets/FontText/sprites/9.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "12653725-8d05-425c-ab7b-9c43faf27d36@6c48a": {
+    "url": "db://assets/FontText/sprites/6.png@6c48a",
+    "value": {
+      "depends": [
+        "12653725-8d05-425c-ab7b-9c43faf27d36"
+      ]
+    },
+    "versionCode": 1
+  },
+  "edafdefd-b620-4160-aecf-aa86404811c9": {
+    "url": "db://assets/FontText/sprites/background-day.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "25d86adc-49a4-46ad-9609-f3d5fff0a90a@6c48a": {
+    "url": "db://assets/FontText/sprites/5.png@6c48a",
+    "value": {
+      "depends": [
+        "25d86adc-49a4-46ad-9609-f3d5fff0a90a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ffe0241e-6730-420d-a2b2-5cab04f9c434": {
+    "url": "db://assets/FontText/sprites/background-night.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "3a6ddc3e-9e86-45b0-8e6c-d97cb28bdf19@6c48a": {
+    "url": "db://assets/FontText/sprites/7.png@6c48a",
+    "value": {
+      "depends": [
+        "3a6ddc3e-9e86-45b0-8e6c-d97cb28bdf19"
+      ]
+    },
+    "versionCode": 1
+  },
+  "aa21fc46-4a19-4ab0-8cc4-dbc2c90db2f4@6c48a": {
+    "url": "db://assets/FontText/sprites/8.png@6c48a",
+    "value": {
+      "depends": [
+        "aa21fc46-4a19-4ab0-8cc4-dbc2c90db2f4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9858474b-49dc-4d07-8d95-0b4455923718": {
+    "url": "db://assets/FontText/sprites/base.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "bb44453b-ab1d-4f6b-b0f4-c1160e332e87": {
+    "url": "db://assets/FontText/sprites/bluebird-downflap.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "a903ae1c-dd2f-49fb-822e-575e4d557082@6c48a": {
+    "url": "db://assets/FontText/sprites/9.png@6c48a",
+    "value": {
+      "depends": [
+        "a903ae1c-dd2f-49fb-822e-575e4d557082"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d6a0202-2a7a-4553-b47b-da8b34f6e7a6": {
+    "url": "db://assets/FontText/sprites/bluebird-midflap.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "edafdefd-b620-4160-aecf-aa86404811c9@6c48a": {
+    "url": "db://assets/FontText/sprites/background-day.png@6c48a",
+    "value": {
+      "depends": [
+        "edafdefd-b620-4160-aecf-aa86404811c9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "746c21a5-074e-44b6-bd30-8fb16a235570": {
+    "url": "db://assets/FontText/sprites/bluebird-upflap.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "ffe0241e-6730-420d-a2b2-5cab04f9c434@6c48a": {
+    "url": "db://assets/FontText/sprites/background-night.png@6c48a",
+    "value": {
+      "depends": [
+        "ffe0241e-6730-420d-a2b2-5cab04f9c434"
+      ]
+    },
+    "versionCode": 1
+  },
+  "20ebb975-2c60-4357-bdc5-38fa226c02de": {
+    "url": "db://assets/FontText/sprites/gameover.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "9858474b-49dc-4d07-8d95-0b4455923718@6c48a": {
+    "url": "db://assets/FontText/sprites/base.png@6c48a",
+    "value": {
+      "depends": [
+        "9858474b-49dc-4d07-8d95-0b4455923718"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5f5c2781-035a-4bce-b0d8-21ce7abc4245": {
+    "url": "db://assets/FontText/sprites/message.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "1d6a0202-2a7a-4553-b47b-da8b34f6e7a6@6c48a": {
+    "url": "db://assets/FontText/sprites/bluebird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "1d6a0202-2a7a-4553-b47b-da8b34f6e7a6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4c5294df-06d2-4099-bed3-47ce8fb2e2f8": {
+    "url": "db://assets/FontText/sprites/pipe-green.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "bb44453b-ab1d-4f6b-b0f4-c1160e332e87@6c48a": {
+    "url": "db://assets/FontText/sprites/bluebird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "bb44453b-ab1d-4f6b-b0f4-c1160e332e87"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6613d4c7-957b-42b7-bd15-32e4c634459c": {
+    "url": "db://assets/FontText/sprites/pipe-red.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "746c21a5-074e-44b6-bd30-8fb16a235570@6c48a": {
+    "url": "db://assets/FontText/sprites/bluebird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "746c21a5-074e-44b6-bd30-8fb16a235570"
+      ]
+    },
+    "versionCode": 1
+  },
+  "412df94f-4f84-4470-abe8-7f22b34ad839": {
+    "url": "db://assets/FontText/sprites/redbird-downflap.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "20ebb975-2c60-4357-bdc5-38fa226c02de@6c48a": {
+    "url": "db://assets/FontText/sprites/gameover.png@6c48a",
+    "value": {
+      "depends": [
+        "20ebb975-2c60-4357-bdc5-38fa226c02de"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6ac2881e-b9b6-4191-8139-3bec88408c36": {
+    "url": "db://assets/FontText/sprites/redbird-midflap.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "5f5c2781-035a-4bce-b0d8-21ce7abc4245@6c48a": {
+    "url": "db://assets/FontText/sprites/message.png@6c48a",
+    "value": {
+      "depends": [
+        "5f5c2781-035a-4bce-b0d8-21ce7abc4245"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7e6fc40c-0c01-40e0-92d6-02defa0ae006": {
+    "url": "db://assets/FontText/sprites/redbird-upflap.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "4c5294df-06d2-4099-bed3-47ce8fb2e2f8@6c48a": {
+    "url": "db://assets/FontText/sprites/pipe-green.png@6c48a",
+    "value": {
+      "depends": [
+        "4c5294df-06d2-4099-bed3-47ce8fb2e2f8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "803f0be0-0978-40e2-b015-e1a767ab6955": {
+    "url": "db://assets/FontText/sprites/yellowbird-downflap.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "6613d4c7-957b-42b7-bd15-32e4c634459c@6c48a": {
+    "url": "db://assets/FontText/sprites/pipe-red.png@6c48a",
+    "value": {
+      "depends": [
+        "6613d4c7-957b-42b7-bd15-32e4c634459c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6d590110-15a7-4316-b0a1-471e9d9455f9": {
+    "url": "db://assets/FontText/sprites/yellowbird-midflap.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "412df94f-4f84-4470-abe8-7f22b34ad839@6c48a": {
+    "url": "db://assets/FontText/sprites/redbird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "412df94f-4f84-4470-abe8-7f22b34ad839"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d26f126-6b8a-4278-a78d-67c747bd08f1": {
+    "url": "db://assets/FontText/sprites/yellowbird-upflap.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "6ac2881e-b9b6-4191-8139-3bec88408c36@6c48a": {
+    "url": "db://assets/FontText/sprites/redbird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "6ac2881e-b9b6-4191-8139-3bec88408c36"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7e6fc40c-0c01-40e0-92d6-02defa0ae006@6c48a": {
+    "url": "db://assets/FontText/sprites/redbird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "7e6fc40c-0c01-40e0-92d6-02defa0ae006"
+      ]
+    },
+    "versionCode": 1
+  },
+  "803f0be0-0978-40e2-b015-e1a767ab6955@6c48a": {
+    "url": "db://assets/FontText/sprites/yellowbird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "803f0be0-0978-40e2-b015-e1a767ab6955"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6d590110-15a7-4316-b0a1-471e9d9455f9@6c48a": {
+    "url": "db://assets/FontText/sprites/yellowbird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "6d590110-15a7-4316-b0a1-471e9d9455f9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d26f126-6b8a-4278-a78d-67c747bd08f1@6c48a": {
+    "url": "db://assets/FontText/sprites/yellowbird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "4d26f126-6b8a-4278-a78d-67c747bd08f1"
+      ]
+    },
+    "versionCode": 1
+  }
+}
