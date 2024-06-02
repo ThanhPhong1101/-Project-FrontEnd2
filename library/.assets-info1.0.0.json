@@ -121,35 +121,35 @@
       "time": 1717311514335.4202
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes": {
-      "time": 1717312313733.1812,
+      "time": 1717312662315.8987,
       "uuid": "0f2174ac-f22b-4175-ac07-e6e6d1e5c1f0"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes": {
-      "time": 1717312313743.2937,
+      "time": 1717312662327.0913,
       "uuid": "1fa3a80c-4adc-4e50-9ed4-17089778cbda"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts": {
-      "time": 1717312313750.7866,
+      "time": 1717312662333.1597,
       "uuid": "00d6fee2-85a0-4a89-9110-5014b84829d1"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Background": {
-      "time": 1717312313707.9412,
+      "time": 1717312662285.6504,
       "uuid": "090f5d5c-c271-4bfb-94b0-1e86f1586822"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird": {
-      "time": 1717312313720.1704,
+      "time": 1717312662299.6394,
       "uuid": "d751982f-c458-49b3-8e4f-10d0c5ffa45c"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Fonts": {
-      "time": 1717312313725.677,
+      "time": 1717312662306.6233,
       "uuid": "7dd6a43c-92d5-44b6-a703-74ffcbc03c9e"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Ground": {
-      "time": 1717312313732.1853,
+      "time": 1717312662313.904,
       "uuid": "361eb186-f414-4e71-984a-c134053b0759"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Pipes": {
-      "time": 1717312313737.1714,
+      "time": 1717312662321.1035,
       "uuid": "3da3ae0e-abbc-49cc-b9b5-1f53d8e0c33c"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Ground.ts": {
@@ -218,26 +218,26 @@
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\main.scene.meta": {
       "time": 1717311445835.7417
     },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Fonts\\FlappyBirdRegular-9Pq0.ttf.meta": {
+      "time": 1717311445682.8037
+    },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-downflap.png.meta": {
       "time": 1717311514301.3967
-    },
-    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-midflap.png.meta": {
-      "time": 1717311514305.3867
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-upflap.png.meta": {
       "time": 1717311514303.3916
     },
-    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Fonts\\FlappyBirdRegular-9Pq0.ttf.meta": {
-      "time": 1717311445682.8037
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-midflap.png.meta": {
+      "time": 1717311514305.3867
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Background\\background-day.png.meta": {
       "time": 1717311514313.875
     },
-    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Pipes\\pipe-green.png.meta": {
-      "time": 1717311514335.4202
-    },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Ground\\base.png.meta": {
       "time": 1717311514315.8694
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Pipes\\pipe-green.png.meta": {
+      "time": 1717311514335.4202
     }
   },
   "missing": {}

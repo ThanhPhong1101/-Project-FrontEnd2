@@ -3810,22 +3810,6 @@
     },
     "versionCode": 1
   },
-  "1263d74c-8167-4928-91a6-4e2672411f47@a804a": {
-    "url": "db://internal/primitives.fbx@a804a",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 1
-  },
-  "1263d74c-8167-4928-91a6-4e2672411f47@8d883": {
-    "url": "db://internal/primitives.fbx@8d883",
-    "value": {
-      "depends": [
-        "c8f66d17-351a-48da-a12c-0212d28575c4"
-      ]
-    },
-    "versionCode": 1
-  },
   "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0": {
     "url": "db://internal/default_skybox/default_skybox.hdr@b47c0",
     "value": {
@@ -3836,6 +3820,29 @@
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0@74afd",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0@bb97f",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0@7d38f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1263d74c-8167-4928-91a6-4e2672411f47@a804a": {
+    "url": "db://internal/primitives.fbx@a804a",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0@74afd": {
+    "url": "db://internal/default_skybox/default_skybox.hdr@b47c0@74afd",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1263d74c-8167-4928-91a6-4e2672411f47@8d883": {
+    "url": "db://internal/primitives.fbx@8d883",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
       ]
     },
     "versionCode": 1
@@ -3854,13 +3861,6 @@
         "1263d74c-8167-4928-91a6-4e2672411f47@8abdc",
         "1263d74c-8167-4928-91a6-4e2672411f47@a804a"
       ]
-    },
-    "versionCode": 1
-  },
-  "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0@74afd": {
-    "url": "db://internal/default_skybox/default_skybox.hdr@b47c0@74afd",
-    "value": {
-      "depends": []
     },
     "versionCode": 1
   },
