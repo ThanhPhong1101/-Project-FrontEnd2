@@ -1,0 +1,244 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes": {
+      "time": 1717311445733.5461,
+      "uuid": "0f2174ac-f22b-4175-ac07-e6e6d1e5c1f0"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\Scenes": {
+      "time": 1717311445814.735,
+      "uuid": "1fa3a80c-4adc-4e50-9ed4-17089778cbda"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\Scripts": {
+      "time": 1717311445861.2996,
+      "uuid": "00d6fee2-85a0-4a89-9110-5014b84829d1"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Background": {
+      "time": 1717311445460.67,
+      "uuid": "090f5d5c-c271-4bfb-94b0-1e86f1586822"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Bird": {
+      "time": 1717311445594.6165,
+      "uuid": "d751982f-c458-49b3-8e4f-10d0c5ffa45c"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Fonts": {
+      "time": 1717311445661.8186,
+      "uuid": "7dd6a43c-92d5-44b6-a703-74ffcbc03c9e"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Ground": {
+      "time": 1717311445708.5435,
+      "uuid": "361eb186-f414-4e71-984a-c134053b0759"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Pipes": {
+      "time": 1717311445755.6543,
+      "uuid": "3da3ae0e-abbc-49cc-b9b5-1f53d8e0c33c"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\Scripts\\Ground.ts": {
+      "time": 1717311445858.304,
+      "uuid": "e6332a21-56cd-4766-9557-ec54d8c9144d"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes.meta": {
+      "time": 1717311445242.78
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\Scenes.meta": {
+      "time": 1717311445285.7117
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\Scripts.meta": {
+      "time": 1717311445306.0073
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Background.meta": {
+      "time": 1717311445332.3325
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Bird.meta": {
+      "time": 1717311445357.902
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Fonts.meta": {
+      "time": 1717311445395.918
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Ground.meta": {
+      "time": 1717311445418.4778
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Pipes.meta": {
+      "time": 1717311445438.6287
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\Scripts\\Ground.ts.meta": {
+      "time": 1717311510154.9001
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\Scenes\\main.scene": {
+      "time": 1717311445811.7437,
+      "uuid": "d356b497-2a36-46df-a377-604cb0817b6f"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Background\\background-day.png": {
+      "time": 1717311445458.5852,
+      "uuid": "aed9aa35-2a75-4371-a72e-a65365fd3689"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Bird\\yellowbird-downflap.png": {
+      "time": 1717311445505.8162,
+      "uuid": "49413f59-5570-47a4-ac9a-3ab185aa924b"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Bird\\yellowbird-midflap.png": {
+      "time": 1717311445549.7786,
+      "uuid": "e7584d84-8c50-458d-9709-7082911f60ed"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Bird\\yellowbird-upflap.png": {
+      "time": 1717311445591.6238,
+      "uuid": "d9871314-d622-4f6c-bc24-ac1699cd3d01"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Fonts\\FlappyBirdRegular-9Pq0.ttf": {
+      "time": 1717311445658.6123,
+      "uuid": "9332e99e-8a17-479c-b283-c9335b690574"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Ground\\base.png": {
+      "time": 1717311445706.021,
+      "uuid": "ea8521d0-5581-415a-b9c2-10ac3e968e80"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Pipes\\pipe-green.png": {
+      "time": 1717311445752.6638,
+      "uuid": "73b130d4-3c8f-4c71-b575-ab8e7bc6fd3a"
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\Scenes\\main.scene.meta": {
+      "time": 1717311445835.7417
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Fonts\\FlappyBirdRegular-9Pq0.ttf.meta": {
+      "time": 1717311445682.8037
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Bird\\yellowbird-downflap.png.meta": {
+      "time": 1717311514301.3967
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Bird\\yellowbird-upflap.png.meta": {
+      "time": 1717311514303.3916
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Bird\\yellowbird-midflap.png.meta": {
+      "time": 1717311514305.3867
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Background\\background-day.png.meta": {
+      "time": 1717311514313.875
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Ground\\base.png.meta": {
+      "time": 1717311514315.8694
+    },
+    "D:\\Tải xuống\\flappy-bird-game-main\\flappy-bird-game-main\\assets\\GameRes\\Pipes\\pipe-green.png.meta": {
+      "time": 1717311514335.4202
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes": {
+      "time": 1717312313733.1812,
+      "uuid": "0f2174ac-f22b-4175-ac07-e6e6d1e5c1f0"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes": {
+      "time": 1717312313743.2937,
+      "uuid": "1fa3a80c-4adc-4e50-9ed4-17089778cbda"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts": {
+      "time": 1717312313750.7866,
+      "uuid": "00d6fee2-85a0-4a89-9110-5014b84829d1"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Background": {
+      "time": 1717312313707.9412,
+      "uuid": "090f5d5c-c271-4bfb-94b0-1e86f1586822"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird": {
+      "time": 1717312313720.1704,
+      "uuid": "d751982f-c458-49b3-8e4f-10d0c5ffa45c"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Fonts": {
+      "time": 1717312313725.677,
+      "uuid": "7dd6a43c-92d5-44b6-a703-74ffcbc03c9e"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Ground": {
+      "time": 1717312313732.1853,
+      "uuid": "361eb186-f414-4e71-984a-c134053b0759"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Pipes": {
+      "time": 1717312313737.1714,
+      "uuid": "3da3ae0e-abbc-49cc-b9b5-1f53d8e0c33c"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Ground.ts": {
+      "time": 1717311445858.304,
+      "uuid": "e6332a21-56cd-4766-9557-ec54d8c9144d"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes.meta": {
+      "time": 1717311445242.78
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes.meta": {
+      "time": 1717311445285.7117
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts.meta": {
+      "time": 1717311445306.0073
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Background.meta": {
+      "time": 1717311445332.3325
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird.meta": {
+      "time": 1717311445357.902
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Fonts.meta": {
+      "time": 1717311445395.918
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Ground.meta": {
+      "time": 1717311445418.4778
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Pipes.meta": {
+      "time": 1717311445438.6287
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Ground.ts.meta": {
+      "time": 1717311510154.9001
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\main.scene": {
+      "time": 1717311445811.7437,
+      "uuid": "d356b497-2a36-46df-a377-604cb0817b6f"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Background\\background-day.png": {
+      "time": 1717311445458.5852,
+      "uuid": "aed9aa35-2a75-4371-a72e-a65365fd3689"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-downflap.png": {
+      "time": 1717311445505.8162,
+      "uuid": "49413f59-5570-47a4-ac9a-3ab185aa924b"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-midflap.png": {
+      "time": 1717311445549.7786,
+      "uuid": "e7584d84-8c50-458d-9709-7082911f60ed"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-upflap.png": {
+      "time": 1717311445591.6238,
+      "uuid": "d9871314-d622-4f6c-bc24-ac1699cd3d01"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Fonts\\FlappyBirdRegular-9Pq0.ttf": {
+      "time": 1717311445658.6123,
+      "uuid": "9332e99e-8a17-479c-b283-c9335b690574"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Ground\\base.png": {
+      "time": 1717311445706.021,
+      "uuid": "ea8521d0-5581-415a-b9c2-10ac3e968e80"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Pipes\\pipe-green.png": {
+      "time": 1717311445752.6638,
+      "uuid": "73b130d4-3c8f-4c71-b575-ab8e7bc6fd3a"
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\main.scene.meta": {
+      "time": 1717311445835.7417
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-downflap.png.meta": {
+      "time": 1717311514301.3967
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-midflap.png.meta": {
+      "time": 1717311514305.3867
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Bird\\yellowbird-upflap.png.meta": {
+      "time": 1717311514303.3916
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Fonts\\FlappyBirdRegular-9Pq0.ttf.meta": {
+      "time": 1717311445682.8037
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Background\\background-day.png.meta": {
+      "time": 1717311514313.875
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Pipes\\pipe-green.png.meta": {
+      "time": 1717311514335.4202
+    },
+    "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\GameRes\\Ground\\base.png.meta": {
+      "time": 1717311514315.8694
+    }
+  },
+  "missing": {}
+}
