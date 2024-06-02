@@ -3,7 +3,21 @@
     "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
     "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js",
-    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Ground.ts": "./chunks/0e/0ebfb61b899c033de1fb6a6a5c0921110246615c.js"
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Android/AndroidNative.ts": "./chunks/d0/d0c14400fd82a98bab5b7d09130973d03fe47fc3.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Bird.ts": "./chunks/40/4053ef4b5c33a59a8e1ab31e814b88abc2e45bfb.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/BirdMenu.ts": "./chunks/7c/7cb36b29518df2c2d7f9d7f241cafc9d3cf42d1f.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/ClariceCamera.ts": "./chunks/a2/a2eb161d6eaaad7f8d1a033b53d5dc251516fc5d.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Game.ts": "./chunks/2a/2a9f771bf51c812d4fe1ef3ab59f0875d252c728.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/MainMenu.ts": "./chunks/21/21f4275a6e5b022be8eac613ed5a1b2e272469ae.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/PipePool.ts": "./chunks/e6/e66829f4ba15b9bcc160f134ae4a1709d46aa07b.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Pipes.ts": "./chunks/e4/e417721db620dbdeb05faa8411987ae7a49be6ab.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Scroll.ts": "./chunks/13/1307dca7a57311219828c85335156c729243915f.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/SpriteAnimator.ts": "./chunks/12/127fcc1624a218f2551cd400c964ec543592b291.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/TransitionScene.ts": "./chunks/d3/d38bc9118f439f7ab8496a5c2948771753573a06.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/UI/EventSystem.ts": "./chunks/e7/e7e3ab09331332cacd8dc757d2fbbe04247004dd.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/UI/FlashUI.ts": "./chunks/f6/f605348f2ee2b3e823aa58deece847c2fb608a46.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/UI/UIIndicator.ts": "./chunks/75/75b868930502c041709bcef762b31d222002ece0.js",
+    "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/UI/UISelectable.ts": "./chunks/82/82278ee9361234be0e31ffc047f554c3724dfee5.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -40,9 +54,83 @@
     },
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
       "__unresolved_0": "./chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js",
-      "__unresolved_1": "./chunks/0e/0ebfb61b899c033de1fb6a6a5c0921110246615c.js"
+      "__unresolved_1": "./chunks/d0/d0c14400fd82a98bab5b7d09130973d03fe47fc3.js",
+      "__unresolved_10": "./chunks/12/127fcc1624a218f2551cd400c964ec543592b291.js",
+      "__unresolved_11": "./chunks/d3/d38bc9118f439f7ab8496a5c2948771753573a06.js",
+      "__unresolved_12": "./chunks/e7/e7e3ab09331332cacd8dc757d2fbbe04247004dd.js",
+      "__unresolved_13": "./chunks/f6/f605348f2ee2b3e823aa58deece847c2fb608a46.js",
+      "__unresolved_14": "./chunks/75/75b868930502c041709bcef762b31d222002ece0.js",
+      "__unresolved_15": "./chunks/82/82278ee9361234be0e31ffc047f554c3724dfee5.js",
+      "__unresolved_2": "./chunks/40/4053ef4b5c33a59a8e1ab31e814b88abc2e45bfb.js",
+      "__unresolved_3": "./chunks/7c/7cb36b29518df2c2d7f9d7f241cafc9d3cf42d1f.js",
+      "__unresolved_4": "./chunks/a2/a2eb161d6eaaad7f8d1a033b53d5dc251516fc5d.js",
+      "__unresolved_5": "./chunks/2a/2a9f771bf51c812d4fe1ef3ab59f0875d252c728.js",
+      "__unresolved_6": "./chunks/21/21f4275a6e5b022be8eac613ed5a1b2e272469ae.js",
+      "__unresolved_7": "./chunks/e6/e66829f4ba15b9bcc160f134ae4a1709d46aa07b.js",
+      "__unresolved_8": "./chunks/e4/e417721db620dbdeb05faa8411987ae7a49be6ab.js",
+      "__unresolved_9": "./chunks/13/1307dca7a57311219828c85335156c729243915f.js"
     },
-    "./chunks/0e/0ebfb61b899c033de1fb6a6a5c0921110246615c.js": {
+    "./chunks/13/1307dca7a57311219828c85335156c729243915f.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/e4/e417721db620dbdeb05faa8411987ae7a49be6ab.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/2a/2a9f771bf51c812d4fe1ef3ab59f0875d252c728.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/2a/2a9f771bf51c812d4fe1ef3ab59f0875d252c728.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/40/4053ef4b5c33a59a8e1ab31e814b88abc2e45bfb.js",
+      "__unresolved_2": "./chunks/13/1307dca7a57311219828c85335156c729243915f.js",
+      "__unresolved_3": "./chunks/e6/e66829f4ba15b9bcc160f134ae4a1709d46aa07b.js",
+      "__unresolved_4": "./chunks/f6/f605348f2ee2b3e823aa58deece847c2fb608a46.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/f6/f605348f2ee2b3e823aa58deece847c2fb608a46.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/e6/e66829f4ba15b9bcc160f134ae4a1709d46aa07b.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/40/4053ef4b5c33a59a8e1ab31e814b88abc2e45bfb.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/2a/2a9f771bf51c812d4fe1ef3ab59f0875d252c728.js",
+      "__unresolved_2": "./chunks/12/127fcc1624a218f2551cd400c964ec543592b291.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/12/127fcc1624a218f2551cd400c964ec543592b291.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/21/21f4275a6e5b022be8eac613ed5a1b2e272469ae.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/d0/d0c14400fd82a98bab5b7d09130973d03fe47fc3.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/d0/d0c14400fd82a98bab5b7d09130973d03fe47fc3.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/a2/a2eb161d6eaaad7f8d1a033b53d5dc251516fc5d.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/7c/7cb36b29518df2c2d7f9d7f241cafc9d3cf42d1f.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/82/82278ee9361234be0e31ffc047f554c3724dfee5.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/d0/d0c14400fd82a98bab5b7d09130973d03fe47fc3.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/75/75b868930502c041709bcef762b31d222002ece0.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/e7/e7e3ab09331332cacd8dc757d2fbbe04247004dd.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/82/82278ee9361234be0e31ffc047f554c3724dfee5.js",
+      "__unresolved_2": "./chunks/75/75b868930502c041709bcef762b31d222002ece0.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/d3/d38bc9118f439f7ab8496a5c2948771753573a06.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js": {

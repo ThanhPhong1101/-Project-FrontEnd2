@@ -2,9 +2,20 @@
   "__version__": "1.0.6",
   "general": {
     "designResolution": {
-      "width": 640,
-      "height": 960,
-      "fitWidth": false
+      "width": 288,
+      "height": 512,
+      "fitWidth": false,
+      "fitHeight": true
+    },
+    "highQuality": false
+  },
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "gravity": {
+      "y": -50
     }
+  },
+  "script": {
+    "preserveSymlinks": true
   }
 }

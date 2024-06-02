@@ -8,6 +8,6 @@
       "browser"
     ],
     "guessCommonJsExports": false,
-    "preserveSymlinks": false
+    "preserveSymlinks": true
   }
 }
