@@ -17,30 +17,43 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "6f0f4TjLE5N3IEFz6965lBQ", "AndroidNative", undefined);
 
+      // Import các module từ 'cc'
       __checkObsolete__(['_decorator', 'Component', 'native', 'Node', 'sys']);
 
       ({
         ccclass,
         property
-      } = _decorator);
+      } = _decorator); // Gán giá trị của ccclass và property từ _decorator
 
-      _export("AndroidNative", AndroidNative = (_dec = ccclass('AndroidNative'), _dec(_class = class AndroidNative {
-        static showAlert(message) {
-          if (sys.os === sys.OS.ANDROID) {
-            let className = "com/cocos/game/AppActivity";
-            let methodName = "showAlertDialog";
-            let methodSignature = "(Ljava/lang/String;Ljava/lang/String;)V";
-            native.reflection.callStaticMethod(className, methodName, methodSignature, "Title", "Native Call Test is OK");
-          }
+      _export("AndroidNative", AndroidNative // Khai báo lớp AndroidNative
+      = (_dec = ccclass('AndroidNative'), _dec(_class = class AndroidNative // Khai báo lớp AndroidNative
+      {
+        static showAlert(message) // Phương thức tĩnh showAlert
+        {
+          if (sys.os === sys.OS.ANDROID) // Kiểm tra hệ điều hành
+            {
+              let className = "com/cocos/game/AppActivity"; // Tên của lớp Java
+
+              let methodName = "showAlertDialog"; // Tên của phương thức Java
+
+              let methodSignature = "(Ljava/lang/String;Ljava/lang/String;)V"; // Chữ ký của phương thức Java
+
+              native.reflection.callStaticMethod(className, methodName, methodSignature, "Title", "Native Call Test is OK"); // Gọi phương thức Java
+            }
         }
 
-        static showToast(message, length) {
-          if (sys.os === sys.OS.ANDROID) {
-            let className = "com/cocos/game/AppActivity";
-            let methodName = "showToast";
-            let methodSignature = "(Ljava/lang/String;I)V";
-            native.reflection.callStaticMethod(className, methodName, methodSignature, message, length);
-          }
+        static showToast(message, length) // Phương thức tĩnh showToast
+        {
+          if (sys.os === sys.OS.ANDROID) // Kiểm tra hệ điều hành
+            {
+              let className = "com/cocos/game/AppActivity"; // Tên của lớp Java
+
+              let methodName = "showToast"; // Tên của phương thức Java
+
+              let methodSignature = "(Ljava/lang/String;I)V"; // Chữ ký của phương thức Java
+
+              native.reflection.callStaticMethod(className, methodName, methodSignature, message, length); // Gọi phương thức Java
+            }
         }
 
       }) || _class));

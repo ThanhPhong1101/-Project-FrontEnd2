@@ -47,20 +47,24 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
       _cclegacy._RF.push({}, "7c7178v1gpIvaeWZik+9CDD", "Bird", undefined);
 
+      // Import các module từ 'cc'
       __checkObsolete__(['_decorator', 'AudioClip', 'AudioSource', 'CCFloat', 'Collider2D', 'Component', 'Contact2DType', 'IPhysics2DContact', 'lerp', 'log', 'Node', 'RigidBody2D', 'Tween', 'tween', 'Vec2', 'Vec3']);
 
       ({
         ccclass,
         property
-      } = _decorator); //create a enum waiting, playing, dead
+      } = _decorator); // Gán giá trị của ccclass và property từ _decorator
+      // Tạo một enum với các trạng thái: WAITING, PLAYING, DEAD
 
       State = /*#__PURE__*/function (State) {
         State[State["WAITING"] = 0] = "WAITING";
         State[State["PLAYING"] = 1] = "PLAYING";
         State[State["DEAD"] = 2] = "DEAD";
         return State;
-      }(State || {});
+      }(State || {}); // Import class Game từ tệp Game.ts
 
+
+      // Import class SpriteAnimator từ tệp SpriteAnimator.ts
       _export("Bird", Bird = (_dec = ccclass('Bird'), _dec2 = property({
         type: _crd && Game === void 0 ? (_reportPossibleCrUseOfGame({
           error: Error()
@@ -73,140 +77,207 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       }), _dec5 = property({
         type: AudioClip,
         tooltip: "Add FlappySound node"
-      }), _dec(_class = (_class2 = class Bird extends Component {
+      }), _dec(_class = (_class2 = class Bird extends Component // Định nghĩa class Bird kế thừa từ Component
+      {
         constructor(...args) {
           super(...args);
           this.actionTime = 1;
 
+          // Thời gian hoạt động mặc định
           _initializerDefineProperty(this, "Game", _descriptor, this);
 
+          // Tham chiếu đến đối tượng Game
           _initializerDefineProperty(this, "verticalForce", _descriptor2, this);
 
+          // Lực đẩy theo chiều dọc mặc định
           _initializerDefineProperty(this, "AudioSource", _descriptor3, this);
 
+          // Tham chiếu đến nút AudioSource
           _initializerDefineProperty(this, "FlappySound", _descriptor4, this);
 
+          // Tham chiếu đến âm thanh Flappy
           this.state = State.WAITING;
+          // Trạng thái ban đầu của Bird
           this._wPos = new Vec3(0, 0, 0);
+          // Vị trí thế giới của Bird
           this.rb = void 0;
+          // Tham chiếu đến RigidBody2D
           this.collider2D = void 0;
+          // Tham chiếu đến Collider2D
           this.SpriteAnimator = void 0;
+          // Tham chiếu đến SpriteAnimator
           this.tweenPos = void 0;
+          // Tween cho vị trí
           this.startPos = void 0;
+          // Vị trí bắt đầu
           this.timerRotateUp = 0;
+          // Thời gian quay lên
           this.timeElapsedDown = 0;
+          // Thời gian trôi qua khi quay xuống
           this.rotateLerpDuration = 10;
+          // Thời gian quay mềm xuống
           this.rotateLerpDurationUp = 0.5;
+          // Thời gian quay mềm lên
           this.tweenRotateUp = void 0;
+          // Tween cho góc quay lên
           this.faceUpAngle = 15;
+          // Góc quay lên
           this.hitSomething = false;
         }
 
-        onLoad() {
-          this.state = State.WAITING;
-          this.rb = this.node.getComponent(RigidBody2D);
-          this.collider2D = this.node.getComponent(Collider2D);
+        // Đánh dấu đã va chạm với vật gì đó
+        onLoad() // Hàm được gọi khi nạp xong
+        {
+          this.state = State.WAITING; // Thiết lập trạng thái ban đầu là WAITING
+
+          this.rb = this.node.getComponent(RigidBody2D); // Lấy tham chiếu đến RigidBody2D
+
+          this.collider2D = this.node.getComponent(Collider2D); // Lấy tham chiếu đến Collider2D
+
           this.SpriteAnimator = this.node.getComponent(_crd && SpriteAnimator === void 0 ? (_reportPossibleCrUseOfSpriteAnimator({
             error: Error()
-          }), SpriteAnimator) : SpriteAnimator);
-          this.rb.gravityScale = 0;
-          Vec3.copy(this._wPos, this.node.worldPosition);
-          this.startPos = this.node.getWorldPosition();
-          let moveUp = this.node.getWorldPosition();
-          moveUp.y += 20;
+          }), SpriteAnimator) : SpriteAnimator); // Lấy tham chiếu đến SpriteAnimator
+
+          this.rb.gravityScale = 0; // Tắt trọng lực cho đến khi bắt đầu chơi
+
+          Vec3.copy(this._wPos, this.node.worldPosition); // Sao chép vị trí thế giới của Bird
+
+          this.startPos = this.node.getWorldPosition(); // Lưu vị trí bắt đầu
+
+          let moveUp = this.node.getWorldPosition(); // Di chuyển lên trên
+
+          moveUp.y += 20; // Tạo tween cho vị trí của Bird
+
           this.tweenPos = tween(this._wPos).to(this.actionTime, moveUp, {
             easing: 'linear'
           }).to(this.actionTime, this.startPos, {
             easing: 'linear'
           }).union().repeat(Infinity);
-          log('Load Finish');
 
-          if (this.collider2D != null) {
-            this.collider2D.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
-          }
-        }
-
-        start() {
-          this.tweenPos.start();
-        }
-
-        onDisable() {
-          this.tweenPos.stop();
-        }
-
-        play() {
-          if (this.state == State.WAITING) {
-            this.state = State.PLAYING;
-            this.rb.gravityScale = 1;
-          }
-
-          if (this.state == State.PLAYING) {
-            this.Flappy();
-          }
-        }
-
-        Flappy() {
-          if (this.state == State.DEAD) return;
-          this.rb.linearVelocity = new Vec2(0, 0);
-          this.rb.applyForceToCenter(new Vec2(0, this.verticalForce), true);
-          this.AudioSource.playOneShot(this.FlappySound, 1);
-        }
-
-        update(dt) {
-          if (this.state == State.DEAD) {
-            let velocity = this.rb.linearVelocity;
-            this.UpdateFaceBirdAngle(velocity, dt);
-            return;
-          }
-
-          if (this.state == State.WAITING) {
-            this.node.worldPosition = this._wPos;
-          }
-
-          if (this.state == State.PLAYING) {
-            let velocity = this.rb.linearVelocity;
-            this.UpdateFaceBirdAngle(velocity, dt);
-          }
-        }
-
-        UpdateFaceBirdAngle(velocity, dt) {
-          if (velocity.y > 1) {
-            this.timerRotateUp = 0;
-
-            if (this.timeElapsedDown < this.rotateLerpDurationUp) {
-              this.timeElapsedDown += dt;
-              this.node.angle = lerp(this.node.angle, this.faceUpAngle, this.timeElapsedDown / this.rotateLerpDurationUp);
-            } else {
-              this.node.angle = this.faceUpAngle;
+          if (this.collider2D != null) // Kiểm tra nếu có Collider2D
+            {
+              // Đăng ký sự kiện va chạm
+              this.collider2D.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
             }
-          } else if (velocity.y < 0) {
-            this.timeElapsedDown = 0;
+        }
 
-            if (this.timerRotateUp < this.rotateLerpDuration) {
-              this.timerRotateUp += dt;
-              this.node.angle = lerp(this.node.angle, -90, this.timerRotateUp / this.rotateLerpDuration);
-            } else {
-              this.node.angle = -90;
+        start() // Hàm được gọi khi khởi động
+        {
+          this.tweenPos.start(); // Bắt đầu tween vị trí
+        }
+
+        onDisable() // Hàm được gọi khi tắt
+        {
+          this.tweenPos.stop(); // Dừng tween vị trí
+        }
+
+        play() // Phương thức để bắt đầu chơi
+        {
+          if (this.state == State.WAITING) // Nếu đang ở trạng thái WAITING
+            {
+              this.state = State.PLAYING; // Thiết lập trạng thái là PLAYING
+
+              this.rb.gravityScale = 1; // Bật trọng lực
             }
-          }
+
+          if (this.state == State.PLAYING) // Nếu đang ở trạng thái PLAYING
+            {
+              this.Flappy(); // Gọi phương thức Flappy
+            }
         }
 
-        onBeginContact(selfCollider, otherCollider, contact) {
-          if (otherCollider.tag == 1) {
-            log("You hit a new point");
-            this.Game.AddPoint();
-            otherCollider.enabled = false;
-          } else {
-            log("You die");
-            this.SpriteAnimator.paused = true;
-            this.hitSomething = true;
-            this.state = State.DEAD;
-            this.Game.Dead();
-          }
+        Flappy() // Phương thức để làm Bird nhảy
+        {
+          if (this.state == State.DEAD) return; // Nếu đã chết thì không thực hiện gì
+
+          this.rb.linearVelocity = new Vec2(0, 0); // Đặt vận tốc tuyến tính về 0
+
+          this.rb.applyForceToCenter(new Vec2(0, this.verticalForce), true); // Áp dụng lực để Bird nhảy
+
+          this.AudioSource.playOneShot(this.FlappySound, 1); // Phát âm thanh nhảy
         }
 
-        lerp(start, end, time) {
-          return start + time * (end - start);
+        update(dt) // Hàm được gọi mỗi frame
+        {
+          if (this.state == State.DEAD) // Nếu Bird đã chết
+            {
+              let velocity = this.rb.linearVelocity; // Lấy vận tốc
+
+              this.UpdateFaceBirdAngle(velocity, dt); // Cập nhật góc quay của Bird
+
+              return; // Thoát khỏi hàm update
+            }
+
+          if (this.state == State.WAITING) // Nếu Bird đang ở trạng thái chờ đợi
+            {
+              this.node.worldPosition = this._wPos; // Cập nhật vị trí của Bird
+            }
+
+          if (this.state == State.PLAYING) // Nếu Bird đang ở trạng thái chơi
+            {
+              let velocity = this.rb.linearVelocity; // Lấy vận tốc
+
+              this.UpdateFaceBirdAngle(velocity, dt); // Cập nhật góc quay của Bird
+            }
+        }
+
+        UpdateFaceBirdAngle(velocity, dt) // Phương thức để cập nhật góc quay của Bird
+        {
+          if (velocity.y > 1) // Nếu Bird đang bay lên
+            {
+              this.timerRotateUp = 0; // Đặt thời gian quay lên về 0
+
+              if (this.timeElapsedDown < this.rotateLerpDurationUp) // Nếu thời gian trôi qua khi quay xuống nhỏ hơn thời gian quay mềm lên
+                {
+                  this.timeElapsedDown += dt; // Tăng thời gian trôi qua
+
+                  this.node.angle = lerp(this.node.angle, this.faceUpAngle, this.timeElapsedDown / this.rotateLerpDurationUp); // Cập nhật góc quay mềm lên
+                } else // Nếu đã đủ thời gian quay mềm lên
+                {
+                  this.node.angle = this.faceUpAngle; // Đặt góc quay của Bird thành góc quay lên
+                }
+            } else if (velocity.y < 0) // Nếu Bird đang rơi xuống
+            {
+              this.timeElapsedDown = 0; // Đặt thời gian trôi qua khi quay xuống về 0
+
+              if (this.timerRotateUp < this.rotateLerpDuration) // Nếu thời gian quay lên nhỏ hơn thời gian quay mềm xuống
+                {
+                  this.timerRotateUp += dt; // Tăng thời gian quay lên
+
+                  this.node.angle = lerp(this.node.angle, -90, this.timerRotateUp / this.rotateLerpDuration); // Cập nhật góc quay mềm xuống
+                } else // Nếu đã đủ thời gian quay mềm xuống
+                {
+                  this.node.angle = -90; // Đặt góc quay của Bird thành 90 độ
+                }
+            }
+        }
+
+        onBeginContact(selfCollider, otherCollider, contact) // Xử lý khi có va chạm
+        {
+          if (otherCollider.tag == 1) // Nếu va chạm với đối tượng có tag là 1 (điểm)
+            {
+              log("You hit a new point"); // Log ra màn hình console
+
+              this.Game.AddPoint(); // Thêm điểm
+
+              otherCollider.enabled = false; // Tắt collider của đối tượng đó
+            } else // Nếu va chạm với đối tượng khác
+            {
+              log("You die"); // Log ra màn hình console
+
+              this.SpriteAnimator.paused = true; // Dừng SpriteAnimator
+
+              this.hitSomething = true; // Đánh dấu đã va chạm
+
+              this.state = State.DEAD; // Thiết lập trạng thái là DEAD
+
+              this.Game.Dead(); // Gọi phương thức Dead từ Game
+            }
+        }
+
+        lerp(start, end, time) // Phương thức lerp để làm mềm di chuyển
+        {
+          return start + time * (end - start); // Tính toán giá trị mềm
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "Game", [_dec2], {

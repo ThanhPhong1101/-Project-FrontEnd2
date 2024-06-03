@@ -27,9 +27,10 @@ System.register(["cc"], function (_export, _context) {
 
       _export("TransitionScene", TransitionScene = (_dec = ccclass('TransitionScene'), _dec(_class = class TransitionScene extends Component {
         onLoad() {
-          //Screen Should be black
-          //and fade out 
-          let opa = this.getComponent(UIOpacity);
+          // Lấy thành phần UIOpacity của đối tượng hiện tại
+          let opa = this.getComponent(UIOpacity); // Tạo một hoạt ảnh tween để thay đổi độ mờ dần của màn hình
+          // Hoạt ảnh này sẽ kéo dài trong 1 giây và thay đổi độ mờ dần của màn hình đến 255 (màn hình đen)
+
           tween(opa).to(1, {
             opacity: 255
           }).start();

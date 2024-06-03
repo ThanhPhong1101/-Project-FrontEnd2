@@ -1,0 +1,514 @@
+{
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio": {
+    "time": 1717349923937.9402,
+    "uuid": "c314f32d-5081-4f59-9e51-9d3d165bd72f",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\FontText": {
+    "time": 1717349923909.9768,
+    "uuid": "a8e60d66-a909-4854-821e-7b8e14b8f0b2",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Prefabs": {
+    "time": 1717349923913.973,
+    "uuid": "b7d4cefd-c21c-45a2-a45c-5937850c4a96",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes": {
+    "time": 1717349923917.9678,
+    "uuid": "e0c398a8-e125-4624-8011-552384553da2",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts": {
+    "time": 1717349923929.952,
+    "uuid": "8a5f1a32-99c4-47c1-86ed-8780d763fdc1",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites": {
+    "time": 1717349923973.892,
+    "uuid": "77224282-51b5-4ce7-8244-4c2383752bf9",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Android": {
+    "time": 1717349923917.9678,
+    "uuid": "4f4577de-a577-446e-9bb7-c122de36aaf3",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI": {
+    "time": 1717349923933.9448,
+    "uuid": "66781c8c-ff3d-466d-a19e-a11715d27119",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Bird.ts": {
+    "time": 1717349923917.9678,
+    "uuid": "7c717f2f-d60a-48bd-a796-66293ef420c3",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\BirdMenu.ts": {
+    "time": 1717349923921.9607,
+    "uuid": "d6dba75e-2e3b-4681-a475-8b471b81b481",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\ClariceCamera.ts": {
+    "time": 1717349923921.9607,
+    "uuid": "10c0cd69-8b62-43ba-9f92-5335a7943bee",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Game.ts": {
+    "time": 1717349923921.9607,
+    "uuid": "65166533-eea3-49e1-9eff-a2ef5e73d3ef",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\MainMenu.ts": {
+    "time": 1717349923921.9607,
+    "uuid": "0784561c-c91c-48e2-b667-f3612e12f18a",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\PipePool.ts": {
+    "time": 1717349923925.955,
+    "uuid": "a892e0f7-7522-4b88-99b9-c681655363c0",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Pipes.ts": {
+    "time": 1717349923925.955,
+    "uuid": "4c671e1e-558f-40d3-a5be-95e8f31de787",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Scroll.ts": {
+    "time": 1717349923925.955,
+    "uuid": "a19f1f59-3905-4337-b127-ecb91afe7845",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\SpriteAnimator.ts": {
+    "time": 1717349923925.955,
+    "uuid": "c67ee871-5e65-456c-9cc2-27a9a39c95bd",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\TransitionScene.ts": {
+    "time": 1717349923929.952,
+    "uuid": "2bbc9b1c-7956-4707-a07f-bbd759ff96eb",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Android\\AndroidNative.ts": {
+    "time": 1717349923917.9678,
+    "uuid": "6f0f44e3-2c4e-4ddc-8105-cfaf7ae65050",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI\\EventSystem.ts": {
+    "time": 1717349923929.952,
+    "uuid": "7285dbb4-70f0-4627-867d-e8a34c07e6c2",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI\\FlashUI.ts": {
+    "time": 1717349923929.952,
+    "uuid": "720b22c1-3c12-467a-95f1-776e8b7c6221",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI\\UIIndicator.ts": {
+    "time": 1717349923933.9448,
+    "uuid": "7aeee16d-6d76-49dc-8b2d-394931784072",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI\\UISelectable.ts": {
+    "time": 1717349923933.9448,
+    "uuid": "8fd17b3f-e57e-4b43-a70a-5abd49c82d62",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio.meta": {
+    "time": 1717398804277.322
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\FontText.meta": {
+    "time": 1717398804278.3193
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Prefabs.meta": {
+    "time": 1717398804278.3193
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes.meta": {
+    "time": 1717398804279.317
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts.meta": {
+    "time": 1717398804279.317
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites.meta": {
+    "time": 1717398804282.3137
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Android.meta": {
+    "time": 1717398804283.3096
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI.meta": {
+    "time": 1717398804284.3064
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Bird.ts.meta": {
+    "time": 1717398804288.5354
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\BirdMenu.ts.meta": {
+    "time": 1717398804289.5356
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\ClariceCamera.ts.meta": {
+    "time": 1717398804290.535
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Game.ts.meta": {
+    "time": 1717398804291.5325
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\MainMenu.ts.meta": {
+    "time": 1717398804292.5298
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\PipePool.ts.meta": {
+    "time": 1717398804299.0386
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Pipes.ts.meta": {
+    "time": 1717398804300.0396
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Scroll.ts.meta": {
+    "time": 1717398804301.037
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\SpriteAnimator.ts.meta": {
+    "time": 1717398804302.0376
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\TransitionScene.ts.meta": {
+    "time": 1717398804302.0376
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Android\\AndroidNative.ts.meta": {
+    "time": 1717398804307.056
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI\\EventSystem.ts.meta": {
+    "time": 1717398804308.0713
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI\\FlashUI.ts.meta": {
+    "time": 1717398804308.0713
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI\\UIIndicator.ts.meta": {
+    "time": 1717398804309.0664
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI\\UISelectable.ts.meta": {
+    "time": 1717398804310.0664
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\die.ogg": {
+    "time": 1717349923933.9448,
+    "uuid": "e2aebfae-129f-4912-b1bc-0a56ee7c72a3",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\hit.ogg": {
+    "time": 1717349923937.9402,
+    "uuid": "05b946df-6fd6-41aa-91ed-05a7c76d47e5",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\point.ogg": {
+    "time": 1717349923937.9402,
+    "uuid": "a2fc8160-d446-4d84-8011-31679275ae3c",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\swoosh.ogg": {
+    "time": 1717349923937.9402,
+    "uuid": "dc98b65a-185f-460e-9a98-90ceeabe9ed6",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\wing.ogg": {
+    "time": 1717349923937.9402,
+    "uuid": "58724012-853a-4b5d-b803-b2bafb6468b5",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\FontText\\FlappyBirdRegular-9Pq0.ttf": {
+    "time": 1717349923909.9768,
+    "uuid": "14406adf-ba01-4cff-87d4-fc4f734eec28",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Prefabs\\Pipe.prefab": {
+    "time": 1717398815349.4734,
+    "uuid": "852cb0c6-88e3-43a5-8751-5140571c04de",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\game.scene": {
+    "time": 1717349923913.973,
+    "uuid": "0fbc11a6-b4d2-4ed0-a3e4-e4e86526589d",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\main.scene": {
+    "time": 1717349923913.973,
+    "uuid": "2a4a8578-642a-4e0a-998f-9f0376dd4263",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\0.png": {
+    "time": 1717349923941.9363,
+    "uuid": "96b187d4-1fee-4eb8-a21a-262a98c851d8",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\1.png": {
+    "time": 1717349923941.9363,
+    "uuid": "1587dc16-8991-42a8-a27f-02a3742d6b2b",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\2.png": {
+    "time": 1717349923941.9363,
+    "uuid": "11cf4de7-a4e2-4603-ae55-f86600cdd5a4",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\3.png": {
+    "time": 1717349923945.9287,
+    "uuid": "a092f36d-6130-4c7f-bb7a-1517517dcfdf",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\4.png": {
+    "time": 1717349923945.9287,
+    "uuid": "74b08c44-0e0b-4804-ba32-fcb32c5323d6",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\5.png": {
+    "time": 1717349923945.9287,
+    "uuid": "489541ee-f504-4801-8e22-d50849f54fad",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\6.png": {
+    "time": 1717349923945.9287,
+    "uuid": "fbfc22b1-d5a1-4a7d-a3b2-65d1312a363a",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\7.png": {
+    "time": 1717349923949.924,
+    "uuid": "5bc434c7-b354-4086-852e-096dd1251440",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\8.png": {
+    "time": 1717349923949.924,
+    "uuid": "813baef2-4c81-46b8-8813-498c33e35384",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\9.png": {
+    "time": 1717349923949.924,
+    "uuid": "01b0d547-2f34-44bf-ad66-6ebeb50f5c46",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\background-day.png": {
+    "time": 1717349923953.9182,
+    "uuid": "09343551-69db-4e52-b7a1-c361086c4dd2",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\background-night.png": {
+    "time": 1717349923953.9182,
+    "uuid": "14371d7f-fd20-4e2f-a6a8-bc4639b19699",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\base.png": {
+    "time": 1717349923957.9128,
+    "uuid": "c565724c-496f-4bea-bfcd-425208171162",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\bluebird-downflap.png": {
+    "time": 1717349923957.9128,
+    "uuid": "f9f1ec59-18c4-441c-904a-ef26cf802731",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\bluebird-midflap.png": {
+    "time": 1717349923957.9128,
+    "uuid": "ffb04c35-3f23-4093-aaa6-d959cc32c344",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\bluebird-upflap.png": {
+    "time": 1717349923957.9128,
+    "uuid": "4b35b391-09ca-40f1-907a-0f06fe921267",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\gameover.png": {
+    "time": 1717349923961.9075,
+    "uuid": "c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\highscore.png": {
+    "time": 1717349923961.9075,
+    "uuid": "5ba8311c-4405-4daa-aa54-20a5d5f4fdf8",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\indicator.png": {
+    "time": 1717349923961.9075,
+    "uuid": "6de28355-966d-412d-a850-ec960349ccb5",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\leaderboard_btn.png": {
+    "time": 1717349923961.9075,
+    "uuid": "b96b06e0-a903-4977-86df-04145db18552",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\message.png": {
+    "time": 1717349923965.902,
+    "uuid": "b5da8c0c-d431-4518-ad60-6ddf87fee88c",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\pipe-green.png": {
+    "time": 1717349923965.902,
+    "uuid": "b87cdaf9-afd1-45fa-a703-2578d3b58057",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\pipe-red.png": {
+    "time": 1717349923965.902,
+    "uuid": "93f9a416-2c92-463f-a301-70f250792522",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\redbird-downflap.png": {
+    "time": 1717349923969.897,
+    "uuid": "6831e031-41a4-4002-8d0f-f7de34c41232",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\redbird-midflap.png": {
+    "time": 1717349923969.897,
+    "uuid": "745eccee-67e9-49cb-a30b-3bcdd960ee05",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\redbird-upflap.png": {
+    "time": 1717349923969.897,
+    "uuid": "37ad8e6a-ca19-412b-990b-df79d3cffbbe",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\start_btn.png": {
+    "time": 1717349923969.897,
+    "uuid": "8be81e8e-8191-4260-9953-5fb3f024ee40",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\Title.png": {
+    "time": 1717349923949.924,
+    "uuid": "8ab253ab-cda8-462a-b819-c124d7176ae5",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\WhiteSquare.png": {
+    "time": 1717349923953.9182,
+    "uuid": "71863968-46d9-454d-a8f7-56c512c3b6cd",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\yellowbird-downflap.png": {
+    "time": 1717349923973.892,
+    "uuid": "82d999b8-ee16-4ad6-9a36-5fc225512919",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\yellowbird-midflap.png": {
+    "time": 1717349923973.892,
+    "uuid": "a00dd1b4-8ca0-43ca-8412-232cb51197c7",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\yellowbird-upflap.png": {
+    "time": 1717349923973.892,
+    "uuid": "068cca7b-78d2-44d8-9677-ef14ab71b103",
+    "missing": false
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\die.ogg.meta": {
+    "time": 1717349923933.9448
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\hit.ogg.meta": {
+    "time": 1717349923937.9402
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\swoosh.ogg.meta": {
+    "time": 1717349923937.9402
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\wing.ogg.meta": {
+    "time": 1717349923937.9402
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\audio\\point.ogg.meta": {
+    "time": 1717349923937.9402
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\game.scene.meta": {
+    "time": 1717398815346.9702
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\FontText\\FlappyBirdRegular-9Pq0.ttf.meta": {
+    "time": 1717349923909.9768
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Prefabs\\Pipe.prefab.meta": {
+    "time": 1717398815355.4614
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\main.scene.meta": {
+    "time": 1717398815358.0085
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\0.png.meta": {
+    "time": 1717398815365.9907
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\1.png.meta": {
+    "time": 1717398815380.9924
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\4.png.meta": {
+    "time": 1717398815386.976
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\3.png.meta": {
+    "time": 1717398815387.48
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\2.png.meta": {
+    "time": 1717398815393.4712
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\5.png.meta": {
+    "time": 1717398815403.9731
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\6.png.meta": {
+    "time": 1717398815417.4646
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\7.png.meta": {
+    "time": 1717398815421.4607
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\8.png.meta": {
+    "time": 1717398815440.4512
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\9.png.meta": {
+    "time": 1717398815445.4375
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\background-night.png.meta": {
+    "time": 1717398815461.455
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\background-day.png.meta": {
+    "time": 1717398815466.953
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\base.png.meta": {
+    "time": 1717398815484.4402
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\bluebird-downflap.png.meta": {
+    "time": 1717398815488.9553
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\bluebird-midflap.png.meta": {
+    "time": 1717398815504.432
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\bluebird-upflap.png.meta": {
+    "time": 1717398815509.459
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\gameover.png.meta": {
+    "time": 1717398815512.47
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\message.png.meta": {
+    "time": 1717398815543.9702
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\highscore.png.meta": {
+    "time": 1717398815551.4612
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\pipe-green.png.meta": {
+    "time": 1717398815555.451
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\indicator.png.meta": {
+    "time": 1717398815560.9695
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\redbird-downflap.png.meta": {
+    "time": 1717398815577.9636
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\redbird-midflap.png.meta": {
+    "time": 1717398815581.955
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\pipe-red.png.meta": {
+    "time": 1717398815582.9526
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\leaderboard_btn.png.meta": {
+    "time": 1717398815587.4473
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\redbird-upflap.png.meta": {
+    "time": 1717398815594.4353
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\yellowbird-downflap.png.meta": {
+    "time": 1717398815617.4275
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\yellowbird-midflap.png.meta": {
+    "time": 1717398815620.4253
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\WhiteSquare.png.meta": {
+    "time": 1717398815625.4126
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\yellowbird-upflap.png.meta": {
+    "time": 1717398815635.931
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\start_btn.png.meta": {
+    "time": 1717398815640.4307
+  },
+  "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\Title.png.meta": {
+    "time": 1717398815646.9255
+  }
+}

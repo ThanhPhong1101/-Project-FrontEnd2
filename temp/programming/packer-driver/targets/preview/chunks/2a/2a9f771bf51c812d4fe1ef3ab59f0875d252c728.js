@@ -62,7 +62,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
       _cclegacy._RF.push({}, "65166Uz7qNJ4Z7/ou9ec9Pv", "Game", undefined);
 
-      __checkObsolete__(['_decorator', 'AudioClip', 'AudioPCMDataView', 'AudioSource', 'Collider2D', 'Component', 'Contact2DType', 'director', 'EventGamepad', 'EventKeyboard', 'EventMouse', 'Input', 'input', 'KeyCode', 'log', 'Node', 'NodeEventType', 'RichText', 'Scene', 'sys', 'tween', 'UIOpacity', 'Vec2', 'Vec3']);
+      __checkObsolete__(['_decorator', 'AudioClip', 'AudioSource', 'Collider2D', 'Component', 'Contact2DType', 'director', 'EventGamepad', 'EventKeyboard', 'EventMouse', 'Input', 'input', 'KeyCode', 'log', 'Node', 'RichText', 'tween', 'UIOpacity', 'Vec3']);
 
       ({
         ccclass,
@@ -98,7 +98,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         tooltip: "Add hitSound node"
       }), _dec9 = property({
         type: AudioClip,
-        tooltip: "Add hitSound node"
+        tooltip: "Add scoreSound node"
       }), _dec10 = property({
         type: RichText,
         tooltip: "Add ScoreLabel node"
@@ -107,7 +107,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         tooltip: "Add GameOverStartPos node"
       }), _dec12 = property({
         type: Vec3,
-        tooltip: "Add GameOverStartPos node"
+        tooltip: "Add GameOverHidePos node"
       }), _dec13 = property({
         type: RichText,
         tooltip: "Add labelScore node"
@@ -133,7 +133,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           _initializerDefineProperty(this, "pipeQueue", _descriptor5, this);
 
-          //needed to tell the game it's over
           this.isOver = void 0;
 
           _initializerDefineProperty(this, "AudioSource", _descriptor6, this);
@@ -160,148 +159,179 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         onLoad() {
+          // Thiết lập trạng thái ban đầu của trò chơi
           this.score = 0;
           this.isOver = true;
-          this.SpriteFade.opacity = 255;
-          this.initListener(); //disable game over node
+          this.SpriteFade.opacity = 255; // Thiết lập độ mờ ban đầu của SpriteFade là 255 (hoàn toàn hiện)
 
-          this.GameOverNode.active = false;
+          this.initListener(); // Gọi phương thức để khởi tạo các lắng nghe sự kiện
+          // Vô hiệu hóa node GameOver khi trò chơi bắt đầu
+
+          this.GameOverNode.active = false; // Đặt vị trí bắt đầu và vị trí ẩn của node GameOver
+
           log("Game Over Pos " + this.GameOverNode.position.toString());
           log("Game Over World Pos " + this.GameOverNode.getWorldPosition());
           this.gameOverStartPos = this.GameOverNode.getWorldPosition();
-          this.gameOverHidePos = new Vec3(this.gameOverStartPos.x, this.gameOverStartPos.y - 1000, this.gameOverStartPos.z);
-          this.GameOverNode.setPosition(new Vec3(0, -1000));
+          this.gameOverHidePos = new Vec3(this.gameOverStartPos.x, this.gameOverStartPos.y - 1000, this.gameOverStartPos.z); // Thiết lập vị trí ẩn của GameOverNode
+
+          this.GameOverNode.setPosition(new Vec3(0, -1000)); // Đặt vị trí ban đầu của GameOverNode ra khỏi màn hình
+          // Chuyển động làm mờ dần SpriteFade
+
           tween().target(this.SpriteFade).to(0.5, {
             opacity: 0
-          }).start();
+          }) // Làm mờ SpriteFade trong 0.5 giây
+          .start();
         }
 
         initListener() {
-          input.on(Input.EventType.KEY_DOWN, this.OnKeyDown, this); // input.on(Input.EventType.MOUSE_DOWN, this.OnClick, this)
+          // Đăng ký các sự kiện đầu vào
+          input.on(Input.EventType.KEY_DOWN, this.OnKeyDown, this); // Lắng nghe sự kiện nhấn phím
 
-          input.on(Input.EventType.TOUCH_START, this.touchStart, this);
-          input.on(Input.EventType.GAMEPAD_INPUT, this.GamePadOnKeyDown, this);
+          input.on(Input.EventType.TOUCH_START, this.touchStart, this); // Lắng nghe sự kiện chạm màn hình
+
+          input.on(Input.EventType.GAMEPAD_INPUT, this.GamePadOnKeyDown, this); // Lắng nghe sự kiện điều khiển gamepad
         }
 
         GamePadOnKeyDown(event) {
+          // Kiểm tra nếu nút phía nam của gamepad được nhấn
           if (event.gamepad.buttonSouth.getValue() == 1) {
-            this.FlapBird();
+            this.FlapBird(); // Gọi phương thức FlapBird khi nút phía nam được nhấn
           }
         }
 
         OnClick(event) {
-          log("Mouse Click");
-          this.FlapBird();
+          log("Mouse Click"); // Ghi nhật ký khi chuột được nhấp
+
+          this.FlapBird(); // Gọi phương thức FlapBird khi nhấp chuột
         }
 
         touchStart() {
-          log("Click and Touch");
-          this.FlapBird();
+          log("Click and Touch"); // Ghi nhật ký khi màn hình được chạm
+
+          this.FlapBird(); // Gọi phương thức FlapBird khi màn hình được chạm
         }
 
         OnKeyDown(event) {
           switch (event.keyCode) {
             case KeyCode.KEY_A:
-              log("You Press the A Key");
+              log("You Press the A Key"); // Ghi nhật ký khi phím A được nhấn
+
               break;
 
             case KeyCode.SPACE:
               {
-                this.FlapBird();
+                this.FlapBird(); // Gọi phương thức FlapBird khi phím Space được nhấn
               }
               break;
           }
         }
 
         FlapBird() {
-          log("Flap Bird");
+          log("Flap Bird"); // Ghi nhật ký khi phương thức FlapBird được gọi
 
           if (this.isOver) {
-            this.resetGame(); // this.bird.resetBird();
+            this.resetGame(); // Đặt lại trò chơi nếu trò chơi đã kết thúc
 
-            this.startGame();
+            this.startGame(); // Bắt đầu trò chơi mới
           }
 
           if (this.isOver == false) {
             if (this.bird == null) {
-              // node is null
-              log("The Bird is Null asign on the editor");
+              // Kiểm tra nếu đối tượng bird là null
+              log("The Bird is Null assign on the editor"); // Ghi nhật ký nếu đối tượng bird là null
             }
 
-            this.bird.play();
+            this.bird.play(); // Gọi phương thức play của đối tượng bird
           }
         }
 
         startGame() {
-          this.isOver = false; // this.Scroll.StartScroll();
-          //this.pipeQueue.addPool();
+          this.isOver = false; // Đặt trạng thái trò chơi là chưa kết thúc
+          // this.Scroll.StartScroll(); // Bắt đầu cuộn nền (được comment lại)
+          // this.pipeQueue.addPool(); // Thêm đường ống vào hàng đợi (được comment lại)
         }
 
         resetGame() {
-          this.isOver = false; // this.pipeQueue.reset();//We should just pause the pipe queue
-          // this.bird.resetBird();
-          // this.Scroll.reset();
+          this.isOver = false; // Đặt trạng thái trò chơi là chưa kết thúc
+          // this.pipeQueue.reset(); // Đặt lại hàng đợi đường ống (được comment lại)
+          // this.bird.resetBird(); // Đặt lại đối tượng bird (được comment lại)
+          // this.Scroll.reset(); // Đặt lại cuộn nền (được comment lại)
         }
 
         AddPoint() {
-          this.score++;
-          this.ScoreLabel.string = this.score.toString();
-          this.AudioSource.playOneShot(this.scoreSound, 1);
+          this.score++; // Tăng điểm số
+
+          this.ScoreLabel.string = this.score.toString(); // Cập nhật nhãn điểm số
+
+          this.AudioSource.playOneShot(this.scoreSound, 1); // Phát âm thanh điểm số
         }
 
         Dead() {
           if (this.isOver == false) {
-            this.FlashUI.Flash();
-            this.isOver = true;
-            this.Scroll.StopScroll();
-            this.AudioSource.playOneShot(this.hitSound, 1);
-            this.GameOverNode.active = true;
-            this.labelScore.string = this.score.toString(); //get the saved score, data is only saved as string.
+            this.FlashUI.Flash(); // Gọi phương thức Flash của FlashUI
+
+            this.isOver = true; // Đặt trạng thái trò chơi là kết thúc
+
+            this.Scroll.StopScroll(); // Dừng cuộn nền
+
+            this.AudioSource.playOneShot(this.hitSound, 1); // Phát âm thanh khi va chạm
+
+            this.GameOverNode.active = true; // Kích hoạt node GameOver
+
+            this.labelScore.string = this.score.toString(); // Cập nhật nhãn điểm số
+            // Lấy điểm số cao nhất từ localStorage
 
             var recoverScore = localStorage.getItem("bestScore");
 
             if (recoverScore == null) {
-              localStorage.setItem("bestScore", "0");
+              localStorage.setItem("bestScore", "0"); // Nếu không có điểm số cao nhất, đặt thành 0
             }
 
             var bestScore = parseInt(localStorage.getItem("bestScore"));
 
             if (this.score > bestScore) {
-              bestScore = this.score;
-              localStorage.setItem("bestScore", bestScore.toString());
+              bestScore = this.score; // Cập nhật điểm số cao nhất nếu điểm hiện tại lớn hơn
+
+              localStorage.setItem("bestScore", bestScore.toString()); // Lưu điểm số cao nhất mới vào localStorage
             }
 
-            this.labelBestScore.string = bestScore.toString();
+            this.labelBestScore.string = bestScore.toString(); // Cập nhật nhãn điểm số cao nhất
+            // Chuyển động hiển thị GameOverNode
+
             tween(this.GameOverNode).to(1, {
               position: new Vec3(0, 0)
-            }).start();
+            }) // Di chuyển GameOverNode đến vị trí (0, 0) trong 1 giây
+            .start();
           }
-        } // The function that will be called when the button is clicked
-
+        }
 
         onClickRestartGame(event, customData) {
+          // Chuyển động làm mờ dần SpriteFade
           tween().target(this.SpriteFade).to(0.5, {
             opacity: 255
-          }).call(this.RestartGame).start();
+          }) // Làm mờ SpriteFade trong 0.5 giây
+          .call(this.RestartGame) // Gọi phương thức RestartGame sau khi làm mờ
+          .start();
         }
 
         RestartGame() {
-          //count gameplay
+          // Đếm số lần chơi trò chơi
           var countGamePlay = localStorage.getItem("countGamePlay");
 
           if (countGamePlay == null) {
-            localStorage.setItem("countGamePlay", "0");
+            localStorage.setItem("countGamePlay", "0"); // Nếu không có, đặt thành 0
           }
 
           var count = parseInt(localStorage.getItem("countGamePlay"));
           count++;
 
           if (count > 3) {
-            count = 0;
+            count = 0; // Đặt lại đếm nếu vượt quá 3
           }
 
-          localStorage.setItem("countGamePlay", count.toString());
-          director.loadScene("game");
+          localStorage.setItem("countGamePlay", count.toString()); // Lưu đếm vào localStorage
+
+          director.loadScene("game"); // Tải lại cảnh game
         }
 
         update(dt) {
@@ -310,7 +340,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
             if (this.timerSpawnPipe > 1) {
               this.timerSpawnPipe = 0;
-              this.pipeQueue.addPool();
+              this.pipeQueue.addPool(); // Thêm đường ống vào hàng đợi sau mỗi giây
             }
           }
         }
@@ -319,12 +349,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           var collider = this.bird.node.getComponent(Collider2D);
 
           if (collider) {
-            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this); // Lắng nghe sự kiện va chạm
           }
         }
 
         onBeginContact(selfCollider, otherCollider, contact) {
-          this.bird.hitSomething = true;
+          this.bird.hitSomething = true; // Đặt trạng thái va chạm của bird là true khi va chạm
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "bird", [_dec2], {

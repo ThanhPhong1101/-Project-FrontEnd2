@@ -1,168 +1,0 @@
-2-6-2024 15:21:49-log: Cannot access game frame or container.
-2-6-2024 15:21:50-debug: asset-db:require-engine-code (2065ms)
-2-6-2024 15:21:50-log: meshopt wasm decoder initialized
-2-6-2024 15:21:50-log: [box2d]:box2d wasm lib loaded.
-2-6-2024 15:21:50-log: [bullet]:bullet wasm lib loaded.
-2-6-2024 15:21:51-log: Cocos Creator v3.8.3
-2-6-2024 15:21:51-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:24.39MB, end 77.04MB, increase: 52.65MB
-2-6-2024 15:21:51-debug: [Assets Memory track]: asset-db-plugin-register: programming start:77.79MB, end 81.43MB, increase: 3.64MB
-2-6-2024 15:21:55-debug: [Assets Memory track]: asset-db-plugin-register: project start:77.66MB, end 169.35MB, increase: 91.69MB
-2-6-2024 15:21:55-debug: [Assets Memory track]: asset-db-plugin-register: builder start:81.45MB, end 173.63MB, increase: 92.17MB
-2-6-2024 15:21:55-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:77.04MB, end 169.37MB, increase: 92.33MB
-2-6-2024 15:21:55-debug: asset-db:worker-init: initPlugin (4487ms)
-2-6-2024 15:21:55-debug: [Assets Memory track]: asset-db:worker-init start:24.39MB, end 169.49MB, increase: 145.11MB
-2-6-2024 15:21:55-debug: Run asset db hook programming:beforePreStart ...
-2-6-2024 15:21:55-debug: Run asset db hook programming:beforePreStart success!
-2-6-2024 15:21:55-debug: Run asset db hook engine-extends:beforePreStart ...
-2-6-2024 15:21:55-debug: Run asset db hook engine-extends:beforePreStart success!
-2-6-2024 15:21:55-debug: asset-db:worker-init (7656ms)
-2-6-2024 15:21:55-debug: asset-db-hook-programming-beforePreStart (243ms)
-2-6-2024 15:21:55-debug: asset-db-hook-engine-extends-beforePreStart (244ms)
-2-6-2024 15:21:56-debug: Preimport db internal success
-2-6-2024 15:21:56-debug: Preimport db assets success
-2-6-2024 15:21:56-debug: Run asset db hook programming:afterPreStart ...
-2-6-2024 15:21:56-debug: starting packer-driver...
-2-6-2024 15:21:57-debug: initialize scripting environment...
-2-6-2024 15:21:57-debug: Run asset db hook programming:afterPreStart success!
-2-6-2024 15:21:57-debug: Set detail map pack:///resolution-detail-map.json: {}
-2-6-2024 15:21:57-debug: Run asset db hook engine-extends:afterPreStart success!
-2-6-2024 15:21:57-debug: [Assets Memory track]: asset-db:worker-init: preStart start:169.50MB, end 170.66MB, increase: 1.17MB
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbxbackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: Start up the 'internal' database...
-2-6-2024 15:21:57-debug: Run asset db hook engine-extends:afterPreStart ...
-2-6-2024 15:21:57-debug: asset-db-hook-programming-afterPreStart (1399ms)
-2-6-2024 15:21:57-debug: asset-db:worker-effect-data-processing (420ms)
-2-6-2024 15:21:57-debug: asset-db-hook-engine-extends-afterPreStart (421ms)
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdrbackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: Start to conver asset {asset[d032ac98-05e1-4090-88bb-eb640dcb5fc1](d032ac98-05e1-4090-88bb-eb640dcb5fc1)}
-2-6-2024 15:21:57-debug: Frame rate: 24 [{asset(1263d74c-8167-4928-91a6-4e2672411f47)}]
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@17020background: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: Conver assetC:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr -> PNG success.
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@801ecbackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@2e76ebackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0background: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@38fd2background: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@40ecebackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@fc873background: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@8abdcbackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@a804abackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@8d883background: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\primitives.fbx@aae0fbackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:58-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@74afdbackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:58-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@8fd34background: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:58-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@bb97fbackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:58-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@7d38fbackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:58-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@e9a6dbackground: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:58-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@40c10background: #aaff85; color: #000;color: #000;
-2-6-2024 15:21:58-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:169.55MB, end 182.49MB, increase: 12.93MB
-2-6-2024 15:21:58-debug: Start up the 'assets' database...
-2-6-2024 15:21:58-debug: asset-db:worker-startup-database[internal] (2521ms)
-2-6-2024 15:21:58-debug: [Assets Memory track]: asset-db:worker-init: startup start:170.67MB, end 183.48MB, increase: 12.81MB
-2-6-2024 15:21:58-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:169.21MB, end 183.47MB, increase: 14.26MB
-2-6-2024 15:21:58-debug: lazy register asset handler directory
-2-6-2024 15:21:58-debug: lazy register asset handler *
-2-6-2024 15:21:58-debug: lazy register asset handler json
-2-6-2024 15:21:58-debug: lazy register asset handler text
-2-6-2024 15:21:58-debug: lazy register asset handler spine-data
-2-6-2024 15:21:58-debug: lazy register asset handler dragonbones
-2-6-2024 15:21:58-debug: lazy register asset handler dragonbones-atlas
-2-6-2024 15:21:58-debug: lazy register asset handler terrain
-2-6-2024 15:21:58-debug: lazy register asset handler javascript
-2-6-2024 15:21:58-debug: lazy register asset handler scene
-2-6-2024 15:21:58-debug: lazy register asset handler prefab
-2-6-2024 15:21:58-debug: lazy register asset handler sprite-frame
-2-6-2024 15:21:58-debug: lazy register asset handler typescript
-2-6-2024 15:21:58-debug: lazy register asset handler buffer
-2-6-2024 15:21:58-debug: lazy register asset handler tiled-map
-2-6-2024 15:21:58-debug: lazy register asset handler image
-2-6-2024 15:21:58-debug: lazy register asset handler sign-image
-2-6-2024 15:21:58-debug: lazy register asset handler alpha-image
-2-6-2024 15:21:58-debug: lazy register asset handler erp-texture-cube
-2-6-2024 15:21:58-debug: lazy register asset handler texture-cube
-2-6-2024 15:21:58-debug: lazy register asset handler render-texture
-2-6-2024 15:21:58-debug: lazy register asset handler texture-cube-face
-2-6-2024 15:21:58-debug: lazy register asset handler texture
-2-6-2024 15:21:58-debug: lazy register asset handler rt-sprite-frame
-2-6-2024 15:21:58-debug: lazy register asset handler gltf-animation
-2-6-2024 15:21:58-debug: lazy register asset handler gltf-mesh
-2-6-2024 15:21:58-debug: lazy register asset handler gltf-material
-2-6-2024 15:21:58-debug: lazy register asset handler gltf-skeleton
-2-6-2024 15:21:58-debug: lazy register asset handler gltf-embeded-image
-2-6-2024 15:21:58-debug: lazy register asset handler fbx
-2-6-2024 15:21:58-debug: lazy register asset handler gltf
-2-6-2024 15:21:58-debug: lazy register asset handler physics-material
-2-6-2024 15:21:58-debug: lazy register asset handler effect
-2-6-2024 15:21:58-debug: lazy register asset handler gltf-scene
-2-6-2024 15:21:58-debug: lazy register asset handler effect-header
-2-6-2024 15:21:58-debug: lazy register asset handler animation-clip
-2-6-2024 15:21:58-debug: lazy register asset handler audio-clip
-2-6-2024 15:21:58-debug: lazy register asset handler animation-graph
-2-6-2024 15:21:58-debug: lazy register asset handler animation-graph-variant
-2-6-2024 15:21:58-debug: lazy register asset handler ttf-font
-2-6-2024 15:21:58-debug: lazy register asset handler material
-2-6-2024 15:21:58-debug: lazy register asset handler animation-mask
-2-6-2024 15:21:58-debug: lazy register asset handler particle
-2-6-2024 15:21:58-debug: lazy register asset handler sprite-atlas
-2-6-2024 15:21:58-debug: lazy register asset handler bitmap-font
-2-6-2024 15:21:58-debug: lazy register asset handler render-pipeline
-2-6-2024 15:21:58-debug: lazy register asset handler label-atlas
-2-6-2024 15:21:58-debug: lazy register asset handler auto-atlas
-2-6-2024 15:21:58-debug: lazy register asset handler render-stage
-2-6-2024 15:21:58-debug: lazy register asset handler instantiation-material
-2-6-2024 15:21:58-debug: lazy register asset handler instantiation-mesh
-2-6-2024 15:21:58-debug: lazy register asset handler render-flow
-2-6-2024 15:21:58-debug: lazy register asset handler instantiation-skeleton
-2-6-2024 15:21:58-debug: lazy register asset handler instantiation-animation
-2-6-2024 15:21:58-debug: lazy register asset handler video-clip
-2-6-2024 15:21:58-debug: asset-db:worker-startup-database[assets] (2268ms)
-2-6-2024 15:21:58-debug: asset-db:start-database (2607ms)
-2-6-2024 15:21:58-debug: init worker message success
-2-6-2024 15:21:58-debug: asset-db:ready (15471ms)
-2-6-2024 15:21:58-debug: programming:execute-script (10ms)
-2-6-2024 15:21:59-debug: [Build Memory track]: builder:worker-init start:187.07MB, end 195.21MB, increase: 8.14MB
-2-6-2024 15:21:59-debug: builder:worker-init (866ms)
-2-6-2024 15:22:04-debug: refresh db internal success
-2-6-2024 15:22:04-debug: refresh db assets success
-2-6-2024 15:22:04-debug: Run asset db hook engine-extends:afterRefresh ...
-2-6-2024 15:22:04-debug: Run asset db hook engine-extends:afterRefresh success!
-2-6-2024 15:22:04-debug: asset-db:refresh-all-database (148ms)
-2-6-2024 15:22:04-debug: asset-db:worker-effect-data-processing (1ms)
-2-6-2024 15:22:04-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2-6-2024 15:22:22-debug: Query all assets info in project
-2-6-2024 15:22:22-debug: init custom config: keepNodeUuid: false, useCache: true
-2-6-2024 15:22:22-debug: Query asset bundle start, progress: 0%
-2-6-2024 15:22:22-debug: // ---- build task Query asset bundle ----
-2-6-2024 15:22:22-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
-2-6-2024 15:22:22-debug:   Number of all scenes: 2
-2-6-2024 15:22:22-debug:   Number of all scripts: 16
-2-6-2024 15:22:22-debug:   Number of other assets: 384
-2-6-2024 15:22:22-debug: // ---- build task Query asset bundle ---- (15ms)
-2-6-2024 15:22:22-debug: run build task Query asset bundle success in 15 ms√, progress: 5%
-2-6-2024 15:22:22-debug: [Build Memory track]: Query asset bundle start:163.95MB, end 164.49MB, increase: 549.54KB
-2-6-2024 15:22:22-debug: // ---- build task Query asset bundle ----
-2-6-2024 15:22:22-debug: Query asset bundle start, progress: 5%
-2-6-2024 15:22:22-debug: // ---- build task Query asset bundle ---- (3ms)
-2-6-2024 15:22:22-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
-2-6-2024 15:22:22-debug: [Build Memory track]: Query asset bundle start:164.50MB, end 164.59MB, increase: 88.40KB
-2-6-2024 15:22:22-debug: Sort some build options to settings.json start, progress: 10%
-2-6-2024 15:22:22-debug: // ---- build task Sort some build options to settings.json ----
-2-6-2024 15:22:22-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
-2-6-2024 15:22:22-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
-2-6-2024 15:22:22-debug: [Build Memory track]: Sort some build options to settings.json start:164.61MB, end 164.62MB, increase: 18.21KB
-2-6-2024 15:22:22-debug: Fill script data to settings start, progress: 12%
-2-6-2024 15:22:22-debug: // ---- build task Fill script data to settings ----
-2-6-2024 15:22:22-debug: // ---- build task Fill script data to settings ---- (1ms)
-2-6-2024 15:22:22-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
-2-6-2024 15:22:22-debug: [Build Memory track]: Fill script data to settings start:164.64MB, end 164.65MB, increase: 15.77KB
-2-6-2024 15:22:22-debug: Sort some build options to settings.json start, progress: 13%
-2-6-2024 15:22:22-debug: // ---- build task Sort some build options to settings.json ----
-2-6-2024 15:22:22-debug: // ---- build task Sort some build options to settings.json ---- (11ms)
-2-6-2024 15:22:22-debug: run build task Sort some build options to settings.json success in 11 ms√, progress: 15%
-2-6-2024 15:22:22-debug: [Build Memory track]: Sort some build options to settings.json start:164.67MB, end 163.95MB, increase: -734.39KB
-2-6-2024 15:22:23-debug: refresh db internal success
-2-6-2024 15:22:23-debug: refresh db assets success
-2-6-2024 15:22:23-debug: Run asset db hook engine-extends:afterRefresh ...
-2-6-2024 15:22:23-debug: Run asset db hook engine-extends:afterRefresh success!
-2-6-2024 15:22:23-debug: asset-db:refresh-all-database (171ms)
-2-6-2024 15:22:23-debug: asset-db:worker-effect-data-processing (1ms)
-2-6-2024 15:22:23-debug: asset-db-hook-engine-extends-afterRefresh (1ms)

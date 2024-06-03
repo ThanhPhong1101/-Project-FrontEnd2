@@ -2,8 +2,16 @@
   "__version__": "1.0.0",
   "config": {
     "images": [],
-    "sceneUUID": {},
-    "scene": "2a4a8578-642a-4e0a-998f-9f0376dd4263"
+    "sceneUUID": {
+      "ebf55a7a-8ba3-4da9-a594-c991c96a4b86": {
+        "path": ""
+      },
+      "2a4a8578-642a-4e0a-998f-9f0376dd4263": {
+        "path": ""
+      }
+    },
+    "scene": "0fbc11a6-b4d2-4ed0-a3e4-e4e86526589d"
   },
-  "show": true
+  "show": true,
+  "root-path": "C:\\Users\\Thanh Phong\\OneDrive\\Pictures"
 }

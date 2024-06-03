@@ -25,52 +25,71 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "d6dbadeLjtGgaR1i0cbgbSB", "BirdMenu", undefined);
 
+      // Import các module cần thiết từ 'cc'
       __checkObsolete__(['_decorator', 'CCFloat', 'Component', 'Node', 'tween', 'Tween', 'Vec3']);
 
       ({
         ccclass,
         property
-      } = _decorator);
+      } = _decorator); // Lấy ccclass và property từ _decorator
 
       _export("BirdMenu", BirdMenu = (_dec = ccclass('BirdMenu'), _dec2 = property({
         type: CCFloat
       }), _dec3 = property({
         type: CCFloat
-      }), _dec(_class = (_class2 = class BirdMenu extends Component {
+      }), _dec(_class = (_class2 = class BirdMenu extends Component // Định nghĩa lớp BirdMenu kế thừa từ Component
+      {
         constructor(...args) {
           super(...args);
 
           _initializerDefineProperty(this, "actionTime", _descriptor, this);
 
+          // Thời gian để thực hiện hành động (di chuyển)
           _initializerDefineProperty(this, "moveUpDistance", _descriptor2, this);
 
+          // Khoảng cách di chuyển lên
           this.tweenPos = void 0;
+          // Tween cho vị trí
           this._wPos = new Vec3(0, 0, 0);
+          // Vị trí thế giới của BirdMenu
           this.startPos = void 0;
         }
 
-        onLoad() {
-          Vec3.copy(this._wPos, this.node.worldPosition);
-          this.startPos = this.node.getWorldPosition();
-          let moveUp = this.node.getWorldPosition();
-          moveUp.y += this.moveUpDistance;
+        // Vị trí bắt đầu
+        onLoad() // Hàm được gọi khi nạp xong
+        {
+          Vec3.copy(this._wPos, this.node.worldPosition); // Sao chép vị trí thế giới của node
+
+          this.startPos = this.node.getWorldPosition(); // Lưu vị trí bắt đầu
+
+          let moveUp = this.node.getWorldPosition(); // Lấy vị trí hiện tại của node
+
+          moveUp.y += this.moveUpDistance; // Tăng y của vị trí hiện tại thêm khoảng cách di chuyển lên
+          // Tạo tween cho vị trí của BirdMenu
+
           this.tweenPos = tween(this._wPos).to(this.actionTime, moveUp, {
             easing: 'linear'
-          }).to(this.actionTime, this.startPos, {
+          }) // Di chuyển đến vị trí mới với khoảng thời gian actionTime
+          .to(this.actionTime, this.startPos, {
             easing: 'linear'
-          }).union().repeat(Infinity);
+          }) // Di chuyển trở lại vị trí ban đầu với khoảng thời gian actionTime
+          .union() // Liên kết các hành động di chuyển
+          .repeat(Infinity); // Lặp lại vô hạn
         }
 
-        onEnable() {
-          this.tweenPos.start();
+        onEnable() // Hàm được gọi khi BirdMenu được kích hoạt
+        {
+          this.tweenPos.start(); // Bắt đầu tween vị trí
         }
 
-        onDisable() {
-          this.tweenPos.stop();
+        onDisable() // Hàm được gọi khi BirdMenu bị tắt
+        {
+          this.tweenPos.stop(); // Dừng tween vị trí
         }
 
-        update(dt) {
-          this.node.setWorldPosition(this._wPos);
+        update(dt) // Hàm được gọi mỗi frame
+        {
+          this.node.setWorldPosition(this._wPos); // Cập nhật vị trí của node dựa trên tween
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "actionTime", [_dec2], {

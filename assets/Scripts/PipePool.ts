@@ -4,61 +4,68 @@ const { ccclass, property } = _decorator;
 @ccclass('PipePool')
 export class PipePool extends Component 
 {
+    // Định nghĩa thuộc tính prefabPipes, loại Prefab, được sử dụng để tạo các ống mới
     @property({ type: Prefab, tooltip: 'Prefab Pipes' })
     public prefabPipes = null;
 
+    // Định nghĩa thuộc tính pipePoolHome, loại Node, là nơi chứa các ống mới được tạo
     @property({ type: Node, tooltip: 'Where the new pipes go' })
     public pipePoolHome;
 
+    // Khởi tạo một NodePool để quản lý các ống (pipes)
     public pool = new NodePool();
     public createPipe: Node = null;
 
-
+    // Phương thức khởi tạo bể (pool) các ống
     initPool ()
     {
-        //build the amount of nodes needed at a time
+        // Số lượng ống ban đầu cần tạo
         let initCount = 3;
 
-        //fill up the node pool
+        // Điền vào bể các ống (pipes)
         for (let i = 0; i < initCount; i++)
         {
-            // create the new node
-            let createPipe = instantiate(this.prefabPipes); //instantiate means make a copy of the orginal
-            // put first one on the screen. So make it a child of the canvas.
+            // Tạo một node mới từ prefab
+            let createPipe = instantiate(this.prefabPipes); // instantiate nghĩa là tạo một bản sao của prefab gốc
+            
+            // Đưa ống đầu tiên lên màn hình bằng cách thêm nó vào pipePoolHome
             if (i == 0)
             {
                 this.pipePoolHome.addChild(createPipe);
-            } else
+            } 
+            // Đưa các ống khác vào NodePool để quản lý
+            else
             {
-                //put others into the nodePool
                 this.pool.put(createPipe);
             }
         }
     }
 
+    // Phương thức thêm ống mới vào bể
     addPool ()
     {
-        //if the pool is not full add a new one, else get the first one in the pool
+        // Kiểm tra nếu bể không đầy thì thêm ống mới, nếu không thì lấy ống đầu tiên trong bể
         if (this.pool.size() > 0)
         {
-            //get from the pool
+            // Lấy một ống từ bể
             this.createPipe = this.pool.get();
-        } else
+        } 
+        else
         {
-            //build a new one
+            // Tạo một ống mới
             this.createPipe = instantiate(this.prefabPipes);
         }
-        //add pipe to game as a node
+        // Thêm ống vào trò chơi như một node
         this.pipePoolHome.addChild(this.createPipe);
     }
 
+    // Phương thức đặt lại (reset) bể các ống
     reset ()
     {
-        //clear pool and reinitialize
+        // Xóa tất cả các node con khỏi pipePoolHome và làm sạch bể
         this.pipePoolHome.removeAllChildren();
         this.pool.clear();
+        // Khởi tạo lại bể các ống
         this.initPool();
     }
 }
-
-

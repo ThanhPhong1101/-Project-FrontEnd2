@@ -5,10 +5,10 @@ import { Bird } from './Bird';
 
 const { ccclass, property } = _decorator;
 
-//make a random number generator for the gap
+// Hàm tạo số ngẫu nhiên trong khoảng min và max
 const random = (min, max) =>
 {
-    return Math.random() * (max - min) + min
+    return Math.random() * (max - min) + min;
 }
 
 @ccclass('Pipes')
@@ -20,24 +20,23 @@ export class Pipes extends Component
     @property({ type: Node, tooltip: 'Bottom Pipe' })
     public bottomPipe: Node;
 
-    //temporary Locations
-    public tempStartLocationUp: Vec3 = new Vec3(0, 0, 0);  //Temporary location of the up pipe
-    public tempStartLocationDown: Vec3 = new Vec3(0, 0, 0); //Temporary location of the bottom pipe
-    public scene = screen.windowSize; //get the size of the screen in case we decide to change the content size
+    // Vị trí tạm thời của các ống trên và dưới
+    public tempStartLocationUp: Vec3 = new Vec3(0, 0, 0);  
+    public tempStartLocationDown: Vec3 = new Vec3(0, 0, 0); 
+    public scene = screen.windowSize; // Kích thước màn hình hiện tại
 
-    //get the pipe speeds
-    public game: Game; //get the pipe speed from GameCtrl
+    // Các thuộc tính liên quan đến tốc độ ống
+    public game: Game; // Lấy tốc độ ống từ GameCtrl
     public bird: Bird;
-    public pipeSpeed: number; //use as a final speed number
-    public tempSpeed: number; //use as the moving pipe speed
+    public pipeSpeed: number; // Tốc độ cuối cùng của ống
+    public tempSpeed: number; // Tốc độ tạm thời của ống khi di chuyển
 
-    //scoring mechanism
-    isPass: boolean; //Did the pipe pass the bird?
+    // Cơ chế tính điểm
+    isPass: boolean; // Kiểm tra ống có vượt qua chim không
 
     protected onLoad (): void
     {
-
-        //first search the gamec control
+        // Tìm kiếm GameCtrl
         let gameControl = find("GameCtrl");
         if (gameControl == null)
         {
@@ -49,38 +48,35 @@ export class Pipes extends Component
             this.game = gameControl.getComponent(Game);
             this.bird = this.game.bird;
         }
-        
 
-        //add pipespeed to temporary method
+        // Thêm tốc độ ống vào biến tạm thời
         this.pipeSpeed = this.game.Scroll.speed;
 
-        //set the original position
+        // Đặt vị trí ban đầu
         this.initPos();
 
-        //set the scoring mechanism to stop activating
+        // Đặt cơ chế tính điểm dừng kích hoạt
         this.isPass = false;
     }
 
-    //initial positions of the grounds
+    // Đặt vị trí ban đầu của các ống
     initPos ()
     {   
         const visibleSize = view.getVisibleSize();
-
         let width = visibleSize.width;
 
-        //start with the initial position of x for both pipes
+        // Đặt vị trí ban đầu của x cho cả hai ống
         this.tempStartLocationUp.x = (this.topPipe.getComponent(UITransform).width + width);
         this.tempStartLocationDown.x = (this.bottomPipe.getComponent(UITransform).width + width);
 
-        //random variables for the gaps
-        // let gap = random(50, 50);  //passable area randomized. 
-        let gap = 50;  //passable area.
-        let topHeight = random(-30, 150);   //The height of the top pipe
+        // Các biến ngẫu nhiên cho khoảng cách giữa các ống
+        let gap = 50;  // Khoảng cách có thể đi qua
+        let topHeight = random(-30, 150);   // Chiều cao của ống trên
 
         this.tempStartLocationUp.y = gap;
         this.tempStartLocationDown.y = -gap;
 
-        //set temp locations to real ones
+        // Đặt vị trí tạm thời thành vị trí thực tế
         this.topPipe.setPosition(this.tempStartLocationUp.x, this.tempStartLocationUp.y);
         this.bottomPipe.setPosition(this.tempStartLocationDown.x, this.tempStartLocationDown.y);
 
@@ -89,55 +85,39 @@ export class Pipes extends Component
         this.node.setPosition(tempPos);
     }
 
-    //move the pipes as we update the game
-    //this just moves a pair of pipes top and down
+    // Di chuyển các ống khi cập nhật game
     protected update (deltaTime: number): void
     {
-        // if(this.game.isOver==false) return;
-        if(this.bird==null)
+        if (this.bird == null)
         {
             log("bird is null");
             return;
         }
-        if (this.bird.state == 0 || this.bird.state==2) return;
-        //get the pipe speed
+        if (this.bird.state == 0 || this.bird.state == 2) return;
+
+        // Lấy tốc độ ống
         this.tempSpeed = Math.abs(this.pipeSpeed * deltaTime);
 
-        //make temporary pipe locations
+        // Tạo vị trí tạm thời của các ống
         this.tempStartLocationDown = this.bottomPipe.position;
         this.tempStartLocationUp = this.topPipe.position;
 
-        //move temporary pipe locations
+        // Di chuyển các vị trí tạm thời của các ống
         this.tempStartLocationDown.x -= this.tempSpeed;
         this.tempStartLocationUp.x -= this.tempSpeed;
 
-        //place new positions of the pipes from temporary pipe locations
+        // Đặt vị trí mới của các ống từ các vị trí tạm thời
         this.bottomPipe.setPosition(this.tempStartLocationDown);
         this.topPipe.setPosition(this.tempStartLocationUp);
 
-        // //find out if bird past a pipe, add to the score
-        // if (this.isPass == false && this.topPipe.position.x <= 0)
-        // {
-
-        //     //make sure it is only counted once
-        //     this.isPass = true;
-
-        //     //add a point to the score
-        //     // this.game.passPipe();
-
-        // };
-
-        //if passed the screen, reset pipes to new location
+        // Kiểm tra nếu các ống đã vượt qua màn hình, đặt lại vị trí các ống
         if (this.topPipe.getWorldPosition().x < (0 - this.scene.width))
         {
-            //create a new pipe
+            // Tạo ống mới
             // this.game.createPipe();
 
-            //delete this node for memory saving
+            // Xóa node này để tiết kiệm bộ nhớ
             this.destroy();
-        };
-
+        }
     }
 }
-
-

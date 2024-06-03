@@ -38,33 +38,43 @@ System.register(["cc"], function (_export, _context) {
         constructor() {
           super(...arguments);
 
+          // Tốc độ cuộn của nền
           _initializerDefineProperty(this, "speed", _descriptor, this);
 
+          // Giới hạn cuộn (khi nền cuộn đến vị trí này, nó sẽ quay lại vị trí ban đầu)
           _initializerDefineProperty(this, "limit", _descriptor2, this);
 
-          //width terrain
+          // chiều rộng của nền
+          // Biến kiểm tra xem nền có đang cuộn không
           this.canScroll = void 0;
         }
 
         start() {
+          // Khởi tạo nền có thể cuộn
           this.canScroll = true;
-        }
+        } // Hàm dừng cuộn nền
+
 
         StopScroll() {
           this.canScroll = false;
-        }
+        } // Hàm cập nhật được gọi mỗi khung hình
+
 
         update(deltaTime) {
+          // Nếu nền không thể cuộn, thoát hàm
           if (this.canScroll == false) {
             return;
-          }
+          } // Lấy vị trí hiện tại của nền
 
-          var pos = this.node.getPosition();
-          pos.x += this.speed * deltaTime;
+
+          var pos = this.node.getPosition(); // Cập nhật vị trí x dựa trên tốc độ và deltaTime
+
+          pos.x += this.speed * deltaTime; // Nếu vị trí x của nền nhỏ hơn giới hạn, đặt lại vị trí x
 
           if (pos.x <= this.limit) {
             pos.x += Math.abs(this.limit);
-          }
+          } // Đặt vị trí mới cho nền
+
 
           this.node.setPosition(pos);
         }
