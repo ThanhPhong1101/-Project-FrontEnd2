@@ -1,0 +1,12 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+        "version": "Windows 10 Home Single Language"
+    },
+    "sceneListMap": {
+        "2a4a8578-642a-4e0a-998f-9f0376dd4263": "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\main.scene",
+        "0fbc11a6-b4d2-4ed0-a3e4-e4e86526589d": "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\game.scene"
+    },
+    "deviceMd5": "4c6a762e9845065bdcb7824deb9a5a26"
+}

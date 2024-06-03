@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 11144.405900001526,
+      "mTimestamp": 10592.093400001526,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 13814.871700018644,
+      "mTimestamp": 12799.543300002813,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1038,7 +1038,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Android/AndroidNative.ts": {
       "mTimestamp": {
-        "mtime": 1717402503281.7654,
+        "mtime": 1717425498184.994,
         "uuid": "6f0f44e3-2c4e-4ddc-8105-cfaf7ae65050"
       },
       "chunkId": "d0c14400fd82a98bab5b7d09130973d03fe47fc3",
@@ -1090,7 +1090,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Bird.ts": {
       "mTimestamp": {
-        "mtime": 1717404929010.7632,
+        "mtime": 1717425498186.5015,
         "uuid": "7c717f2f-d60a-48bd-a796-66293ef420c3"
       },
       "chunkId": "4053ef4b5c33a59a8e1ab31e814b88abc2e45bfb",
@@ -1194,7 +1194,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1717425100550,
+      "mTimestamp": 1717427833186,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1202,7 +1202,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Game.ts": {
       "mTimestamp": {
-        "mtime": 1717424546400.2144,
+        "mtime": 1717425498187.513,
         "uuid": "65166533-eea3-49e1-9eff-a2ef5e73d3ef"
       },
       "chunkId": "2a9f771bf51c812d4fe1ef3ab59f0875d252c728",
@@ -1349,7 +1349,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Scroll.ts": {
       "mTimestamp": {
-        "mtime": 1717424925960.0164,
+        "mtime": 1717425498189.51,
         "uuid": "a19f1f59-3905-4337-b127-ecb91afe7845"
       },
       "chunkId": "1307dca7a57311219828c85335156c729243915f",
@@ -1401,7 +1401,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/PipePool.ts": {
       "mTimestamp": {
-        "mtime": 1717424741612.3784,
+        "mtime": 1717425498188.5127,
         "uuid": "a892e0f7-7522-4b88-99b9-c681655363c0"
       },
       "chunkId": "e66829f4ba15b9bcc160f134ae4a1709d46aa07b",
@@ -1505,7 +1505,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/SpriteAnimator.ts": {
       "mTimestamp": {
-        "mtime": 1717424987264.6482,
+        "mtime": 1717425498190.5073,
         "uuid": "c67ee871-5e65-456c-9cc2-27a9a39c95bd"
       },
       "chunkId": "127fcc1624a218f2551cd400c964ec543592b291",
@@ -1557,7 +1557,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/BirdMenu.ts": {
       "mTimestamp": {
-        "mtime": 1717405055222.3982,
+        "mtime": 1717425498186.5015,
         "uuid": "d6dba75e-2e3b-4681-a475-8b471b81b481"
       },
       "chunkId": "7cb36b29518df2c2d7f9d7f241cafc9d3cf42d1f",
@@ -1609,7 +1609,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/ClariceCamera.ts": {
       "mTimestamp": {
-        "mtime": 1717405601885.6367,
+        "mtime": 1717425498187.513,
         "uuid": "10c0cd69-8b62-43ba-9f92-5335a7943bee"
       },
       "chunkId": "a2eb161d6eaaad7f8d1a033b53d5dc251516fc5d",
@@ -1745,7 +1745,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Pipes.ts": {
       "mTimestamp": {
-        "mtime": 1717424840650.3635,
+        "mtime": 1717425498188.5127,
         "uuid": "4c671e1e-558f-40d3-a5be-95e8f31de787"
       },
       "chunkId": "e417721db620dbdeb05faa8411987ae7a49be6ab",
@@ -1829,7 +1829,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/TransitionScene.ts": {
       "mTimestamp": {
-        "mtime": 1717425070506.904,
+        "mtime": 1717425498190.5073,
         "uuid": "2bbc9b1c-7956-4707-a07f-bbd759ff96eb"
       },
       "chunkId": "d38bc9118f439f7ab8496a5c2948771753573a06",

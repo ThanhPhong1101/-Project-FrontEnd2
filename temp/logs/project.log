@@ -1,14 +1,14 @@
-3-6-2024 21:31:39 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
-3-6-2024 21:31:40 - log: Profile changed: engine (modules.includeModules: 2d,audio,base,gfx-webgl,gfx-webgl2,meshopt,particle-2d,physics-2d-box2d,tween,ui,websocket,websocket-server)
-3-6-2024 21:31:40 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
-3-6-2024 21:31:41 - log: Request namespace: device-list
-3-6-2024 21:31:54 - log: [Scene] meshopt wasm decoder initialized
-3-6-2024 21:31:54 - log: [Scene] [box2d]:box2d wasm lib loaded.
-3-6-2024 21:31:54 - log: [Scene] [bullet]:bullet wasm lib loaded.
-3-6-2024 21:31:55 - log: [Scene] [PHYSICS]: using builtin.
-3-6-2024 21:31:55 - log: [Scene] Cocos Creator v3.8.3
-3-6-2024 21:31:55 - info: [Scene] Forward render pipeline initialized.
-3-6-2024 21:31:56 - warn: [Scene] Found possible circular reference in "pack:///chunks/2a/2a9f771bf51c812d4fe1ef3ab59f0875d252c728.js", happened when use "Bird" imported from "./Bird"  Error: 
+3-6-2024 22:17:12 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+3-6-2024 22:17:13 - log: Profile changed: engine (modules.includeModules: 2d,audio,base,gfx-webgl,gfx-webgl2,meshopt,particle-2d,physics-2d-box2d,tween,ui,websocket,websocket-server)
+3-6-2024 22:17:13 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
+3-6-2024 22:17:13 - log: Request namespace: device-list
+3-6-2024 22:17:27 - log: [Scene] meshopt wasm decoder initialized
+3-6-2024 22:17:27 - log: [Scene] [box2d]:box2d wasm lib loaded.
+3-6-2024 22:17:27 - log: [Scene] [bullet]:bullet wasm lib loaded.
+3-6-2024 22:17:27 - log: [Scene] [PHYSICS]: using builtin.
+3-6-2024 22:17:28 - log: [Scene] Cocos Creator v3.8.3
+3-6-2024 22:17:28 - info: [Scene] Forward render pipeline initialized.
+3-6-2024 22:17:28 - warn: [Scene] Found possible circular reference in "pack:///chunks/2a/2a9f771bf51c812d4fe1ef3ab59f0875d252c728.js", happened when use "Bird" imported from "./Bird"  Error: 
     at Object.execute (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/2a/2a9f771bf51c812d4fe1ef3ab59f0875d252c728.js:74:18)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
@@ -36,7 +36,7 @@
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
     at Array.forEach (<anonymous>)
-3-6-2024 21:31:56 - warn: [Scene] You are explicitly specifying `undefined` type to cc property "bird" of cc class "Game".
+3-6-2024 22:17:28 - warn: [Scene] You are explicitly specifying `undefined` type to cc property "bird" of cc class "Game".
 Is this intended? If not, this may indicate a circular reference.
 For example:
 
@@ -78,7 +78,7 @@ export class Foo {            //  ↓
     at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141083:11)
     at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141108:5)
     at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272931:21)
-3-6-2024 21:31:56 - warn: [Scene] No need to specify the "type" of "Game.gameOverStartPos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverStartPos cc.Vec3Error: [Scene] No need to specify the "type" of "Game.gameOverStartPos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverStartPos cc.Vec3
+3-6-2024 22:17:28 - warn: [Scene] No need to specify the "type" of "Game.gameOverStartPos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverStartPos cc.Vec3Error: [Scene] No need to specify the "type" of "Game.gameOverStartPos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverStartPos cc.Vec3
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273473:11)
@@ -86,7 +86,7 @@ export class Foo {            //  ↓
     at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141083:11)
     at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141108:5)
     at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272931:21)
-3-6-2024 21:31:56 - warn: [Scene] No need to specify the "type" of "Game.gameOverHidePos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverHidePos cc.Vec3Error: [Scene] No need to specify the "type" of "Game.gameOverHidePos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverHidePos cc.Vec3
+3-6-2024 22:17:28 - warn: [Scene] No need to specify the "type" of "Game.gameOverHidePos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverHidePos cc.Vec3Error: [Scene] No need to specify the "type" of "Game.gameOverHidePos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverHidePos cc.Vec3
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273473:11)
@@ -94,10 +94,9 @@ export class Foo {            //  ↓
     at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141083:11)
     at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141108:5)
     at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272931:21)
-3-6-2024 21:31:56 - log: [Scene] No need to specify the "type" of "ClariceCamera.offset" because cc.Vec2 is a child class of ValueType.
-3-6-2024 21:31:56 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-3-6-2024 21:33:04 - warn: A panel(reference-image) is currently open. Please try again later.
-3-6-2024 21:33:08 - warn: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
+3-6-2024 22:17:28 - log: [Scene] No need to specify the "type" of "ClariceCamera.offset" because cc.Vec2 is a child class of ValueType.
+3-6-2024 22:17:28 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+3-6-2024 22:18:15 - warn: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at Sorting.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48273:13)
@@ -105,7 +104,7 @@ export class Foo {            //  ↓
     at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
     at UnsortedInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40433:16)
     at NodeActivator.activateNode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40507:28)
-3-6-2024 21:33:08 - warn: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
+3-6-2024 22:18:15 - warn: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at Sorting.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48273:13)
@@ -113,7 +112,96 @@ export class Foo {            //  ↓
     at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
     at UnsortedInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40433:16)
     at NodeActivator.activateNode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40507:28)
-3-6-2024 21:33:17 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+3-6-2024 22:19:42 - warn: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at Sorting.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48273:13)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40444:171)
+    at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
+    at UnsortedInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40433:16)
+    at NodeActivator.activateNode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40507:28)
+3-6-2024 22:19:42 - warn: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at Sorting.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48273:13)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40444:171)
+    at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
+    at UnsortedInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40433:16)
+    at NodeActivator.activateNode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40507:28)
+3-6-2024 22:20:31 - warn: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at Sorting.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48273:13)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40444:171)
+    at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
+    at UnsortedInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40433:16)
+    at NodeActivator.activateNode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40507:28)
+3-6-2024 22:20:31 - warn: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at Sorting.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48273:13)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40444:171)
+    at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
+    at UnsortedInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40433:16)
+    at NodeActivator.activateNode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40507:28)
+3-6-2024 22:20:39 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
+3-6-2024 22:20:39 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
+    at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
+    at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
+    at Object.serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\index.ccc:1:510)
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:152)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+3-6-2024 22:20:39 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
+3-6-2024 22:20:39 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
+    at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
+    at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
+    at Object.serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\index.ccc:1:510)
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:152)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+3-6-2024 22:20:39 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
+3-6-2024 22:20:39 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
+    at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
+    at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
+    at Object.serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\index.ccc:1:510)
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:152)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+3-6-2024 22:20:44 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
     at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
     at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
     at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
@@ -121,7 +209,7 @@ export class Foo {            //  ↓
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
     at DumpUtil.dumpComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:748)
-3-6-2024 21:33:17 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+3-6-2024 22:20:44 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
     at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
     at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
     at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
@@ -132,7 +220,7 @@ export class Foo {            //  ↓
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
-3-6-2024 21:33:17 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+3-6-2024 22:20:44 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
     at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
     at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
     at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
@@ -140,7 +228,7 @@ export class Foo {            //  ↓
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
-3-6-2024 21:33:17 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+3-6-2024 22:20:44 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
     at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
     at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
     at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
@@ -151,7 +239,7 @@ export class Foo {            //  ↓
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
-3-6-2024 21:33:17 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+3-6-2024 22:20:44 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
     at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
     at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
     at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
@@ -159,7 +247,7 @@ export class Foo {            //  ↓
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
-3-6-2024 21:33:17 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+3-6-2024 22:20:44 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
     at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
     at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
     at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
@@ -170,15 +258,15 @@ export class Foo {            //  ↓
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
-3-6-2024 21:33:57 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+3-6-2024 22:20:46 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
     at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
     at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
     at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
-    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
-3-6-2024 21:33:57 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at DumpUtil.dumpComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:748)
+3-6-2024 22:20:46 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
     at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
     at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
     at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
@@ -189,7 +277,7 @@ export class Foo {            //  ↓
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
-3-6-2024 21:33:57 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+3-6-2024 22:20:46 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
     at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
     at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
     at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
@@ -197,7 +285,7 @@ export class Foo {            //  ↓
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
-3-6-2024 21:33:57 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+3-6-2024 22:20:46 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
     at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
     at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
     at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
@@ -208,7 +296,7 @@ export class Foo {            //  ↓
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
-3-6-2024 21:33:57 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+3-6-2024 22:20:46 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
     at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
     at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
     at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
@@ -216,7 +304,99 @@ export class Foo {            //  ↓
     at Array.forEach (<anonymous>)
     at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
     at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
-3-6-2024 21:33:57 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+3-6-2024 22:20:46 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
+    at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
+    at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
+    at Object.serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\index.ccc:1:510)
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:152)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+3-6-2024 22:23:45 - warn: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Sprite-Background' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at Sorting.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48273:13)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40444:171)
+    at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
+    at UnsortedInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40433:16)
+    at NodeActivator.activateNode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40507:28)
+3-6-2024 22:23:45 - warn: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component firstError: [Scene] node 'Bird' doesn't have any ModelRenderer component, this component will not work. please add ModelRenderer component first
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at Sorting.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48273:13)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40444:171)
+    at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
+    at UnsortedInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40433:16)
+    at NodeActivator.activateNode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40507:28)
+3-6-2024 22:24:02 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
+3-6-2024 22:24:02 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
+    at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
+    at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
+    at Object.serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\index.ccc:1:510)
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:152)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+3-6-2024 22:24:02 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
+3-6-2024 22:24:02 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
+    at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
+    at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
+    at Object.serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\index.ccc:1:510)
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:152)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+3-6-2024 22:24:06 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
+3-6-2024 22:24:06 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
+    at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
+    at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)
+    at Object.serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\index.ccc:1:510)
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:152)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+3-6-2024 22:24:06 - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\types\value-type-dump.ccc:1:240)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:1539)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:4:3684)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4283
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4203)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2139
+3-6-2024 22:24:06 - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
     at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6384)
     at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3453)
     at serialize (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10327)

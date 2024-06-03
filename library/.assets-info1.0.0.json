@@ -10,11 +10,11 @@
       "uuid": "b7d4cefd-c21c-45a2-a45c-5937850c4a96"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes": {
-      "time": 1717401527947.455,
+      "time": 1717425498184.994,
       "uuid": "e0c398a8-e125-4624-8011-552384553da2"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts": {
-      "time": 1717401527949.4507,
+      "time": 1717425498190.5073,
       "uuid": "8a5f1a32-99c4-47c1-86ed-8780d763fdc1"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites": {
@@ -26,19 +26,19 @@
       "uuid": "66781c8c-ff3d-466d-a19e-a11715d27119"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Bird.ts": {
-      "time": 1717404929010.7632,
+      "time": 1717425498186.5015,
       "uuid": "7c717f2f-d60a-48bd-a796-66293ef420c3"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\BirdMenu.ts": {
-      "time": 1717405055222.3982,
+      "time": 1717425498186.5015,
       "uuid": "d6dba75e-2e3b-4681-a475-8b471b81b481"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\ClariceCamera.ts": {
-      "time": 1717405601885.6367,
+      "time": 1717425498187.513,
       "uuid": "10c0cd69-8b62-43ba-9f92-5335a7943bee"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Game.ts": {
-      "time": 1717424546400.2144,
+      "time": 1717425498187.513,
       "uuid": "65166533-eea3-49e1-9eff-a2ef5e73d3ef"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\MainMenu.ts": {
@@ -46,23 +46,23 @@
       "uuid": "0784561c-c91c-48e2-b667-f3612e12f18a"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\PipePool.ts": {
-      "time": 1717424741612.3784,
+      "time": 1717425498188.5127,
       "uuid": "a892e0f7-7522-4b88-99b9-c681655363c0"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Pipes.ts": {
-      "time": 1717424840650.3635,
+      "time": 1717425498188.5127,
       "uuid": "4c671e1e-558f-40d3-a5be-95e8f31de787"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Scroll.ts": {
-      "time": 1717424925960.0164,
+      "time": 1717425498189.51,
       "uuid": "a19f1f59-3905-4337-b127-ecb91afe7845"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\SpriteAnimator.ts": {
-      "time": 1717424987264.6482,
+      "time": 1717425498190.5073,
       "uuid": "c67ee871-5e65-456c-9cc2-27a9a39c95bd"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\TransitionScene.ts": {
-      "time": 1717425070506.904,
+      "time": 1717425498190.5073,
       "uuid": "2bbc9b1c-7956-4707-a07f-bbd759ff96eb"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\UI\\EventSystem.ts": {
@@ -166,11 +166,11 @@
       "uuid": "852cb0c6-88e3-43a5-8751-5140571c04de"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\game.scene": {
-      "time": 1717400613424.4922,
+      "time": 1717428594425.94,
       "uuid": "0fbc11a6-b4d2-4ed0-a3e4-e4e86526589d"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scenes\\main.scene": {
-      "time": 1717425086467.6316,
+      "time": 1717428225892.8262,
       "uuid": "2a4a8578-642a-4e0a-998f-9f0376dd4263"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\sprites\\0.png": {
@@ -442,11 +442,11 @@
       "time": 1717401527949.4507
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Android": {
-      "time": 1717401527949.4507,
+      "time": 1717425498184.994,
       "uuid": "4f4577de-a577-446e-9bb7-c122de36aaf3"
     },
     "D:\\ThanhPhong\\FE02\\Project-FrontEnd2\\assets\\Scripts\\Android\\AndroidNative.ts": {
-      "time": 1717402503281.7654,
+      "time": 1717425498184.994,
       "uuid": "6f0f44e3-2c4e-4ddc-8105-cfaf7ae65050"
     }
   },
