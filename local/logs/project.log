@@ -1,0 +1,1019 @@
+2024-06-03T07:13:05.159Z - log: [Package] menu@1.0.0 enable
+2024-06-03T07:13:05.162Z - log: [Package] profile@1.0.0 enable
+2024-06-03T07:13:05.184Z - log: [Package] project@1.0.2 enable
+2024-06-03T07:13:05.190Z - log: [Package] messages@1.0.0 enable
+2024-06-03T07:13:05.207Z - log: [Package] program@1.0.0 enable
+2024-06-03T07:13:05.214Z - log: [Package] tester@1.0.0 enable
+2024-06-03T07:13:05.221Z - log: [Package] preferences@1.0.0 enable
+2024-06-03T07:13:08.364Z - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine
+2024-06-03T07:13:10.097Z - log: Profile changed: engine (modules.includeModules: 2d,audio,base,gfx-webgl,gfx-webgl2,particle-2d,physics-2d-box2d,tween,ui)
+2024-06-03T07:13:10.105Z - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\native
+2024-06-03T07:13:10.108Z - log: [Package] engine@1.0.7 enable
+2024-06-03T07:13:11.061Z - log: [Package] programming@1.0.0 enable
+2024-06-03T07:13:11.134Z - warn: 
+2024-06-03T07:13:11.263Z - warn: 
+2024-06-03T07:13:11.516Z - log: [Package] device@1.0.1 enable
+2024-06-03T07:13:11.550Z - log: [Package] ui-kit@1.0.1 enable
+2024-06-03T07:13:11.580Z - log: [Package] engine-extends@1.0.0 enable
+2024-06-03T07:13:11.648Z - log: [Package] asset-db@1.0.0 enable
+2024-06-03T07:13:11.649Z - warn: 
+2024-06-03T07:13:11.688Z - log: [Package] scene@1.0.0 enable
+2024-06-03T07:13:11.862Z - log: [Package] server@1.0.0 enable
+2024-06-03T07:13:11.958Z - log: [Package] utils@1.0.0 enable
+2024-06-03T07:13:24.260Z - warn: 
+2024-06-03T07:13:24.260Z - warn: 
+2024-06-03T07:13:24.260Z - warn: 
+2024-06-03T07:13:24.274Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\audio](c314f32d-5081-4f59-9e51-9d3d165bd72f)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\audio](c314f32d-5081-4f59-9e51-9d3d165bd72f)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:24.276Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\FontText](a8e60d66-a909-4854-821e-7b8e14b8f0b2)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\FontText](a8e60d66-a909-4854-821e-7b8e14b8f0b2)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:24.276Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Prefabs](b7d4cefd-c21c-45a2-a45c-5937850c4a96)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Prefabs](b7d4cefd-c21c-45a2-a45c-5937850c4a96)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:24.276Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scenes](e0c398a8-e125-4624-8011-552384553da2)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scenes](e0c398a8-e125-4624-8011-552384553da2)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:24.276Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts](8a5f1a32-99c4-47c1-86ed-8780d763fdc1)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts](8a5f1a32-99c4-47c1-86ed-8780d763fdc1)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:24.280Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites](77224282-51b5-4ce7-8244-4c2383752bf9)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites](77224282-51b5-4ce7-8244-4c2383752bf9)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.282Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Android](4f4577de-a577-446e-9bb7-c122de36aaf3)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Android](4f4577de-a577-446e-9bb7-c122de36aaf3)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.283Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI](66781c8c-ff3d-466d-a19e-a11715d27119)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI](66781c8c-ff3d-466d-a19e-a11715d27119)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.284Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Bird.ts](7c717f2f-d60a-48bd-a796-66293ef420c3)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Bird.ts](7c717f2f-d60a-48bd-a796-66293ef420c3)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.285Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\BirdMenu.ts](d6dba75e-2e3b-4681-a475-8b471b81b481)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\BirdMenu.ts](d6dba75e-2e3b-4681-a475-8b471b81b481)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:24.286Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\ClariceCamera.ts](10c0cd69-8b62-43ba-9f92-5335a7943bee)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\ClariceCamera.ts](10c0cd69-8b62-43ba-9f92-5335a7943bee)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.286Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Game.ts](65166533-eea3-49e1-9eff-a2ef5e73d3ef)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Game.ts](65166533-eea3-49e1-9eff-a2ef5e73d3ef)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.287Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\MainMenu.ts](0784561c-c91c-48e2-b667-f3612e12f18a)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\MainMenu.ts](0784561c-c91c-48e2-b667-f3612e12f18a)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.293Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\PipePool.ts](a892e0f7-7522-4b88-99b9-c681655363c0)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\PipePool.ts](a892e0f7-7522-4b88-99b9-c681655363c0)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.295Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Pipes.ts](4c671e1e-558f-40d3-a5be-95e8f31de787)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Pipes.ts](4c671e1e-558f-40d3-a5be-95e8f31de787)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.296Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Scroll.ts](a19f1f59-3905-4337-b127-ecb91afe7845)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Scroll.ts](a19f1f59-3905-4337-b127-ecb91afe7845)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.296Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\SpriteAnimator.ts](c67ee871-5e65-456c-9cc2-27a9a39c95bd)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\SpriteAnimator.ts](c67ee871-5e65-456c-9cc2-27a9a39c95bd)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.297Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\TransitionScene.ts](2bbc9b1c-7956-4707-a07f-bbd759ff96eb)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\TransitionScene.ts](2bbc9b1c-7956-4707-a07f-bbd759ff96eb)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:24.302Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Android\AndroidNative.ts](6f0f44e3-2c4e-4ddc-8105-cfaf7ae65050)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Android\AndroidNative.ts](6f0f44e3-2c4e-4ddc-8105-cfaf7ae65050)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.303Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI\EventSystem.ts](7285dbb4-70f0-4627-867d-e8a34c07e6c2)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI\EventSystem.ts](7285dbb4-70f0-4627-867d-e8a34c07e6c2)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.304Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI\FlashUI.ts](720b22c1-3c12-467a-95f1-776e8b7c6221)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI\FlashUI.ts](720b22c1-3c12-467a-95f1-776e8b7c6221)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.304Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI\UIIndicator.ts](7aeee16d-6d76-49dc-8b2d-394931784072)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI\UIIndicator.ts](7aeee16d-6d76-49dc-8b2d-394931784072)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:24.304Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI\UISelectable.ts](8fd17b3f-e57e-4b43-a70a-5abd49c82d62)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\UI\UISelectable.ts](8fd17b3f-e57e-4b43-a70a-5abd49c82d62)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:24.311Z - warn: 
+2024-06-03T07:13:24.312Z - warn: 
+2024-06-03T07:13:24.312Z - warn: 
+2024-06-03T07:13:25.737Z - warn: 
+2024-06-03T07:13:25.787Z - log: [Package] preview@1.0.1 enable
+2024-06-03T07:13:25.821Z - log: [Package] animator@1.0.0 enable
+2024-06-03T07:13:25.867Z - log: pluginManager init: 0.127ms
+2024-06-03T07:13:27.103Z - log: Profile changed: builder (log.level: 2)
+2024-06-03T07:13:27.113Z - log: [Package] builder@1.3.3 enable
+2024-06-03T07:13:27.152Z - log: [Package] shortcuts@1.0.1 enable
+2024-06-03T07:13:27.183Z - log: [Package] animation-graph@1.0.0 enable
+2024-06-03T07:13:27.212Z - log: [Package] about@1.0.0 enable
+2024-06-03T07:13:27.246Z - log: [Package] assets@1.0.0 enable
+2024-06-03T07:13:27.278Z - log: [Package] console@1.0.0 enable
+2024-06-03T07:13:27.510Z - log: [Package] extension@3.0.16 enable
+2024-06-03T07:13:27.540Z - log: [Package] hierarchy@1.0.0 enable
+2024-06-03T07:13:27.570Z - log: [Package] inspector@1.0.0 enable
+2024-06-03T07:13:27.601Z - log: [Package] lightmap@1.0.4 enable
+2024-06-03T07:13:28.150Z - log: [Package] localization-editor@1.0.0 enable
+2024-06-03T07:13:28.160Z - log: [Build-plugin] register pkg localization-editor: 5.838ms
+2024-06-03T07:13:28.195Z - log: [Package] node-library@1.0.1 enable
+2024-06-03T07:13:28.220Z - log: [Package] package-asset@1.0.0 enable
+2024-06-03T07:13:28.256Z - log: [Package] process@1.0.0 enable
+2024-06-03T07:13:28.288Z - log: [Package] reference-image@1.0.0 enable
+2024-06-03T07:13:28.311Z - log: [Package] alipay-mini-game@1.0.1 enable
+2024-06-03T07:13:28.312Z - log: [Build-plugin] register pkg alipay-mini-game: 1.107ms
+2024-06-03T07:13:28.343Z - log: [Package] android@1.0.1 enable
+2024-06-03T07:13:28.351Z - log: [Build-plugin] register pkg android: 7.231ms
+2024-06-03T07:13:28.414Z - log: [Package] baidu-mini-game@1.0.1 enable
+2024-06-03T07:13:28.420Z - log: [Build-plugin] register pkg baidu-mini-game: 5.343ms
+2024-06-03T07:13:28.461Z - log: [Package] bytedance-mini-game@1.0.2 enable
+2024-06-03T07:13:28.465Z - log: [Build-plugin] register pkg bytedance-mini-game: 3.449ms
+2024-06-03T07:13:28.499Z - log: [Package] certificate@1.0.0 enable
+2024-06-03T07:13:28.530Z - log: [Package] channel-upload-tools@1.0.0 enable
+2024-06-03T07:13:28.560Z - log: [Package] cocos-play@1.0.1 enable
+2024-06-03T07:13:28.567Z - log: [Build-plugin] register pkg cocos-play: 6.78ms
+2024-06-03T07:13:28.594Z - log: [Package] huawei-agc@1.0.0 enable
+2024-06-03T07:13:28.601Z - log: [Build-plugin] register pkg huawei-agc: 6.172ms
+2024-06-03T07:13:28.624Z - log: [Package] huawei-quick-game@1.0.1 enable
+2024-06-03T07:13:28.630Z - log: [Build-plugin] register pkg huawei-quick-game: 5.925ms
+2024-06-03T07:13:28.658Z - log: [Package] ios@1.0.0 enable
+2024-06-03T07:13:28.664Z - log: [Build-plugin] register pkg ios: 5.52ms
+2024-06-03T07:13:28.686Z - log: [Package] linux@1.0.0 enable
+2024-06-03T07:13:28.687Z - log: [Build-plugin] register pkg linux: 1.199ms
+2024-06-03T07:13:28.718Z - log: [Package] mac@1.0.0 enable
+2024-06-03T07:13:28.726Z - log: [Build-plugin] register pkg mac: 7.275ms
+2024-06-03T07:13:28.890Z - log: [Package] native@1.0.2 enable
+2024-06-03T07:13:28.900Z - log: [Build-plugin] register pkg native: 9.885ms
+2024-06-03T07:13:28.921Z - log: [Package] ohos@1.0.0 enable
+2024-06-03T07:13:28.926Z - log: [Build-plugin] register pkg ohos: 4.937ms
+2024-06-03T07:13:28.950Z - log: [Package] open-harmonyos@1.0.0 enable
+2024-06-03T07:13:28.952Z - log: [Build-plugin] register pkg open-harmonyos: 1.571ms
+2024-06-03T07:13:28.981Z - log: [Package] oppo-mini-game@1.0.1 enable
+2024-06-03T07:13:28.986Z - log: [Build-plugin] register pkg oppo-mini-game: 5.309ms
+2024-06-03T07:13:29.011Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2024-06-03T07:13:29.042Z - log: [Package] taobao-creative-app@1.0.0 enable
+2024-06-03T07:13:29.048Z - log: [Build-plugin] register pkg taobao-creative-app: 5.699ms
+2024-06-03T07:13:29.074Z - log: [Package] vivo-mini-game@1.0.1 enable
+2024-06-03T07:13:29.080Z - log: [Build-plugin] register pkg vivo-mini-game: 5.585ms
+2024-06-03T07:13:29.135Z - log: [Package] web-desktop@1.0.1 enable
+2024-06-03T07:13:29.141Z - log: [Build-plugin] register pkg web-desktop: 5.499ms
+2024-06-03T07:13:29.184Z - log: [Package] web-mobile@1.0.1 enable
+2024-06-03T07:13:29.190Z - log: [Build-plugin] register pkg web-mobile: 5.819ms
+2024-06-03T07:13:29.235Z - log: [Package] wechatgame@1.0.2 enable
+2024-06-03T07:13:29.242Z - log: [Build-plugin] register pkg wechatgame: 6.591ms
+2024-06-03T07:13:29.264Z - log: [Package] windows@1.0.1 enable
+2024-06-03T07:13:29.269Z - log: [Build-plugin] register pkg windows: 4.205ms
+2024-06-03T07:13:29.337Z - log: [Package] xiaomi-quick-game@1.0.1 enable
+2024-06-03T07:13:29.343Z - log: [Build-plugin] register pkg xiaomi-quick-game: 5.808ms
+2024-06-03T07:13:33.664Z - log: [Package] cocos-service@3.0.7 enable
+2024-06-03T07:13:33.697Z - log: [Build-plugin] register pkg cocos-service: 28.892ms
+2024-06-03T07:13:33.746Z - log: [Package] importer@1.1.0 enable
+2024-06-03T07:13:34.037Z - log: [Im-plugin] Check im-plugin version.
+2024-06-03T07:13:34.044Z - log: [Package] im-plugin@3.0.9 enable
+2024-06-03T07:13:34.920Z - log: [Im-plugin] No online info of im-plugin.
+2024-06-03T07:13:35.327Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Prefabs\Pipe.prefab](852cb0c6-88e3-43a5-8751-5140571c04de)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Prefabs\Pipe.prefab](852cb0c6-88e3-43a5-8751-5140571c04de)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:35.328Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scenes\game.scene](0fbc11a6-b4d2-4ed0-a3e4-e4e86526589d)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scenes\game.scene](0fbc11a6-b4d2-4ed0-a3e4-e4e86526589d)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:35.329Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scenes\main.scene](2a4a8578-642a-4e0a-998f-9f0376dd4263)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scenes\main.scene](2a4a8578-642a-4e0a-998f-9f0376dd4263)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:35.330Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\0.png](96b187d4-1fee-4eb8-a21a-262a98c851d8)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\0.png](96b187d4-1fee-4eb8-a21a-262a98c851d8)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.347Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\1.png](1587dc16-8991-42a8-a27f-02a3742d6b2b)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\1.png](1587dc16-8991-42a8-a27f-02a3742d6b2b)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.350Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\2.png](11cf4de7-a4e2-4603-ae55-f86600cdd5a4)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\2.png](11cf4de7-a4e2-4603-ae55-f86600cdd5a4)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.358Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\3.png](a092f36d-6130-4c7f-bb7a-1517517dcfdf)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\3.png](a092f36d-6130-4c7f-bb7a-1517517dcfdf)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:35.359Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\4.png](74b08c44-0e0b-4804-ba32-fcb32c5323d6)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\4.png](74b08c44-0e0b-4804-ba32-fcb32c5323d6)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.366Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\5.png](489541ee-f504-4801-8e22-d50849f54fad)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\5.png](489541ee-f504-4801-8e22-d50849f54fad)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.381Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\6.png](fbfc22b1-d5a1-4a7d-a3b2-65d1312a363a)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\6.png](fbfc22b1-d5a1-4a7d-a3b2-65d1312a363a)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.387Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\7.png](5bc434c7-b354-4086-852e-096dd1251440)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\7.png](5bc434c7-b354-4086-852e-096dd1251440)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:35.389Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\8.png](813baef2-4c81-46b8-8813-498c33e35384)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\8.png](813baef2-4c81-46b8-8813-498c33e35384)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.393Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\9.png](01b0d547-2f34-44bf-ad66-6ebeb50f5c46)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\9.png](01b0d547-2f34-44bf-ad66-6ebeb50f5c46)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.404Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\background-day.png](09343551-69db-4e52-b7a1-c361086c4dd2)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\background-day.png](09343551-69db-4e52-b7a1-c361086c4dd2)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.417Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\background-night.png](14371d7f-fd20-4e2f-a6a8-bc4639b19699)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\background-night.png](14371d7f-fd20-4e2f-a6a8-bc4639b19699)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.421Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\base.png](c565724c-496f-4bea-bfcd-425208171162)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\base.png](c565724c-496f-4bea-bfcd-425208171162)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.440Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-downflap.png](f9f1ec59-18c4-441c-904a-ef26cf802731)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-downflap.png](f9f1ec59-18c4-441c-904a-ef26cf802731)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.445Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-midflap.png](ffb04c35-3f23-4093-aaa6-d959cc32c344)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-midflap.png](ffb04c35-3f23-4093-aaa6-d959cc32c344)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.451Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\background-day.png@f9941](09343551-69db-4e52-b7a1-c361086c4dd2@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\background-day.png@f9941](09343551-69db-4e52-b7a1-c361086c4dd2@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.462Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-upflap.png](4b35b391-09ca-40f1-907a-0f06fe921267)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-upflap.png](4b35b391-09ca-40f1-907a-0f06fe921267)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.466Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\gameover.png](c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\gameover.png](c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.469Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\base.png@f9941](c565724c-496f-4bea-bfcd-425208171162@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\base.png@f9941](c565724c-496f-4bea-bfcd-425208171162@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.482Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-downflap.png@f9941](f9f1ec59-18c4-441c-904a-ef26cf802731@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-downflap.png@f9941](f9f1ec59-18c4-441c-904a-ef26cf802731@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.484Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\highscore.png](5ba8311c-4405-4daa-aa54-20a5d5f4fdf8)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\highscore.png](5ba8311c-4405-4daa-aa54-20a5d5f4fdf8)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.489Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\indicator.png](6de28355-966d-412d-a850-ec960349ccb5)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\indicator.png](6de28355-966d-412d-a850-ec960349ccb5)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.495Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-midflap.png@f9941](ffb04c35-3f23-4093-aaa6-d959cc32c344@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-midflap.png@f9941](ffb04c35-3f23-4093-aaa6-d959cc32c344@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.501Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-upflap.png@f9941](4b35b391-09ca-40f1-907a-0f06fe921267@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\bluebird-upflap.png@f9941](4b35b391-09ca-40f1-907a-0f06fe921267@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.502Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\gameover.png@f9941](c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\gameover.png@f9941](c72f45d1-4bfc-4dd2-a2e0-76a4c67c8bb8@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.504Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\leaderboard_btn.png](b96b06e0-a903-4977-86df-04145db18552)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\leaderboard_btn.png](b96b06e0-a903-4977-86df-04145db18552)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.509Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\message.png](b5da8c0c-d431-4518-ad60-6ddf87fee88c)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\message.png](b5da8c0c-d431-4518-ad60-6ddf87fee88c)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.512Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\pipe-green.png](b87cdaf9-afd1-45fa-a703-2578d3b58057)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\pipe-green.png](b87cdaf9-afd1-45fa-a703-2578d3b58057)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.531Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\highscore.png@f9941](5ba8311c-4405-4daa-aa54-20a5d5f4fdf8@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\highscore.png@f9941](5ba8311c-4405-4daa-aa54-20a5d5f4fdf8@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.538Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\indicator.png@f9941](6de28355-966d-412d-a850-ec960349ccb5@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\indicator.png@f9941](6de28355-966d-412d-a850-ec960349ccb5@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.543Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\pipe-red.png](93f9a416-2c92-463f-a301-70f250792522)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\pipe-red.png](93f9a416-2c92-463f-a301-70f250792522)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.547Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\pipe-green.png@f9941](b87cdaf9-afd1-45fa-a703-2578d3b58057@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\pipe-green.png@f9941](b87cdaf9-afd1-45fa-a703-2578d3b58057@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.551Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\redbird-downflap.png](6831e031-41a4-4002-8d0f-f7de34c41232)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\redbird-downflap.png](6831e031-41a4-4002-8d0f-f7de34c41232)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.556Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\redbird-midflap.png](745eccee-67e9-49cb-a30b-3bcdd960ee05)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\redbird-midflap.png](745eccee-67e9-49cb-a30b-3bcdd960ee05)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.561Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\redbird-upflap.png](37ad8e6a-ca19-412b-990b-df79d3cffbbe)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\redbird-upflap.png](37ad8e6a-ca19-412b-990b-df79d3cffbbe)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.563Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\leaderboard_btn.png@f9941](b96b06e0-a903-4977-86df-04145db18552@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\leaderboard_btn.png@f9941](b96b06e0-a903-4977-86df-04145db18552@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.572Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\pipe-red.png@f9941](93f9a416-2c92-463f-a301-70f250792522@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\pipe-red.png@f9941](93f9a416-2c92-463f-a301-70f250792522@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.578Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\start_btn.png](8be81e8e-8191-4260-9953-5fb3f024ee40)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\start_btn.png](8be81e8e-8191-4260-9953-5fb3f024ee40)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.583Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\Title.png](8ab253ab-cda8-462a-b819-c124d7176ae5)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\Title.png](8ab253ab-cda8-462a-b819-c124d7176ae5)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+2024-06-03T07:13:35.585Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\WhiteSquare.png](71863968-46d9-454d-a8f7-56c512c3b6cd)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\WhiteSquare.png](71863968-46d9-454d-a8f7-56c512c3b6cd)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.588Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\yellowbird-downflap.png](82d999b8-ee16-4ad6-9a36-5fc225512919)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\yellowbird-downflap.png](82d999b8-ee16-4ad6-9a36-5fc225512919)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.596Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\yellowbird-midflap.png](a00dd1b4-8ca0-43ca-8412-232cb51197c7)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\yellowbird-midflap.png](a00dd1b4-8ca0-43ca-8412-232cb51197c7)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.607Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\WhiteSquare.png@f9941](71863968-46d9-454d-a8f7-56c512c3b6cd@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\WhiteSquare.png@f9941](71863968-46d9-454d-a8f7-56c512c3b6cd@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.617Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\yellowbird-upflap.png](068cca7b-78d2-44d8-9677-ef14ab71b103)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\yellowbird-upflap.png](068cca7b-78d2-44d8-9677-ef14ab71b103)}: The importer version is lower than asset  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2070)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:742)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2194)
+2024-06-03T07:13:35.622Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\start_btn.png@f9941](8be81e8e-8191-4260-9953-5fb3f024ee40@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\start_btn.png@f9941](8be81e8e-8191-4260-9953-5fb3f024ee40@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.627Z - warn: [Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\Title.png@f9941](8ab253ab-cda8-462a-b819-c124d7176ae5@f9941)}: The importer version is lower than asset[Asset DB] Importer exec warning: {asset[D:\ThanhPhong\FE02\Project-FrontEnd2\assets\sprites\Title.png@f9941](8ab253ab-cda8-462a-b819-c124d7176ae5@f9941)}: The importer version is lower than asset  
+at ImportTask.importVirtualAsset (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:3274)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:774)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:1147)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2165)
+2024-06-03T07:13:35.649Z - warn: 
+2024-06-03T07:13:35.649Z - warn: 
+2024-06-03T07:13:35.649Z - warn: 
+2024-06-03T07:13:38.997Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.018Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.019Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.019Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.022Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2024-06-03T07:13:39.022Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2024-06-03T07:13:39.036Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.036Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.036Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.037Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.037Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.037Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.037Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.037Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.038Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.038Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.038Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.038Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.039Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.039Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.039Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.039Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.039Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.039Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.039Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.039Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2024-06-03T07:13:39.072Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2024-06-03T07:13:39.119Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2024-06-03T07:13:39.119Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2024-06-03T07:13:39.120Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2024-06-03T07:13:39.120Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2024-06-03T07:13:39.123Z - log: [Scene] Can not declare sp.Skeleton._updateBuiltinMaterial, it is already defined in the prototype of sp.Skeleton
+2024-06-03T07:13:39.123Z - log: [Scene] Can not declare sp.Skeleton.updateMaterial, it is already defined in the prototype of sp.Skeleton
+2024-06-03T07:13:39.127Z - log: [Scene] Can not declare dragonBones.ArmatureDisplay._updateBuiltinMaterial, it is already defined in the prototype of dragonBones.ArmatureDisplay
+2024-06-03T07:13:39.128Z - log: [Scene] Can not declare dragonBones.ArmatureDisplay.updateMaterial, it is already defined in the prototype of dragonBones.ArmatureDisplay
+2024-06-03T07:13:39.206Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2024-06-03T07:13:39.216Z - info: [Scene] [PHYSICS]: using builtin.
+2024-06-03T07:13:39.367Z - log: [Scene] Cocos Creator v3.6.3
+2024-06-03T07:13:39.368Z - info: [Scene] Forward render pipeline initialized.
+2024-06-03T07:13:39.507Z - warn: [Scene] Found possible circular reference in "pack:///chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at Object.execute (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js:74:18)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/c1/c1197de683ea2e6ee3f497b1d6f6b3dda8413386.js:13:13
+    at Object.execute (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/c1/c1197de683ea2e6ee3f497b1d6f6b3dda8413386.js:8:7)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:263:13)Error: [Scene] Found possible circular reference in "pack:///chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/c1/c1197de683ea2e6ee3f497b1d6f6b3dda8413386.js:13:13
+    at Object.execute (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/c1/c1197de683ea2e6ee3f497b1d6f6b3dda8413386.js:8:7)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:263:13)
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:318)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
+    at Module.report (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js:16:13)
+    at _reportPossibleCrUseOfBird (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js:13:17)
+    at Object.execute (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js:73:42)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+2024-06-03T07:13:39.508Z - warn: [Scene] You are explicitly specifying `undefined` type to cc property "bird" of cc class "Game".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}Error: [Scene] You are explicitly specifying `undefined` type to cc property "bird" of cc class "Game".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:318)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148042:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148256:5)
+    at parseAttributes (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117203:7)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:116899:5)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117097:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117128:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:225166:21)
+2024-06-03T07:13:39.538Z - warn: [Scene] Please specifiy a default value for "Game.bird" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "Game.bird" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148042:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148256:5)
+    at parseAttributes (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117253:7)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:116899:5)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117097:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117128:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:225166:21)
+2024-06-03T07:13:39.539Z - warn: [Scene] No need to specify the "type" of "Game.gameOverStartPos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverStartPos cc.Vec3Error: [Scene] No need to specify the "type" of "Game.gameOverStartPos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverStartPos cc.Vec3
+    at warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148042:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148256:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:226594:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:116903:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117097:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117128:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:225166:21)
+2024-06-03T07:13:39.539Z - warn: [Scene] No need to specify the "type" of "Game.gameOverHidePos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverHidePos cc.Vec3Error: [Scene] No need to specify the "type" of "Game.gameOverHidePos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverHidePos cc.Vec3
+    at warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148042:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148256:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:226594:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:116903:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117097:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117128:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:225166:21)
+2024-06-03T07:13:39.544Z - log: [Scene] No need to specify the "type" of "ClariceCamera.offset" because cc.Vec2 is a child class of ValueType.
+2024-06-03T07:13:40.540Z - warn: [Scene] Found possible circular reference in "pack:///chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at Object.execute (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js:74:18)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/c1/c1197de683ea2e6ee3f497b1d6f6b3dda8413386.js:13:13
+    at Object.execute (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/c1/c1197de683ea2e6ee3f497b1d6f6b3dda8413386.js:8:7)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:263:13)Error: [Scene] Found possible circular reference in "pack:///chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/c1/c1197de683ea2e6ee3f497b1d6f6b3dda8413386.js:13:13
+    at Object.execute (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/c1/c1197de683ea2e6ee3f497b1d6f6b3dda8413386.js:8:7)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:263:13)
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:318)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
+    at Module.report (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js:16:13)
+    at _reportPossibleCrUseOfBird (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js:13:17)
+    at Object.execute (file:///D:/ThanhPhong/FE02/Project-FrontEnd2/temp/programming/packer-driver/targets/editor/chunks/8f/8f069a3958230cd550df93281fb9db23d1b217e6.js:73:42)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+2024-06-03T07:13:40.540Z - warn: [Scene] You are explicitly specifying `undefined` type to cc property "bird" of cc class "Game".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}Error: [Scene] You are explicitly specifying `undefined` type to cc property "bird" of cc class "Game".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:318)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148042:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148256:5)
+    at parseAttributes (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117203:7)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:116899:5)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117097:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117128:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:225166:21)
+2024-06-03T07:13:40.540Z - warn: [Scene] Please specifiy a default value for "Game.bird" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "Game.bird" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148042:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148256:5)
+    at parseAttributes (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117253:7)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:116899:5)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117097:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117128:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:225166:21)
+2024-06-03T07:13:40.541Z - warn: [Scene] No need to specify the "type" of "Game.gameOverStartPos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverStartPos cc.Vec3Error: [Scene] No need to specify the "type" of "Game.gameOverStartPos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverStartPos cc.Vec3
+    at warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148042:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148256:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:226594:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:116903:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117097:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117128:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:225166:21)
+2024-06-03T07:13:40.541Z - warn: [Scene] No need to specify the "type" of "Game.gameOverHidePos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverHidePos cc.Vec3Error: [Scene] No need to specify the "type" of "Game.gameOverHidePos" because cc.Vec3 is a child class of ValueType. Just set the default value to 'new cc.Vec3()' and it will be handled properly. Game gameOverHidePos cc.Vec3
+    at warn (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148042:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148256:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:226594:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:116903:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117097:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:117128:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:225166:21)
+2024-06-03T07:13:40.543Z - log: [Scene] No need to specify the "type" of "ClariceCamera.offset" because cc.Vec2 is a child class of ValueType.
+2024-06-03T07:15:00.809Z - warn: [Scene] Missing class: cc.SortingError: [Scene] Missing class: cc.Sorting
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:99805:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118119:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118060:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118268:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118094:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118066:29)
+2024-06-03T07:15:00.812Z - warn: [Scene] Missing class: cc.SortingError: [Scene] Missing class: cc.Sorting
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:99805:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118119:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118060:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118268:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118094:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118066:29)
+2024-06-03T07:15:00.815Z - error: [Scene] Script "cc.Sorting" attached to "Sprite-Background" is missing or invalid. Detailed information:
+Node path: "CanvasGame/Camera/Sprite-Background"
+Error: [Scene] Script "cc.Sorting" attached to "Sprite-Background" is missing or invalid. Detailed information:
+Node path: "CanvasGame/Camera/Sprite-Background"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1156)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1252)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:306)
+    at doWalkProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2158)
+2024-06-03T07:15:00.817Z - error: [Scene] Script "cc.Sorting" attached to "Bird" is missing or invalid. Detailed information:
+Node path: "CanvasGame/Bird"
+Error: [Scene] Script "cc.Sorting" attached to "Bird" is missing or invalid. Detailed information:
+Node path: "CanvasGame/Bird"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1156)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1252)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:306)
+    at doWalkProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2158)
+2024-06-03T07:15:00.879Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\types\value-type-dump.ccc:1:242)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:5066)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:6896)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:3738
+    at Array.map (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:3666)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:1711
+2024-06-03T07:15:00.880Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6775)
+    at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3667)
+    at serialize (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10442)
+    at Object.serialize (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\index.ccc:1:510)
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\types\value-type-dump.ccc:1:154)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:5066)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:6896)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:3738
+    at Array.map (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:3666)
+2024-06-03T07:17:57.105Z - warn: [Scene] Missing class: cc.SortingError: [Scene] Missing class: cc.Sorting
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:99805:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118119:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118060:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118268:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118094:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118066:29)
+2024-06-03T07:17:57.107Z - warn: [Scene] Missing class: cc.SortingError: [Scene] Missing class: cc.Sorting
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:99805:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118119:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118060:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118268:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118094:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118066:29)
+2024-06-03T07:17:57.112Z - error: [Scene] Script "cc.Sorting" attached to "Sprite-Background" is missing or invalid. Detailed information:
+Node path: "CanvasGame/Camera/Sprite-Background"
+Error: [Scene] Script "cc.Sorting" attached to "Sprite-Background" is missing or invalid. Detailed information:
+Node path: "CanvasGame/Camera/Sprite-Background"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1156)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1252)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:306)
+    at doWalkProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2158)
+2024-06-03T07:17:57.114Z - error: [Scene] Script "cc.Sorting" attached to "Bird" is missing or invalid. Detailed information:
+Node path: "CanvasGame/Bird"
+Error: [Scene] Script "cc.Sorting" attached to "Bird" is missing or invalid. Detailed information:
+Node path: "CanvasGame/Bird"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1156)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1252)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:306)
+    at doWalkProperties (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2158)
+2024-06-03T07:17:57.144Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\types\value-type-dump.ccc:1:242)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:5066)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:6896)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:3738
+    at Array.map (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:3666)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:1711
+2024-06-03T07:17:57.144Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:6775)
+    at Parser.parse (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:3667)
+    at serialize (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\parser.ccc:1:10442)
+    at Object.serialize (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\engine\dist\editor-extends\utils\serialize\index.ccc:1:510)
+    at ValueTypeDump.encode (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\types\value-type-dump.ccc:1:154)
+    at _encodeByType (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:5066)
+    at encodeObject (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:6896)
+    at C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:3738
+    at Array.map (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.6.3\resources\app.asar\builtin\scene\dist\utils\dump\encode.ccc:1:3666)
+2024-06-03T07:18:28.802Z - warn: Metrics: no valid info

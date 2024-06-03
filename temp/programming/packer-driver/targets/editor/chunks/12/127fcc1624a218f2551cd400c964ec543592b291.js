@@ -39,35 +39,46 @@ System.register(["cc"], function (_export, _context) {
         constructor(...args) {
           super(...args);
 
+          // Thuộc tính để chứa đối tượng Sprite sẽ được hoạt hình
           _initializerDefineProperty(this, "Sprite", _descriptor, this);
 
+          // Mảng các khung hình Sprite để tạo hoạt hình
           _initializerDefineProperty(this, "sprites", _descriptor2, this);
 
+          // Số khung hình trên giây
           _initializerDefineProperty(this, "framesPerSecond", _descriptor3, this);
 
+          // Biến kiểm tra xem hoạt hình có đang tạm dừng hay không
           _initializerDefineProperty(this, "paused", _descriptor4, this);
 
+          // Khung hình hiện tại của hoạt hình
           this._currentFrame = 0;
+          // Thời gian từ khung hình cuối cùng
           this._timeSinceLastFrame = 0;
         }
 
+        // Hàm khởi tạo, được gọi khi đối tượng được tải
         onLoad() {
+          // Lấy thành phần Sprite từ node
           this.Sprite = this.node.getComponent(Sprite);
-        }
+        } // Hàm cập nhật, được gọi mỗi khung hình
+
 
         update(deltaTime) {
-          if (this.paused) return;
-          this._timeSinceLastFrame += deltaTime;
+          // Nếu hoạt hình đang tạm dừng, thoát hàm
+          if (this.paused) return; // Cập nhật thời gian từ khung hình cuối cùng
+
+          this._timeSinceLastFrame += deltaTime; // Nếu thời gian đã đủ để chuyển sang khung hình tiếp theo
 
           if (this._timeSinceLastFrame >= 1 / this.framesPerSecond) {
-            this._currentFrame = (this._currentFrame + 1) % this.sprites.length;
-            this._timeSinceLastFrame = 0;
-          }
+            // Cập nhật khung hình hiện tại
+            this._currentFrame = (this._currentFrame + 1) % this.sprites.length; // Đặt lại thời gian từ khung hình cuối cùng
 
-          for (let i = 0; i < this.sprites.length; ++i) {
-            // this.sprites[i].active = i == this._currentFrame;
-            this.Sprite.spriteFrame = this.sprites[this._currentFrame];
-          }
+            this._timeSinceLastFrame = 0;
+          } // Cập nhật SpriteFrame hiện tại cho đối tượng Sprite
+
+
+          this.Sprite.spriteFrame = this.sprites[this._currentFrame];
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "Sprite", [_dec2], {

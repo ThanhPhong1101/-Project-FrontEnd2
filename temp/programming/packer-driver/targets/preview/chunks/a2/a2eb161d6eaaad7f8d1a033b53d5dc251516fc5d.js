@@ -24,12 +24,14 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "10c0c1pi2JDup+SUzWnlDvu", "ClariceCamera", undefined);
 
+      // Import các module cần thiết từ 'cc'
       __checkObsolete__(['_decorator', 'Component', 'Node', 'Vec2']);
 
       ({
         ccclass,
         property
-      } = _decorator); /// <summary>
+      } = _decorator); // Lấy ccclass và property từ _decorator
+      /// <summary>
       /// This is a Camera Script to follow the player.
       /// Must be attached to the Camera Node.
       /// </summary>
@@ -42,24 +44,34 @@ System.register(["cc"], function (_export, _context) {
         type: Vec2,
         tooltip: "The offset to follow",
         displayOrder: 2
-      }), _dec(_class = (_class2 = class ClariceCamera extends Component {
+      }), _dec(_class = (_class2 = class ClariceCamera extends Component // Định nghĩa lớp ClariceCamera kế thừa từ Component
+      {
         constructor() {
           super(...arguments);
 
           _initializerDefineProperty(this, "target", _descriptor, this);
 
+          // Đối tượng mục tiêu mà camera sẽ theo dõi
           _initializerDefineProperty(this, "offset", _descriptor2, this);
         }
 
-        start() {}
+        // Khoảng cách bù để camera theo dõi
+        // start() 
+        // {
+        //     
+        // }
+        update(deltaTime) // Hàm được gọi mỗi frame
+        {
+          if (this.target == null) return; // Nếu không có mục tiêu thì không làm gì cả
 
-        update(deltaTime) {
-          if (this.target == null) return;
-          var targetPos = this.target.getWorldPosition();
-          var CameraPos = this.node.getWorldPosition();
-          CameraPos.x = targetPos.x + this.offset.x; // CameraPos.y = targetPos.y + this.offset.y;//Not requiered for this game.
+          var targetPos = this.target.getWorldPosition(); // Lấy vị trí của mục tiêu
 
-          this.node.setWorldPosition(CameraPos);
+          var CameraPos = this.node.getWorldPosition(); // Lấy vị trí hiện tại của camera
+
+          CameraPos.x = targetPos.x + this.offset.x; // Cập nhật vị trí x của camera dựa trên vị trí mục tiêu và khoảng cách bù
+          // CameraPos.y = targetPos.y + this.offset.y; // Không cần cập nhật y trong trò chơi này
+
+          this.node.setWorldPosition(CameraPos); // Đặt lại vị trí của camera
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "target", [_dec2], {

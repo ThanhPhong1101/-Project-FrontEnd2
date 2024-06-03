@@ -1,0 +1,760 @@
+3-6-2024 15:15:27-log: Cannot access game frame or container.
+3-6-2024 15:15:28-debug: asset-db:require-engine-code (1554ms)
+3-6-2024 15:15:28-log: meshopt wasm decoder initialized
+3-6-2024 15:15:28-log: [bullet]:bullet wasm lib loaded.
+3-6-2024 15:15:28-log: [box2d]:box2d wasm lib loaded.
+3-6-2024 15:15:28-log: Cocos Creator v3.8.3
+3-6-2024 15:15:28-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:24.45MB, end 77.78MB, increase: 53.33MB
+3-6-2024 15:15:28-debug: [Assets Memory track]: asset-db-plugin-register: programming start:78.54MB, end 81.98MB, increase: 3.44MB
+3-6-2024 15:15:31-debug: run package(cocos-service) handler(disable) start
+3-6-2024 15:15:31-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.41MB, end 175.77MB, increase: 97.36MB
+3-6-2024 15:15:31-debug: run package(cocos-service) handler(disable) success!
+3-6-2024 15:15:31-debug: [Assets Memory track]: asset-db-plugin-register: builder start:81.99MB, end 179.85MB, increase: 97.86MB
+3-6-2024 15:15:31-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:77.79MB, end 175.79MB, increase: 98.00MB
+3-6-2024 15:15:31-debug: run package(cocos-service) handler(enable) start
+3-6-2024 15:15:31-debug: run package(cocos-service) handler(enable) success!
+3-6-2024 15:15:31-debug: asset-db:worker-init: initPlugin (2948ms)
+3-6-2024 15:15:31-debug: [Assets Memory track]: asset-db:worker-init start:24.44MB, end 176.00MB, increase: 151.56MB
+3-6-2024 15:15:31-debug: Run asset db hook programming:beforePreStart success!
+3-6-2024 15:15:31-debug: Run asset db hook engine-extends:beforePreStart success!
+3-6-2024 15:15:31-debug: Run asset db hook engine-extends:beforePreStart ...
+3-6-2024 15:15:31-debug: Run asset db hook programming:beforePreStart ...
+3-6-2024 15:15:31-debug: asset-db-hook-programming-beforePreStart (133ms)
+3-6-2024 15:15:31-debug: asset-db:worker-init (4923ms)
+3-6-2024 15:15:31-debug: asset-db-hook-engine-extends-beforePreStart (133ms)
+3-6-2024 15:15:31-debug: Preimport db internal success
+3-6-2024 15:15:31-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Android\AndroidNative.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 15:15:31-debug: Preimport db assets success
+3-6-2024 15:15:31-debug: Run asset db hook programming:afterPreStart ...
+3-6-2024 15:15:31-debug: starting packer-driver...
+3-6-2024 15:15:32-debug: initialize scripting environment...
+3-6-2024 15:15:32-debug: Set detail map pack:///resolution-detail-map.json: {}
+3-6-2024 15:15:32-debug: Run asset db hook engine-extends:afterPreStart success!
+3-6-2024 15:15:32-debug: Run asset db hook programming:afterPreStart success!
+3-6-2024 15:15:32-debug: [Assets Memory track]: asset-db:worker-init: preStart start:176.01MB, end 177.27MB, increase: 1.25MB
+3-6-2024 15:15:32-debug: Start up the 'internal' database...
+3-6-2024 15:15:32-debug: Run asset db hook engine-extends:afterPreStart ...
+3-6-2024 15:15:32-debug: asset-db:worker-effect-data-processing (436ms)
+3-6-2024 15:15:32-debug: asset-db-hook-programming-afterPreStart (1000ms)
+3-6-2024 15:15:32-debug: asset-db-hook-engine-extends-afterPreStart (437ms)
+3-6-2024 15:15:32-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:176.06MB, end 190.44MB, increase: 14.38MB
+3-6-2024 15:15:32-debug: Start up the 'assets' database...
+3-6-2024 15:15:32-debug: asset-db:worker-startup-database[internal] (1324ms)
+3-6-2024 15:15:32-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:181.03MB, end 191.42MB, increase: 10.40MB
+3-6-2024 15:15:32-debug: [Assets Memory track]: asset-db:worker-init: startup start:177.27MB, end 191.43MB, increase: 14.16MB
+3-6-2024 15:15:32-debug: lazy register asset handler *
+3-6-2024 15:15:32-debug: lazy register asset handler directory
+3-6-2024 15:15:32-debug: lazy register asset handler text
+3-6-2024 15:15:32-debug: lazy register asset handler json
+3-6-2024 15:15:32-debug: lazy register asset handler spine-data
+3-6-2024 15:15:32-debug: lazy register asset handler dragonbones
+3-6-2024 15:15:32-debug: lazy register asset handler dragonbones-atlas
+3-6-2024 15:15:32-debug: lazy register asset handler typescript
+3-6-2024 15:15:32-debug: lazy register asset handler scene
+3-6-2024 15:15:32-debug: lazy register asset handler prefab
+3-6-2024 15:15:32-debug: lazy register asset handler sprite-frame
+3-6-2024 15:15:32-debug: lazy register asset handler tiled-map
+3-6-2024 15:15:32-debug: lazy register asset handler terrain
+3-6-2024 15:15:32-debug: lazy register asset handler javascript
+3-6-2024 15:15:32-debug: lazy register asset handler image
+3-6-2024 15:15:32-debug: lazy register asset handler buffer
+3-6-2024 15:15:32-debug: lazy register asset handler sign-image
+3-6-2024 15:15:32-debug: lazy register asset handler alpha-image
+3-6-2024 15:15:32-debug: lazy register asset handler texture
+3-6-2024 15:15:32-debug: lazy register asset handler texture-cube
+3-6-2024 15:15:32-debug: lazy register asset handler erp-texture-cube
+3-6-2024 15:15:32-debug: lazy register asset handler render-texture
+3-6-2024 15:15:32-debug: lazy register asset handler texture-cube-face
+3-6-2024 15:15:32-debug: lazy register asset handler rt-sprite-frame
+3-6-2024 15:15:32-debug: lazy register asset handler gltf
+3-6-2024 15:15:32-debug: lazy register asset handler gltf-mesh
+3-6-2024 15:15:32-debug: lazy register asset handler gltf-animation
+3-6-2024 15:15:32-debug: lazy register asset handler gltf-skeleton
+3-6-2024 15:15:32-debug: lazy register asset handler gltf-material
+3-6-2024 15:15:32-debug: lazy register asset handler gltf-scene
+3-6-2024 15:15:32-debug: lazy register asset handler gltf-embeded-image
+3-6-2024 15:15:32-debug: lazy register asset handler fbx
+3-6-2024 15:15:32-debug: lazy register asset handler material
+3-6-2024 15:15:32-debug: lazy register asset handler physics-material
+3-6-2024 15:15:32-debug: lazy register asset handler effect
+3-6-2024 15:15:32-debug: lazy register asset handler effect-header
+3-6-2024 15:15:32-debug: lazy register asset handler audio-clip
+3-6-2024 15:15:32-debug: lazy register asset handler animation-clip
+3-6-2024 15:15:32-debug: lazy register asset handler animation-graph
+3-6-2024 15:15:32-debug: lazy register asset handler animation-graph-variant
+3-6-2024 15:15:32-debug: lazy register asset handler animation-mask
+3-6-2024 15:15:32-debug: lazy register asset handler ttf-font
+3-6-2024 15:15:32-debug: lazy register asset handler bitmap-font
+3-6-2024 15:15:32-debug: lazy register asset handler particle
+3-6-2024 15:15:32-debug: lazy register asset handler sprite-atlas
+3-6-2024 15:15:32-debug: lazy register asset handler auto-atlas
+3-6-2024 15:15:32-debug: lazy register asset handler label-atlas
+3-6-2024 15:15:32-debug: lazy register asset handler render-pipeline
+3-6-2024 15:15:32-debug: lazy register asset handler render-stage
+3-6-2024 15:15:32-debug: lazy register asset handler render-flow
+3-6-2024 15:15:32-debug: lazy register asset handler instantiation-material
+3-6-2024 15:15:32-debug: lazy register asset handler instantiation-mesh
+3-6-2024 15:15:32-debug: lazy register asset handler instantiation-skeleton
+3-6-2024 15:15:32-debug: lazy register asset handler instantiation-animation
+3-6-2024 15:15:32-debug: lazy register asset handler video-clip
+3-6-2024 15:15:32-debug: asset-db:worker-startup-database[assets] (1214ms)
+3-6-2024 15:15:32-debug: asset-db:ready (9623ms)
+3-6-2024 15:15:32-debug: asset-db:start-database (1398ms)
+3-6-2024 15:15:32-debug: init worker message success
+3-6-2024 15:15:32-debug: programming:execute-script (8ms)
+3-6-2024 15:15:33-debug: [Build Memory track]: builder:worker-init start:189.11MB, end 198.44MB, increase: 9.34MB
+3-6-2024 15:15:34-debug: builder:worker-init (1291ms)
+3-6-2024 15:15:34-debug: Query all assets info in project
+3-6-2024 15:15:34-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 15:15:34-debug: Query asset bundle start, progress: 0%
+3-6-2024 15:15:34-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:15:34-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 15:15:34-debug:   Number of all scenes: 2
+3-6-2024 15:15:34-debug:   Number of all scripts: 16
+3-6-2024 15:15:34-debug:   Number of other assets: 384
+3-6-2024 15:15:34-debug: // ---- build task Query asset bundle ---- (8ms)
+3-6-2024 15:15:34-debug: run build task Query asset bundle success in 8 ms√, progress: 5%
+3-6-2024 15:15:34-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:15:34-debug: [Build Memory track]: Query asset bundle start:199.18MB, end 199.69MB, increase: 523.63KB
+3-6-2024 15:15:34-debug: Query asset bundle start, progress: 5%
+3-6-2024 15:15:34-debug: // ---- build task Query asset bundle ---- (4ms)
+3-6-2024 15:15:34-debug: run build task Query asset bundle success in 4 ms√, progress: 10%
+3-6-2024 15:15:34-debug: [Build Memory track]: Query asset bundle start:199.70MB, end 199.79MB, increase: 87.34KB
+3-6-2024 15:15:34-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 15:15:34-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:15:34-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+3-6-2024 15:15:34-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+3-6-2024 15:15:34-debug: // ---- build task Fill script data to settings ----
+3-6-2024 15:15:34-debug: [Build Memory track]: Sort some build options to settings.json start:199.81MB, end 199.82MB, increase: 16.57KB
+3-6-2024 15:15:34-debug: Fill script data to settings start, progress: 12%
+3-6-2024 15:15:34-debug: // ---- build task Fill script data to settings ---- (2ms)
+3-6-2024 15:15:34-debug: run build task Fill script data to settings success in 2 ms√, progress: 13%
+3-6-2024 15:15:34-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 15:15:34-debug: [Build Memory track]: Fill script data to settings start:199.84MB, end 199.85MB, increase: 17.27KB
+3-6-2024 15:15:34-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:15:34-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+3-6-2024 15:15:34-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
+3-6-2024 15:15:34-debug: [Build Memory track]: Sort some build options to settings.json start:199.87MB, end 199.99MB, increase: 128.45KB
+3-6-2024 15:15:52-debug: Query all assets info in project
+3-6-2024 15:15:52-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 15:15:53-debug: Query asset bundle start, progress: 0%
+3-6-2024 15:15:53-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:15:53-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 15:15:53-debug:   Number of all scripts: 16
+3-6-2024 15:15:53-debug:   Number of all scenes: 2
+3-6-2024 15:15:53-debug:   Number of other assets: 384
+3-6-2024 15:15:53-debug: run build task Query asset bundle success in 12 ms√, progress: 5%
+3-6-2024 15:15:53-debug: [Build Memory track]: Query asset bundle start:165.18MB, end 165.70MB, increase: 540.45KB
+3-6-2024 15:15:53-debug: Query asset bundle start, progress: 5%
+3-6-2024 15:15:53-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:15:53-debug: // ---- build task Query asset bundle ---- (12ms)
+3-6-2024 15:15:53-debug: // ---- build task Query asset bundle ---- (5ms)
+3-6-2024 15:15:53-debug: run build task Query asset bundle success in 5 ms√, progress: 10%
+3-6-2024 15:15:53-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:15:53-debug: [Build Memory track]: Query asset bundle start:165.72MB, end 165.82MB, increase: 101.02KB
+3-6-2024 15:15:53-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 15:15:53-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+3-6-2024 15:15:53-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+3-6-2024 15:15:53-debug: [Build Memory track]: Sort some build options to settings.json start:165.83MB, end 165.85MB, increase: 19.58KB
+3-6-2024 15:15:53-debug: Fill script data to settings start, progress: 12%
+3-6-2024 15:15:53-debug: // ---- build task Fill script data to settings ----
+3-6-2024 15:15:53-debug: // ---- build task Fill script data to settings ---- (3ms)
+3-6-2024 15:15:53-debug: [Build Memory track]: Fill script data to settings start:165.87MB, end 165.88MB, increase: 15.43KB
+3-6-2024 15:15:53-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 15:15:53-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:15:53-debug: run build task Fill script data to settings success in 3 ms√, progress: 13%
+3-6-2024 15:15:53-debug: // ---- build task Sort some build options to settings.json ---- (11ms)
+3-6-2024 15:15:53-debug: run build task Sort some build options to settings.json success in 11 ms√, progress: 15%
+3-6-2024 15:15:53-debug: [Build Memory track]: Sort some build options to settings.json start:165.89MB, end 165.14MB, increase: -770.01KB
+3-6-2024 15:18:11-debug: refresh db internal success
+3-6-2024 15:18:11-debug: refresh db assets success
+3-6-2024 15:18:11-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 15:18:11-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 15:18:11-debug: asset-db:refresh-all-database (128ms)
+3-6-2024 15:18:11-debug: asset-db:worker-effect-data-processing (1ms)
+3-6-2024 15:18:11-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+3-6-2024 15:55:40-debug: refresh db internal success
+3-6-2024 15:55:40-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Bird.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 15:55:40-debug: refresh db assets success
+3-6-2024 15:55:40-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 15:55:40-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 15:55:40-debug: asset-db:worker-effect-data-processing (1ms)
+3-6-2024 15:55:40-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+3-6-2024 15:55:40-debug: asset-db:refresh-all-database (125ms)
+3-6-2024 15:55:41-debug: Query all assets info in project
+3-6-2024 15:55:41-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 15:55:41-debug: Query asset bundle start, progress: 0%
+3-6-2024 15:55:41-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:55:41-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 15:55:41-debug:   Number of other assets: 384
+3-6-2024 15:55:41-debug:   Number of all scripts: 16
+3-6-2024 15:55:41-debug:   Number of all scenes: 2
+3-6-2024 15:55:41-debug: // ---- build task Query asset bundle ---- (6ms)
+3-6-2024 15:55:41-debug: [Build Memory track]: Query asset bundle start:168.10MB, end 167.70MB, increase: -411.30KB
+3-6-2024 15:55:41-debug: run build task Query asset bundle success in 6 ms√, progress: 5%
+3-6-2024 15:55:41-debug: Query asset bundle start, progress: 5%
+3-6-2024 15:55:41-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:55:41-debug: // ---- build task Query asset bundle ---- (2ms)
+3-6-2024 15:55:41-debug: run build task Query asset bundle success in 2 ms√, progress: 10%
+3-6-2024 15:55:41-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 15:55:41-debug: [Build Memory track]: Query asset bundle start:167.71MB, end 167.80MB, increase: 87.70KB
+3-6-2024 15:55:41-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:55:41-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+3-6-2024 15:55:41-debug: Fill script data to settings start, progress: 12%
+3-6-2024 15:55:41-debug: [Build Memory track]: Sort some build options to settings.json start:167.81MB, end 167.83MB, increase: 13.54KB
+3-6-2024 15:55:41-debug: // ---- build task Fill script data to settings ----
+3-6-2024 15:55:41-debug: // ---- build task Fill script data to settings ---- (1ms)
+3-6-2024 15:55:41-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+3-6-2024 15:55:41-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:55:41-debug: [Build Memory track]: Fill script data to settings start:167.84MB, end 167.86MB, increase: 15.35KB
+3-6-2024 15:55:41-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 15:55:41-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+3-6-2024 15:55:41-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
+3-6-2024 15:55:41-debug: [Build Memory track]: Sort some build options to settings.json start:167.87MB, end 167.99MB, increase: 123.07KB
+3-6-2024 15:55:44-debug: Query all assets info in project
+3-6-2024 15:55:44-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 15:55:44-debug: Query asset bundle start, progress: 0%
+3-6-2024 15:55:44-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:55:44-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 15:55:44-debug:   Number of all scripts: 16
+3-6-2024 15:55:44-debug:   Number of other assets: 384
+3-6-2024 15:55:44-debug:   Number of all scenes: 2
+3-6-2024 15:55:44-debug: // ---- build task Query asset bundle ---- (7ms)
+3-6-2024 15:55:44-debug: run build task Query asset bundle success in 7 ms√, progress: 5%
+3-6-2024 15:55:44-debug: Query asset bundle start, progress: 5%
+3-6-2024 15:55:44-debug: [Build Memory track]: Query asset bundle start:168.32MB, end 167.95MB, increase: -373.84KB
+3-6-2024 15:55:44-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:55:44-debug: // ---- build task Query asset bundle ---- (3ms)
+3-6-2024 15:55:44-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+3-6-2024 15:55:44-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:55:44-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 15:55:44-debug: [Build Memory track]: Query asset bundle start:167.96MB, end 168.05MB, increase: 87.03KB
+3-6-2024 15:55:44-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+3-6-2024 15:55:44-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+3-6-2024 15:55:44-debug: [Build Memory track]: Sort some build options to settings.json start:168.06MB, end 168.08MB, increase: 17.27KB
+3-6-2024 15:55:44-debug: // ---- build task Fill script data to settings ----
+3-6-2024 15:55:44-debug: Fill script data to settings start, progress: 12%
+3-6-2024 15:55:44-debug: run build task Fill script data to settings success in √, progress: 13%
+3-6-2024 15:55:44-debug: [Build Memory track]: Fill script data to settings start:168.10MB, end 168.11MB, increase: 12.40KB
+3-6-2024 15:55:44-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:55:44-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 15:55:44-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+3-6-2024 15:55:44-debug: [Build Memory track]: Sort some build options to settings.json start:168.12MB, end 168.24MB, increase: 122.07KB
+3-6-2024 15:55:44-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
+3-6-2024 15:56:36-debug: refresh db internal success
+3-6-2024 15:56:36-debug: refresh db assets success
+3-6-2024 15:56:36-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 15:56:36-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 15:56:36-debug: asset-db:refresh-all-database (122ms)
+3-6-2024 15:57:36-debug: refresh db internal success
+3-6-2024 15:57:36-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\BirdMenu.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 15:57:36-debug: refresh db assets success
+3-6-2024 15:57:36-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 15:57:36-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 15:57:36-debug: asset-db:refresh-all-database (133ms)
+3-6-2024 15:57:36-debug: asset-db:worker-effect-data-processing (1ms)
+3-6-2024 15:57:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+3-6-2024 15:57:37-debug: Query all assets info in project
+3-6-2024 15:57:37-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 15:57:37-debug: Query asset bundle start, progress: 0%
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:57:37-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 15:57:37-debug:   Number of all scripts: 16
+3-6-2024 15:57:37-debug:   Number of other assets: 384
+3-6-2024 15:57:37-debug:   Number of all scenes: 2
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ---- (8ms)
+3-6-2024 15:57:37-debug: run build task Query asset bundle success in 8 ms√, progress: 5%
+3-6-2024 15:57:37-debug: Query asset bundle start, progress: 5%
+3-6-2024 15:57:37-debug: [Build Memory track]: Query asset bundle start:170.67MB, end 170.28MB, increase: -393.21KB
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ---- (9ms)
+3-6-2024 15:57:37-debug: [Build Memory track]: Query asset bundle start:170.30MB, end 170.38MB, increase: 85.61KB
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:57:37-debug: run build task Query asset bundle success in 9 ms√, progress: 10%
+3-6-2024 15:57:37-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+3-6-2024 15:57:37-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+3-6-2024 15:57:37-debug: [Build Memory track]: Sort some build options to settings.json start:170.40MB, end 170.41MB, increase: 16.74KB
+3-6-2024 15:57:37-debug: // ---- build task Fill script data to settings ----
+3-6-2024 15:57:37-debug: Fill script data to settings start, progress: 12%
+3-6-2024 15:57:37-debug: run build task Fill script data to settings success in √, progress: 13%
+3-6-2024 15:57:37-debug: [Build Memory track]: Fill script data to settings start:170.43MB, end 170.44MB, increase: 11.29KB
+3-6-2024 15:57:37-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ---- (10ms)
+3-6-2024 15:57:37-debug: run build task Sort some build options to settings.json success in 10 ms√, progress: 15%
+3-6-2024 15:57:37-debug: [Build Memory track]: Sort some build options to settings.json start:170.45MB, end 170.57MB, increase: 121.39KB
+3-6-2024 15:57:37-debug: Query all assets info in project
+3-6-2024 15:57:37-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 15:57:37-debug: Query asset bundle start, progress: 0%
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:57:37-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 15:57:37-debug:   Number of all scripts: 16
+3-6-2024 15:57:37-debug:   Number of all scenes: 2
+3-6-2024 15:57:37-debug:   Number of other assets: 384
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ---- (19ms)
+3-6-2024 15:57:37-debug: run build task Query asset bundle success in 19 ms√, progress: 5%
+3-6-2024 15:57:37-debug: [Build Memory track]: Query asset bundle start:170.88MB, end 170.55MB, increase: -331.83KB
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:57:37-debug: Query asset bundle start, progress: 5%
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ---- (5ms)
+3-6-2024 15:57:37-debug: run build task Query asset bundle success in 5 ms√, progress: 10%
+3-6-2024 15:57:37-debug: [Build Memory track]: Query asset bundle start:170.57MB, end 170.65MB, increase: 85.46KB
+3-6-2024 15:57:37-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:57:37-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+3-6-2024 15:57:37-debug: [Build Memory track]: Sort some build options to settings.json start:170.67MB, end 170.68MB, increase: 9.55KB
+3-6-2024 15:57:37-debug: Fill script data to settings start, progress: 12%
+3-6-2024 15:57:37-debug: // ---- build task Fill script data to settings ----
+3-6-2024 15:57:37-debug: run build task Fill script data to settings success in 2 ms√, progress: 13%
+3-6-2024 15:57:37-debug: [Build Memory track]: Fill script data to settings start:170.69MB, end 170.71MB, increase: 16.61KB
+3-6-2024 15:57:37-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:57:37-debug: // ---- build task Fill script data to settings ---- (2ms)
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ---- (10ms)
+3-6-2024 15:57:37-debug: run build task Sort some build options to settings.json success in 10 ms√, progress: 15%
+3-6-2024 15:57:37-debug: [Build Memory track]: Sort some build options to settings.json start:170.72MB, end 170.11MB, increase: -623.52KB
+3-6-2024 15:57:37-debug: Query all assets info in project
+3-6-2024 15:57:37-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 15:57:37-debug: Query asset bundle start, progress: 0%
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:57:37-debug:   Number of all scenes: 2
+3-6-2024 15:57:37-debug:   Number of all scripts: 16
+3-6-2024 15:57:37-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 15:57:37-debug:   Number of other assets: 384
+3-6-2024 15:57:37-debug: run build task Query asset bundle success in 9 ms√, progress: 5%
+3-6-2024 15:57:37-debug: [Build Memory track]: Query asset bundle start:170.47MB, end 170.23MB, increase: -252.47KB
+3-6-2024 15:57:37-debug: Query asset bundle start, progress: 5%
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ----
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ---- (9ms)
+3-6-2024 15:57:37-debug: // ---- build task Query asset bundle ---- (5ms)
+3-6-2024 15:57:37-debug: run build task Query asset bundle success in 5 ms√, progress: 10%
+3-6-2024 15:57:37-debug: [Build Memory track]: Query asset bundle start:170.24MB, end 170.32MB, increase: 84.76KB
+3-6-2024 15:57:37-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ---- (7ms)
+3-6-2024 15:57:37-debug: run build task Sort some build options to settings.json success in 7 ms√, progress: 12%
+3-6-2024 15:57:37-debug: [Build Memory track]: Sort some build options to settings.json start:170.34MB, end 170.35MB, increase: 14.00KB
+3-6-2024 15:57:37-debug: Fill script data to settings start, progress: 12%
+3-6-2024 15:57:37-debug: // ---- build task Fill script data to settings ----
+3-6-2024 15:57:37-debug: run build task Fill script data to settings success in 5 ms√, progress: 13%
+3-6-2024 15:57:37-debug: [Build Memory track]: Fill script data to settings start:170.37MB, end 170.38MB, increase: 18.32KB
+3-6-2024 15:57:37-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 15:57:37-debug: // ---- build task Fill script data to settings ---- (5ms)
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 15:57:37-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
+3-6-2024 15:57:37-debug: [Build Memory track]: Sort some build options to settings.json start:170.40MB, end 170.52MB, increase: 124.28KB
+3-6-2024 15:57:37-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+3-6-2024 15:57:38-debug: refresh db internal success
+3-6-2024 15:57:38-debug: refresh db assets success
+3-6-2024 15:57:38-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 15:57:38-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 15:57:38-debug: asset-db:refresh-all-database (193ms)
+3-6-2024 15:57:38-debug: asset-db:worker-effect-data-processing (1ms)
+3-6-2024 15:57:38-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+3-6-2024 16:03:16-debug: Query all assets info in project
+3-6-2024 16:03:16-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 16:03:16-debug: Query asset bundle start, progress: 0%
+3-6-2024 16:03:16-debug: // ---- build task Query asset bundle ----
+3-6-2024 16:03:16-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 16:03:16-debug:   Number of all scenes: 2
+3-6-2024 16:03:16-debug:   Number of all scripts: 16
+3-6-2024 16:03:16-debug:   Number of other assets: 384
+3-6-2024 16:03:16-debug: // ---- build task Query asset bundle ---- (9ms)
+3-6-2024 16:03:16-debug: run build task Query asset bundle success in 9 ms√, progress: 5%
+3-6-2024 16:03:16-debug: [Build Memory track]: Query asset bundle start:172.22MB, end 171.15MB, increase: -1091.86KB
+3-6-2024 16:03:16-debug: Query asset bundle start, progress: 5%
+3-6-2024 16:03:16-debug: // ---- build task Query asset bundle ----
+3-6-2024 16:03:16-debug: // ---- build task Query asset bundle ---- (3ms)
+3-6-2024 16:03:16-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+3-6-2024 16:03:16-debug: [Build Memory track]: Query asset bundle start:171.16MB, end 171.25MB, increase: 87.21KB
+3-6-2024 16:03:16-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 16:03:16-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 16:03:16-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+3-6-2024 16:03:16-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 12%
+3-6-2024 16:03:16-debug: [Build Memory track]: Sort some build options to settings.json start:171.26MB, end 171.28MB, increase: 13.97KB
+3-6-2024 16:03:16-debug: Fill script data to settings start, progress: 12%
+3-6-2024 16:03:16-debug: // ---- build task Fill script data to settings ----
+3-6-2024 16:03:16-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+3-6-2024 16:03:16-debug: // ---- build task Fill script data to settings ---- (1ms)
+3-6-2024 16:03:16-debug: [Build Memory track]: Fill script data to settings start:171.29MB, end 171.31MB, increase: 14.97KB
+3-6-2024 16:03:16-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 16:03:16-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 16:03:16-debug: // ---- build task Sort some build options to settings.json ---- (4ms)
+3-6-2024 16:03:16-debug: run build task Sort some build options to settings.json success in 4 ms√, progress: 15%
+3-6-2024 16:03:16-debug: [Build Memory track]: Sort some build options to settings.json start:171.32MB, end 171.44MB, increase: 125.39KB
+3-6-2024 16:03:24-debug: refresh db internal success
+3-6-2024 16:03:24-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\ClariceCamera.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 16:03:24-debug: refresh db assets success
+3-6-2024 16:03:24-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 16:03:24-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 16:03:24-debug: asset-db:refresh-all-database (127ms)
+3-6-2024 16:03:24-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+3-6-2024 16:03:26-debug: Query all assets info in project
+3-6-2024 16:03:26-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 16:03:26-debug: Query asset bundle start, progress: 0%
+3-6-2024 16:03:26-debug: // ---- build task Query asset bundle ----
+3-6-2024 16:03:26-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 16:03:26-debug:   Number of all scenes: 2
+3-6-2024 16:03:26-debug:   Number of all scripts: 16
+3-6-2024 16:03:26-debug:   Number of other assets: 384
+3-6-2024 16:03:26-debug: // ---- build task Query asset bundle ---- (11ms)
+3-6-2024 16:03:26-debug: run build task Query asset bundle success in 11 ms√, progress: 5%
+3-6-2024 16:03:26-debug: Query asset bundle start, progress: 5%
+3-6-2024 16:03:26-debug: [Build Memory track]: Query asset bundle start:173.59MB, end 174.08MB, increase: 498.67KB
+3-6-2024 16:03:26-debug: // ---- build task Query asset bundle ----
+3-6-2024 16:03:26-debug: // ---- build task Query asset bundle ---- (3ms)
+3-6-2024 16:03:26-debug: [Build Memory track]: Query asset bundle start:174.09MB, end 174.18MB, increase: 85.46KB
+3-6-2024 16:03:26-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+3-6-2024 16:03:26-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 16:03:26-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 16:03:26-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+3-6-2024 16:03:26-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+3-6-2024 16:03:26-debug: [Build Memory track]: Sort some build options to settings.json start:174.19MB, end 172.36MB, increase: -1876.94KB
+3-6-2024 16:03:26-debug: Fill script data to settings start, progress: 12%
+3-6-2024 16:03:26-debug: // ---- build task Fill script data to settings ----
+3-6-2024 16:03:26-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+3-6-2024 16:03:26-debug: // ---- build task Fill script data to settings ---- (1ms)
+3-6-2024 16:03:26-debug: [Build Memory track]: Fill script data to settings start:172.37MB, end 172.39MB, increase: 16.42KB
+3-6-2024 16:03:26-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 16:03:26-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 16:03:26-debug: // ---- build task Sort some build options to settings.json ---- (9ms)
+3-6-2024 16:03:26-debug: run build task Sort some build options to settings.json success in 9 ms√, progress: 15%
+3-6-2024 16:03:26-debug: [Build Memory track]: Sort some build options to settings.json start:172.40MB, end 172.53MB, increase: 132.03KB
+3-6-2024 16:03:46-debug: refresh db internal success
+3-6-2024 16:03:46-debug: refresh db assets success
+3-6-2024 16:03:46-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 16:03:46-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 16:03:46-debug: asset-db:refresh-all-database (113ms)
+3-6-2024 16:03:46-debug: asset-db:worker-effect-data-processing (2ms)
+3-6-2024 16:03:46-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+3-6-2024 16:04:14-debug: refresh db internal success
+3-6-2024 16:04:14-debug: refresh db assets success
+3-6-2024 16:04:14-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 16:04:14-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 16:04:14-debug: asset-db:refresh-all-database (122ms)
+3-6-2024 16:04:14-debug: asset-db:worker-effect-data-processing (1ms)
+3-6-2024 16:04:14-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+3-6-2024 16:04:23-debug: refresh db internal success
+3-6-2024 16:04:23-debug: refresh db assets success
+3-6-2024 16:04:23-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 16:04:23-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 16:04:23-debug: asset-db:refresh-all-database (121ms)
+3-6-2024 16:04:23-debug: asset-db:worker-effect-data-processing (1ms)
+3-6-2024 16:04:23-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+3-6-2024 16:11:28-debug: Query all assets info in project
+3-6-2024 16:11:28-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 16:11:28-debug: Query asset bundle start, progress: 0%
+3-6-2024 16:11:28-debug: // ---- build task Query asset bundle ----
+3-6-2024 16:11:28-debug:   Number of all scenes: 2
+3-6-2024 16:11:28-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 16:11:28-debug:   Number of other assets: 384
+3-6-2024 16:11:28-debug:   Number of all scripts: 16
+3-6-2024 16:11:28-debug: // ---- build task Query asset bundle ---- (12ms)
+3-6-2024 16:11:28-debug: run build task Query asset bundle success in 12 ms√, progress: 5%
+3-6-2024 16:11:28-debug: [Build Memory track]: Query asset bundle start:175.55MB, end 176.04MB, increase: 495.51KB
+3-6-2024 16:11:28-debug: Query asset bundle start, progress: 5%
+3-6-2024 16:11:28-debug: // ---- build task Query asset bundle ----
+3-6-2024 16:11:28-debug: // ---- build task Query asset bundle ---- (3ms)
+3-6-2024 16:11:28-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+3-6-2024 16:11:28-debug: [Build Memory track]: Query asset bundle start:176.05MB, end 176.15MB, increase: 101.28KB
+3-6-2024 16:11:28-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 16:11:28-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 16:11:28-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+3-6-2024 16:11:28-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+3-6-2024 16:11:28-debug: // ---- build task Fill script data to settings ----
+3-6-2024 16:11:28-debug: [Build Memory track]: Sort some build options to settings.json start:176.16MB, end 176.18MB, increase: 17.57KB
+3-6-2024 16:11:28-debug: Fill script data to settings start, progress: 12%
+3-6-2024 16:11:28-debug: // ---- build task Fill script data to settings ---- (1ms)
+3-6-2024 16:11:28-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+3-6-2024 16:11:28-debug: [Build Memory track]: Fill script data to settings start:176.20MB, end 176.21MB, increase: 15.89KB
+3-6-2024 16:11:28-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 16:11:28-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 16:11:28-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+3-6-2024 16:11:28-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
+3-6-2024 16:11:28-debug: [Build Memory track]: Sort some build options to settings.json start:176.23MB, end 176.34MB, increase: 121.04KB
+3-6-2024 16:12:30-debug: Query all assets info in project
+3-6-2024 16:12:30-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 16:12:30-debug: Query asset bundle start, progress: 0%
+3-6-2024 16:12:30-debug: // ---- build task Query asset bundle ----
+3-6-2024 16:12:30-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 16:12:30-debug:   Number of all scripts: 16
+3-6-2024 16:12:30-debug:   Number of other assets: 384
+3-6-2024 16:12:30-debug:   Number of all scenes: 2
+3-6-2024 16:12:30-debug: // ---- build task Query asset bundle ---- (6ms)
+3-6-2024 16:12:30-debug: run build task Query asset bundle success in 6 ms√, progress: 5%
+3-6-2024 16:12:30-debug: Query asset bundle start, progress: 5%
+3-6-2024 16:12:30-debug: // ---- build task Query asset bundle ----
+3-6-2024 16:12:30-debug: [Build Memory track]: Query asset bundle start:175.97MB, end 176.44MB, increase: 484.48KB
+3-6-2024 16:12:30-debug: // ---- build task Query asset bundle ---- (1ms)
+3-6-2024 16:12:30-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+3-6-2024 16:12:30-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 16:12:30-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 16:12:30-debug: [Build Memory track]: Query asset bundle start:176.46MB, end 176.54MB, increase: 84.35KB
+3-6-2024 16:12:30-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+3-6-2024 16:12:30-debug: [Build Memory track]: Sort some build options to settings.json start:176.56MB, end 175.87MB, increase: -705.49KB
+3-6-2024 16:12:30-debug: Fill script data to settings start, progress: 12%
+3-6-2024 16:12:30-debug: // ---- build task Fill script data to settings ----
+3-6-2024 16:12:30-debug: run build task Fill script data to settings success in √, progress: 13%
+3-6-2024 16:12:30-debug: [Build Memory track]: Fill script data to settings start:175.88MB, end 175.89MB, increase: 12.95KB
+3-6-2024 16:12:30-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 16:12:30-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 16:12:30-debug: // ---- build task Sort some build options to settings.json ---- (4ms)
+3-6-2024 16:12:30-debug: run build task Sort some build options to settings.json success in 4 ms√, progress: 15%
+3-6-2024 16:12:30-debug: [Build Memory track]: Sort some build options to settings.json start:175.91MB, end 176.03MB, increase: 127.59KB
+3-6-2024 21:18:42-debug: refresh db internal success
+3-6-2024 21:18:42-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\ClariceCamera.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 21:18:42-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Game.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 21:18:42-debug: refresh db assets success
+3-6-2024 21:18:42-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 21:18:42-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 21:18:42-debug: asset-db:refresh-all-database (166ms)
+3-6-2024 21:18:42-debug: asset-db:worker-effect-data-processing (4ms)
+3-6-2024 21:18:42-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+3-6-2024 21:18:44-debug: Query all assets info in project
+3-6-2024 21:18:44-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 21:18:44-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:18:44-debug: Query asset bundle start, progress: 0%
+3-6-2024 21:18:44-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 21:18:44-debug:   Number of all scripts: 16
+3-6-2024 21:18:44-debug:   Number of other assets: 384
+3-6-2024 21:18:44-debug:   Number of all scenes: 2
+3-6-2024 21:18:44-debug: // ---- build task Query asset bundle ---- (6ms)
+3-6-2024 21:18:44-debug: [Build Memory track]: Query asset bundle start:177.23MB, end 176.91MB, increase: -323.20KB
+3-6-2024 21:18:44-debug: run build task Query asset bundle success in 6 ms√, progress: 5%
+3-6-2024 21:18:44-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:18:44-debug: Query asset bundle start, progress: 5%
+3-6-2024 21:18:44-debug: // ---- build task Query asset bundle ---- (2ms)
+3-6-2024 21:18:44-debug: run build task Query asset bundle success in 2 ms√, progress: 10%
+3-6-2024 21:18:44-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:18:44-debug: [Build Memory track]: Query asset bundle start:176.93MB, end 177.01MB, increase: 86.41KB
+3-6-2024 21:18:44-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 21:18:44-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+3-6-2024 21:18:44-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+3-6-2024 21:18:44-debug: Fill script data to settings start, progress: 12%
+3-6-2024 21:18:44-debug: [Build Memory track]: Sort some build options to settings.json start:177.03MB, end 177.04MB, increase: 16.38KB
+3-6-2024 21:18:44-debug: // ---- build task Fill script data to settings ----
+3-6-2024 21:18:44-debug: // ---- build task Fill script data to settings ---- (1ms)
+3-6-2024 21:18:44-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+3-6-2024 21:18:44-debug: [Build Memory track]: Fill script data to settings start:177.06MB, end 177.08MB, increase: 20.25KB
+3-6-2024 21:18:44-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 21:18:44-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:18:44-debug: // ---- build task Sort some build options to settings.json ---- (6ms)
+3-6-2024 21:18:44-debug: run build task Sort some build options to settings.json success in 6 ms√, progress: 15%
+3-6-2024 21:18:44-debug: [Build Memory track]: Sort some build options to settings.json start:177.09MB, end 177.21MB, increase: 120.16KB
+3-6-2024 21:19:17-debug: Query all assets info in project
+3-6-2024 21:19:17-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 21:19:17-debug: Query asset bundle start, progress: 0%
+3-6-2024 21:19:17-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:19:17-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 21:19:17-debug:   Number of other assets: 384
+3-6-2024 21:19:17-debug:   Number of all scripts: 16
+3-6-2024 21:19:17-debug: run build task Query asset bundle success in 8 ms√, progress: 5%
+3-6-2024 21:19:17-debug: [Build Memory track]: Query asset bundle start:177.58MB, end 177.19MB, increase: -391.71KB
+3-6-2024 21:19:17-debug: // ---- build task Query asset bundle ---- (8ms)
+3-6-2024 21:19:17-debug:   Number of all scenes: 2
+3-6-2024 21:19:17-debug: Query asset bundle start, progress: 5%
+3-6-2024 21:19:17-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:19:17-debug: // ---- build task Query asset bundle ---- (3ms)
+3-6-2024 21:19:17-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+3-6-2024 21:19:17-debug: [Build Memory track]: Query asset bundle start:177.21MB, end 177.29MB, increase: 87.07KB
+3-6-2024 21:19:17-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 21:19:17-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:19:17-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+3-6-2024 21:19:17-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+3-6-2024 21:19:17-debug: // ---- build task Fill script data to settings ----
+3-6-2024 21:19:17-debug: [Build Memory track]: Sort some build options to settings.json start:177.31MB, end 177.32MB, increase: 16.10KB
+3-6-2024 21:19:17-debug: Fill script data to settings start, progress: 12%
+3-6-2024 21:19:17-debug: // ---- build task Fill script data to settings ---- (1ms)
+3-6-2024 21:19:17-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+3-6-2024 21:19:17-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:19:17-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 21:19:17-debug: [Build Memory track]: Fill script data to settings start:177.34MB, end 177.36MB, increase: 20.12KB
+3-6-2024 21:19:17-debug: run build task Sort some build options to settings.json success in 9 ms√, progress: 15%
+3-6-2024 21:19:17-debug: [Build Memory track]: Sort some build options to settings.json start:177.37MB, end 177.49MB, increase: 121.36KB
+3-6-2024 21:19:17-debug: // ---- build task Sort some build options to settings.json ---- (9ms)
+3-6-2024 21:20:09-debug: refresh db internal success
+3-6-2024 21:20:09-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 21:20:09-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 21:20:09-debug: refresh db assets success
+3-6-2024 21:20:09-debug: asset-db:refresh-all-database (133ms)
+3-6-2024 21:20:09-debug: asset-db:worker-effect-data-processing (2ms)
+3-6-2024 21:20:09-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+3-6-2024 21:22:21-debug: refresh db internal success
+3-6-2024 21:22:21-debug: refresh db assets success
+3-6-2024 21:22:21-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 21:22:21-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 21:22:21-debug: asset-db:refresh-all-database (157ms)
+3-6-2024 21:22:21-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+3-6-2024 21:22:29-debug: refresh db internal success
+3-6-2024 21:22:29-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Game.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 21:22:29-debug: refresh db assets success
+3-6-2024 21:22:29-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 21:22:29-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 21:22:29-debug: asset-db:refresh-all-database (146ms)
+3-6-2024 21:22:29-debug: asset-db:worker-effect-data-processing (8ms)
+3-6-2024 21:22:29-debug: asset-db-hook-engine-extends-afterRefresh (12ms)
+3-6-2024 21:22:32-debug: refresh db internal success
+3-6-2024 21:22:32-debug: refresh db assets success
+3-6-2024 21:22:32-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 21:22:32-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 21:22:32-debug: asset-db:refresh-all-database (153ms)
+3-6-2024 21:22:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+3-6-2024 21:23:57-debug: Query all assets info in project
+3-6-2024 21:23:57-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 21:23:57-debug: Query asset bundle start, progress: 0%
+3-6-2024 21:23:57-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:23:57-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 21:23:57-debug:   Number of all scripts: 16
+3-6-2024 21:23:57-debug:   Number of other assets: 384
+3-6-2024 21:23:57-debug:   Number of all scenes: 2
+3-6-2024 21:23:57-debug: // ---- build task Query asset bundle ---- (8ms)
+3-6-2024 21:23:57-debug: run build task Query asset bundle success in 8 ms√, progress: 5%
+3-6-2024 21:23:57-debug: [Build Memory track]: Query asset bundle start:164.03MB, end 163.09MB, increase: -964.48KB
+3-6-2024 21:23:57-debug: Query asset bundle start, progress: 5%
+3-6-2024 21:23:57-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:23:57-debug: // ---- build task Query asset bundle ---- (3ms)
+3-6-2024 21:23:57-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+3-6-2024 21:23:57-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 21:23:57-debug: [Build Memory track]: Query asset bundle start:163.10MB, end 163.18MB, increase: 86.37KB
+3-6-2024 21:23:57-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:23:57-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+3-6-2024 21:23:57-debug: [Build Memory track]: Sort some build options to settings.json start:163.20MB, end 163.22MB, increase: 17.09KB
+3-6-2024 21:23:57-debug: Fill script data to settings start, progress: 12%
+3-6-2024 21:23:57-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+3-6-2024 21:23:57-debug: // ---- build task Fill script data to settings ----
+3-6-2024 21:23:57-debug: run build task Fill script data to settings success in 2 ms√, progress: 13%
+3-6-2024 21:23:57-debug: [Build Memory track]: Fill script data to settings start:163.23MB, end 163.24MB, increase: 14.53KB
+3-6-2024 21:23:57-debug: // ---- build task Fill script data to settings ---- (2ms)
+3-6-2024 21:23:57-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 21:23:57-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:23:57-debug: // ---- build task Sort some build options to settings.json ---- (14ms)
+3-6-2024 21:23:57-debug: run build task Sort some build options to settings.json success in 14 ms√, progress: 15%
+3-6-2024 21:23:57-debug: [Build Memory track]: Sort some build options to settings.json start:163.26MB, end 162.63MB, increase: -642.57KB
+3-6-2024 21:28:13-debug: Query all assets info in project
+3-6-2024 21:28:13-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 21:28:13-debug: Query asset bundle start, progress: 0%
+3-6-2024 21:28:13-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:28:13-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 21:28:13-debug:   Number of other assets: 384
+3-6-2024 21:28:13-debug:   Number of all scripts: 16
+3-6-2024 21:28:13-debug:   Number of all scenes: 2
+3-6-2024 21:28:13-debug: // ---- build task Query asset bundle ---- (10ms)
+3-6-2024 21:28:13-debug: run build task Query asset bundle success in 10 ms√, progress: 5%
+3-6-2024 21:28:13-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:28:13-debug: [Build Memory track]: Query asset bundle start:162.82MB, end 163.31MB, increase: 498.76KB
+3-6-2024 21:28:13-debug: Query asset bundle start, progress: 5%
+3-6-2024 21:28:13-debug: // ---- build task Query asset bundle ---- (3ms)
+3-6-2024 21:28:13-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+3-6-2024 21:28:13-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:28:13-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 21:28:13-debug: [Build Memory track]: Query asset bundle start:163.32MB, end 162.68MB, increase: -653.23KB
+3-6-2024 21:28:13-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+3-6-2024 21:28:13-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+3-6-2024 21:28:13-debug: // ---- build task Fill script data to settings ----
+3-6-2024 21:28:13-debug: Fill script data to settings start, progress: 12%
+3-6-2024 21:28:13-debug: [Build Memory track]: Sort some build options to settings.json start:162.70MB, end 162.71MB, increase: 16.10KB
+3-6-2024 21:28:13-debug: // ---- build task Fill script data to settings ---- (2ms)
+3-6-2024 21:28:13-debug: run build task Fill script data to settings success in 2 ms√, progress: 13%
+3-6-2024 21:28:13-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:28:13-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 21:28:13-debug: [Build Memory track]: Fill script data to settings start:162.73MB, end 162.74MB, increase: 18.16KB
+3-6-2024 21:28:13-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+3-6-2024 21:28:13-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
+3-6-2024 21:28:13-debug: [Build Memory track]: Sort some build options to settings.json start:162.76MB, end 162.88MB, increase: 120.16KB
+3-6-2024 21:28:34-debug: refresh db internal success
+3-6-2024 21:28:34-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\PipePool.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 21:28:34-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Pipes.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 21:28:34-debug: refresh db assets success
+3-6-2024 21:28:34-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 21:28:34-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 21:28:34-debug: asset-db:refresh-all-database (132ms)
+3-6-2024 21:28:34-debug: asset-db:worker-effect-data-processing (3ms)
+3-6-2024 21:28:34-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+3-6-2024 21:28:35-debug: Query all assets info in project
+3-6-2024 21:28:35-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 21:28:35-debug: Query asset bundle start, progress: 0%
+3-6-2024 21:28:35-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:28:35-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 21:28:35-debug:   Number of all scenes: 2
+3-6-2024 21:28:35-debug:   Number of all scripts: 16
+3-6-2024 21:28:35-debug:   Number of other assets: 384
+3-6-2024 21:28:35-debug: // ---- build task Query asset bundle ---- (11ms)
+3-6-2024 21:28:35-debug: run build task Query asset bundle success in 11 ms√, progress: 5%
+3-6-2024 21:28:35-debug: [Build Memory track]: Query asset bundle start:164.26MB, end 163.88MB, increase: -395.37KB
+3-6-2024 21:28:35-debug: Query asset bundle start, progress: 5%
+3-6-2024 21:28:35-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:28:35-debug: // ---- build task Query asset bundle ---- (10ms)
+3-6-2024 21:28:35-debug: run build task Query asset bundle success in 10 ms√, progress: 10%
+3-6-2024 21:28:35-debug: [Build Memory track]: Query asset bundle start:163.89MB, end 163.98MB, increase: 87.08KB
+3-6-2024 21:28:35-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 21:28:35-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:28:35-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+3-6-2024 21:28:35-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+3-6-2024 21:28:35-debug: Fill script data to settings start, progress: 12%
+3-6-2024 21:28:35-debug: // ---- build task Fill script data to settings ----
+3-6-2024 21:28:35-debug: [Build Memory track]: Sort some build options to settings.json start:163.99MB, end 164.01MB, increase: 14.97KB
+3-6-2024 21:28:35-debug: // ---- build task Fill script data to settings ---- (1ms)
+3-6-2024 21:28:35-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+3-6-2024 21:28:35-debug: [Build Memory track]: Fill script data to settings start:164.02MB, end 164.05MB, increase: 30.81KB
+3-6-2024 21:28:35-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 21:28:35-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:28:35-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+3-6-2024 21:28:35-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
+3-6-2024 21:28:35-debug: [Build Memory track]: Sort some build options to settings.json start:164.07MB, end 164.18MB, increase: 120.63KB
+3-6-2024 21:28:36-debug: refresh db internal success
+3-6-2024 21:28:36-debug: refresh db assets success
+3-6-2024 21:28:36-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 21:28:36-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 21:28:36-debug: asset-db:refresh-all-database (139ms)
+3-6-2024 21:28:36-debug: asset-db:worker-effect-data-processing (2ms)
+3-6-2024 21:28:36-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+3-6-2024 21:28:48-debug: refresh db internal success
+3-6-2024 21:28:48-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scripts\Scroll.tsbackground: #aaff85; color: #000;color: #000;
+3-6-2024 21:28:48-debug: refresh db assets success
+3-6-2024 21:28:48-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 21:28:48-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 21:28:48-debug: asset-db:worker-effect-data-processing (1ms)
+3-6-2024 21:28:48-debug: asset-db:refresh-all-database (120ms)
+3-6-2024 21:28:48-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+3-6-2024 21:28:49-debug: refresh db internal success
+3-6-2024 21:28:49-debug: refresh db assets success
+3-6-2024 21:28:49-debug: Run asset db hook engine-extends:afterRefresh ...
+3-6-2024 21:28:49-debug: Run asset db hook engine-extends:afterRefresh success!
+3-6-2024 21:28:49-debug: asset-db:worker-effect-data-processing (1ms)
+3-6-2024 21:28:49-debug: asset-db:refresh-all-database (157ms)
+3-6-2024 21:28:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+3-6-2024 21:28:49-debug: Query all assets info in project
+3-6-2024 21:28:49-debug: init custom config: keepNodeUuid: false, useCache: true
+3-6-2024 21:28:49-debug: Query asset bundle start, progress: 0%
+3-6-2024 21:28:49-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:28:49-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc
+3-6-2024 21:28:49-debug:   Number of other assets: 384
+3-6-2024 21:28:49-debug:   Number of all scenes: 2
+3-6-2024 21:28:49-debug:   Number of all scripts: 16
+3-6-2024 21:28:49-debug: // ---- build task Query asset bundle ---- (5ms)
+3-6-2024 21:28:49-debug: [Build Memory track]: Query asset bundle start:166.90MB, end 167.36MB, increase: 473.69KB
+3-6-2024 21:28:49-debug: // ---- build task Query asset bundle ----
+3-6-2024 21:28:49-debug: run build task Query asset bundle success in 5 ms√, progress: 5%
+3-6-2024 21:28:49-debug: Query asset bundle start, progress: 5%
+3-6-2024 21:28:49-debug: // ---- build task Query asset bundle ---- (3ms)
+3-6-2024 21:28:49-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+3-6-2024 21:28:49-debug: Sort some build options to settings.json start, progress: 10%
+3-6-2024 21:28:49-debug: [Build Memory track]: Query asset bundle start:167.38MB, end 167.46MB, increase: 85.53KB
+3-6-2024 21:28:49-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:28:49-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+3-6-2024 21:28:49-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+3-6-2024 21:28:49-debug: [Build Memory track]: Sort some build options to settings.json start:167.47MB, end 167.49MB, increase: 16.38KB
+3-6-2024 21:28:49-debug: Fill script data to settings start, progress: 12%
+3-6-2024 21:28:49-debug: // ---- build task Fill script data to settings ----
+3-6-2024 21:28:49-debug: // ---- build task Fill script data to settings ---- (1ms)
+3-6-2024 21:28:49-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+3-6-2024 21:28:49-debug: // ---- build task Sort some build options to settings.json ----
+3-6-2024 21:28:49-debug: [Build Memory track]: Fill script data to settings start:167.50MB, end 167.52MB, increase: 20.52KB
+3-6-2024 21:28:49-debug: Sort some build options to settings.json start, progress: 13%
+3-6-2024 21:28:49-debug: // ---- build task Sort some build options to settings.json ---- (3ms)
+3-6-2024 21:28:49-debug: run build task Sort some build options to settings.json success in 3 ms√, progress: 15%
+3-6-2024 21:28:49-debug: [Build Memory track]: Sort some build options to settings.json start:167.54MB, end 167.66MB, increase: 120.08KB
+3-6-2024 21:31:26-debug: start refresh asset from D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scenes\main.scene...
+3-6-2024 21:31:26-debug: %cImport%c: D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scenes\main.scenebackground: #aaff85; color: #000;color: #000;
+3-6-2024 21:31:26-debug: refresh asset D:\ThanhPhong\FE02\Project-FrontEnd2\assets\Scenes success

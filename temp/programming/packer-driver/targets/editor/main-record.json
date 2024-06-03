@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 14321.766800001264,
+      "mTimestamp": 11144.405900001526,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 17398.544900000095,
+      "mTimestamp": 13814.871700018644,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1038,7 +1038,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Android/AndroidNative.ts": {
       "mTimestamp": {
-        "mtime": 1717312762116.6057,
+        "mtime": 1717402503281.7654,
         "uuid": "6f0f44e3-2c4e-4ddc-8105-cfaf7ae65050"
       },
       "chunkId": "d0c14400fd82a98bab5b7d09130973d03fe47fc3",
@@ -1090,7 +1090,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Bird.ts": {
       "mTimestamp": {
-        "mtime": 1717315338744.5293,
+        "mtime": 1717404929010.7632,
         "uuid": "7c717f2f-d60a-48bd-a796-66293ef420c3"
       },
       "chunkId": "4053ef4b5c33a59a8e1ab31e814b88abc2e45bfb",
@@ -1109,11 +1109,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 19,
+              "line": 18,
               "column": 7
             },
             "end": {
-              "line": 19,
+              "line": 18,
               "column": 11
             }
           }
@@ -1123,11 +1123,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 30,
+              "line": 29,
               "column": 21
             },
             "end": {
-              "line": 30,
+              "line": 29,
               "column": 29
             }
           }
@@ -1137,11 +1137,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 31,
+              "line": 30,
               "column": 31
             },
             "end": {
-              "line": 31,
+              "line": 30,
               "column": 49
             }
           }
@@ -1194,7 +1194,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1717316501945,
+      "mTimestamp": 1717425100550,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1202,7 +1202,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Game.ts": {
       "mTimestamp": {
-        "mtime": 1717312761842.1682,
+        "mtime": 1717424546400.2144,
         "uuid": "65166533-eea3-49e1-9eff-a2ef5e73d3ef"
       },
       "chunkId": "2a9f771bf51c812d4fe1ef3ab59f0875d252c728",
@@ -1222,11 +1222,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 259
+              "column": 208
             },
             "end": {
               "line": 1,
-              "column": 263
+              "column": 212
             }
           }
         },
@@ -1277,11 +1277,11 @@
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
-              "line": 8,
+              "line": 7,
               "column": 24
             },
             "end": {
-              "line": 8,
+              "line": 7,
               "column": 38
             }
           }
@@ -1349,7 +1349,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Scroll.ts": {
       "mTimestamp": {
-        "mtime": 1717312761985.5173,
+        "mtime": 1717424925960.0164,
         "uuid": "a19f1f59-3905-4337-b127-ecb91afe7845"
       },
       "chunkId": "1307dca7a57311219828c85335156c729243915f",
@@ -1401,7 +1401,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/PipePool.ts": {
       "mTimestamp": {
-        "mtime": 1717312761913.0974,
+        "mtime": 1717424741612.3784,
         "uuid": "a892e0f7-7522-4b88-99b9-c681655363c0"
       },
       "chunkId": "e66829f4ba15b9bcc160f134ae4a1709d46aa07b",
@@ -1453,7 +1453,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/UI/FlashUI.ts": {
       "mTimestamp": {
-        "mtime": 1717312762194.9048,
+        "mtime": 1717349923929.952,
         "uuid": "720b22c1-3c12-467a-95f1-776e8b7c6221"
       },
       "chunkId": "f605348f2ee2b3e823aa58deece847c2fb608a46",
@@ -1505,7 +1505,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/SpriteAnimator.ts": {
       "mTimestamp": {
-        "mtime": 1717312762020.4731,
+        "mtime": 1717424987264.6482,
         "uuid": "c67ee871-5e65-456c-9cc2-27a9a39c95bd"
       },
       "chunkId": "127fcc1624a218f2551cd400c964ec543592b291",
@@ -1557,7 +1557,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/BirdMenu.ts": {
       "mTimestamp": {
-        "mtime": 1717312761770.3694,
+        "mtime": 1717405055222.3982,
         "uuid": "d6dba75e-2e3b-4681-a475-8b471b81b481"
       },
       "chunkId": "7cb36b29518df2c2d7f9d7f241cafc9d3cf42d1f",
@@ -1609,7 +1609,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/ClariceCamera.ts": {
       "mTimestamp": {
-        "mtime": 1717312761806.265,
+        "mtime": 1717405601885.6367,
         "uuid": "10c0cd69-8b62-43ba-9f92-5335a7943bee"
       },
       "chunkId": "a2eb161d6eaaad7f8d1a033b53d5dc251516fc5d",
@@ -1661,7 +1661,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/MainMenu.ts": {
       "mTimestamp": {
-        "mtime": 1717312761878.0479,
+        "mtime": 1717400613430.9941,
         "uuid": "0784561c-c91c-48e2-b667-f3612e12f18a"
       },
       "chunkId": "21f4275a6e5b022be8eac613ed5a1b2e272469ae",
@@ -1745,7 +1745,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/Pipes.ts": {
       "mTimestamp": {
-        "mtime": 1717312761949.0774,
+        "mtime": 1717424840650.3635,
         "uuid": "4c671e1e-558f-40d3-a5be-95e8f31de787"
       },
       "chunkId": "e417721db620dbdeb05faa8411987ae7a49be6ab",
@@ -1829,7 +1829,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/TransitionScene.ts": {
       "mTimestamp": {
-        "mtime": 1717315321681.9622,
+        "mtime": 1717425070506.904,
         "uuid": "2bbc9b1c-7956-4707-a07f-bbd759ff96eb"
       },
       "chunkId": "d38bc9118f439f7ab8496a5c2948771753573a06",
@@ -1881,7 +1881,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/UI/EventSystem.ts": {
       "mTimestamp": {
-        "mtime": 1717312762157.93,
+        "mtime": 1717349923929.952,
         "uuid": "7285dbb4-70f0-4627-867d-e8a34c07e6c2"
       },
       "chunkId": "e7e3ab09331332cacd8dc757d2fbbe04247004dd",
@@ -1986,7 +1986,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/UI/UISelectable.ts": {
       "mTimestamp": {
-        "mtime": 1717312762265.9485,
+        "mtime": 1717401527950.449,
         "uuid": "8fd17b3f-e57e-4b43-a70a-5abd49c82d62"
       },
       "chunkId": "82278ee9361234be0e31ffc047f554c3724dfee5",
@@ -2090,7 +2090,7 @@
     },
     "file:///D:/ThanhPhong/FE02/Project-FrontEnd2/assets/Scripts/UI/UIIndicator.ts": {
       "mTimestamp": {
-        "mtime": 1717312762230.102,
+        "mtime": 1717349923933.9448,
         "uuid": "7aeee16d-6d76-49dc-8b2d-394931784072"
       },
       "chunkId": "75b868930502c041709bcef762b31d222002ece0",
